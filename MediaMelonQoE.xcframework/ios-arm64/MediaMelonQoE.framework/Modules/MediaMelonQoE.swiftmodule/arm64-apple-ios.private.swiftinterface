@@ -1,0 +1,280 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name MediaMelonQoE
+import AVFoundation
+import AVKit
+import CoreTelephony
+import Foundation
+@_exported import MediaMelonQoE
+import Swift
+import SystemConfiguration
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@objc public class MMRegistrationInformation : ObjectiveC.NSObject {
+  public var customerID: Swift.String!
+  public var component: Swift.String!
+  public var playerName: Swift.String!
+  public var domainName: Swift.String?
+  public var subscriberID: Swift.String?
+  public var hashSubscriberID: Swift.Bool!
+  public var subscriberType: Swift.String?
+  public var subscriberTag: Swift.String?
+  public var playerBrand: Swift.String?
+  public var playerModel: Swift.String?
+  public var playerVersion: Swift.String?
+  public var basePlayerName: Swift.String?
+  public var basePlayerVersion: Swift.String?
+  @objc public init(customerID cID: Swift.String, playerName pName: Swift.String)
+  @objc public func setDomain(_ dName: Swift.String?)
+  @objc public func setSubscriberInformation(subscriberID subsID: Swift.String?, subscriberType subsType: Swift.String?, subscriberTag subsTag: Swift.String?, hashSubscriberID hashSubID: Swift.Bool)
+  @objc public func setSubscriberInformation(subscriberID subsID: Swift.String?, subscriberType subsType: Swift.String?, subscriberTag subsTag: Swift.String?)
+  @objc public func setPlayerInformation(brand: Swift.String?, model: Swift.String?, version: Swift.String?)
+  @objc public func setComponentName(_ cName: Swift.String?)
+  @objc public func setBasePlayerInformation(basePlayerName: Swift.String?, basePlayerVersion: Swift.String?)
+  @objc deinit
+}
+public enum MMOverridableMetrics {
+  case Latency, CDN, DurationWatched
+  public static func == (a: MediaMelonQoE.MMOverridableMetrics, b: MediaMelonQoE.MMOverridableMetrics) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum ReachabilityErrorMM : Swift.Error {
+  case FailedToCreateWithAddress(Darwin.sockaddr_in)
+  case FailedToCreateWithHostname(Swift.String)
+  case UnableToSetCallback
+  case UnableToSetDispatchQueue
+}
+public let ReachabilityChangedNotificationMM: Foundation.NSNotification.Name
+public class ReachabilityMM {
+  public typealias NetworkReachable = (MediaMelonQoE.ReachabilityMM) -> ()
+  public typealias NetworkUnreachable = (MediaMelonQoE.ReachabilityMM) -> ()
+  public enum NetworkStatus : Swift.CustomStringConvertible {
+    case notReachable, reachableViaWiFi, reachableViaWWAN
+    public var description: Swift.String {
+      get
+    }
+    public static func == (a: MediaMelonQoE.ReachabilityMM.NetworkStatus, b: MediaMelonQoE.ReachabilityMM.NetworkStatus) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public var whenReachable: MediaMelonQoE.ReachabilityMM.NetworkReachable?
+  public var whenUnreachable: MediaMelonQoE.ReachabilityMM.NetworkUnreachable?
+  public var reachableOnWWAN: Swift.Bool
+  public var currentReachabilityString: Swift.String {
+    get
+  }
+  public var currentReachabilityStatus: MediaMelonQoE.ReachabilityMM.NetworkStatus {
+    get
+  }
+  required public init(reachabilityRef: SystemConfiguration.SCNetworkReachability)
+  convenience public init?(hostname: Swift.String)
+  convenience public init?()
+  @objc deinit
+}
+extension MediaMelonQoE.ReachabilityMM {
+  public func startNotifier() throws
+  public func stopNotifier()
+  public var isReachable: Swift.Bool {
+    get
+  }
+  public var isReachableViaWWAN: Swift.Bool {
+    get
+  }
+  public var isReachableViaWiFi: Swift.Bool {
+    get
+  }
+  public var description: Swift.String {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers public class MMDeviceInformation : ObjectiveC.NSObject, Swift.Codable {
+  public var brandName: Swift.String
+  public var deviceModel: Swift.String
+  public var osName: Swift.String
+  public var osVersion: Swift.String
+  public var telecomOperator: Swift.String
+  public var screenWidth: Swift.Int
+  public var screenHeight: Swift.Int
+  public var devicetype: Swift.String
+  public func setBrandName(brandName: Swift.String)
+  public func setDeviceModel(deviceModel: Swift.String)
+  public func setOSName(osName: Swift.String)
+  public func setOSVersion(osVersion: Swift.String)
+  public func setTelecomOperator(telecomOperator: Swift.String)
+  public func setScreenResolution(width: Swift.Int, height: Swift.Int)
+  public func setDeviceTpe(type: Swift.String)
+  @objc override dynamic public init()
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+@_inheritsConvenienceInitializers @objc public class GenericMMWrapper : ObjectiveC.NSObject, MediaMelonQoE.MMSmartStreamingObserver {
+  @objc public func sessionInitializationCompleted(with status: MediaMelonQoE.MMSmartStreamingInitializationStatus, andDescription description: Swift.String!, forCmdWithId cmdId: Swift.Int, nowtilusPermission enableNowtilus: Swift.Bool)
+  public static let shared: MediaMelonQoE.GenericMMWrapper
+  public var extIsLive: Swift.Bool
+  public func getCoreSDKVersion() -> Swift.String
+  public func getHarmonicSSAIVersion() -> Swift.String
+  public func reportSDKVersion(sdkVersion: Swift.String)
+  public static func disableManifestsFetch(disable: Swift.Bool)
+  public func reportDeviceCapabilities()
+  public func reportCustomMetadata(key: Swift.String, value: Swift.String)
+  public static func updateSubscriber(subscriberId: Swift.String, subscriberType: Swift.String, subscriberMetadata: Swift.String)
+  public func reportVideoQuality(videoQuality: Swift.String)
+  public func reportDeviceMarketingName(deviceMarketingName: Swift.String)
+  public func reportDeviceID()
+  public func reportAppData(appName: Swift.String, appVersion: Swift.String)
+  public func enableLogTrace(logStTrace: Swift.Bool)
+  public func reportError(error: Swift.String, playbackPosMilliSec: Swift.Int)
+  public static func reportMetricValue(metricToOverride: MediaMelonQoE.MMOverridableMetric, value: Swift.String)
+  public func reportMediaTrackInfo(isSubtitleActive: Swift.Bool, subtitleTrack: Swift.String, audioTrack: Swift.String, isVDSActive: Swift.Bool)
+  public func reportNetworkType(connInfo: MediaMelonQoE.MMConnectionInfo)
+  public func reportLocation(latitude: Swift.Double, longitude: Swift.Double)
+  public func reportChunkRequest(chunkInfo: MediaMelonQoE.MMChunkInformation)
+  public func reportChunkRequest(bitrate: Swift.Int, fragmentDuration: Swift.Int?, url: Swift.String?)
+  public func setPresentationInformation(presentationInfo: MediaMelonQoE.MMPresentationInfo)
+  public func reportDownloadRate(downloadRate: Swift.Int)
+  public func reportBufferingStarted()
+  public func reportBufferingCompleted()
+  public func reportABRSwitch(prevBitrate: Swift.Int, newBitrate: Swift.Int)
+  public func reportFrameLoss(lossCnt: Swift.Int)
+  public func reportPresentationSize(width: Swift.Int, height: Swift.Int)
+  public func reportPlayerSeekCompleted(seekEndPos: Swift.Int)
+  public func reportPlayerSeekStarted()
+  public func reportPlayerState(playerState: MediaMelonQoE.MMPlayerState)
+  public func registerForMMSDK(registrationInformation pInfo: MediaMelonQoE.MMRegistrationInformation)
+  public func reportExperimentName(experimentName: Swift.String?)
+  public func reportSubPropertyID(subPropertyId: Swift.String?)
+  public func reportViewSessionID(viewSessionId: Swift.String?)
+  public func reportBasePlayerInfo(basePlayerName: Swift.String?, basePlayerVersion: Swift.String?)
+  public func reportUserInitiatedPlayback()
+  public func initialiseSession(registrationUri: Swift.String, assetInformation: MediaMelonQoE.MMAssetInformation)
+  public func updatePlaybackPosition(currentPosition: Swift.Int)
+  public func setToolboxEndpointDetails(url: Swift.String, tbtoken: Swift.String, tbid: Swift.String, cid: Swift.String)
+  public func setStarzEndpointDetails(url: Swift.String, szapikey: Swift.String, szsession: Swift.String, cid: Swift.String)
+  public func isAdPlaying() -> Swift.Bool
+  @objc override dynamic public init()
+  @objc deinit
+}
+public class VOPlayerAlternateInfo {
+  public init(tIndex: Swift.Int?, bitRate: Swift.Int?, width: Swift.Int?, height: Swift.Int?, codecIdentifier: Swift.String?)
+  @objc deinit
+}
+extension UIKit.UIDevice {
+  @_Concurrency.MainActor(unsafe) public static let modelName: Swift.String
+}
+@_inheritsConvenienceInitializers @objc public class MMReachabilityManager : ObjectiveC.NSObject {
+  public static let shared: MediaMelonQoE.MMReachabilityManager
+  public func startMonitoring()
+  public func stopMonitoring()
+  @objc override dynamic public init()
+  @objc deinit
+}
+public enum ManifestRequestStatus : Swift.String {
+  case FAILED
+  case CANCELLED
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum ChunkRequestStatus : Swift.String {
+  case FAILED
+  case CANCELLED
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum ChunkType : Swift.String {
+  case VIDEO
+  case AUDIO
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class MMCustomAdapter : ObjectiveC.NSObject, MediaMelonQoE.MMSmartStreamingObserver {
+  public static let shared: MediaMelonQoE.MMCustomAdapter
+  @objc public func sessionInitializationCompleted(with status: MediaMelonQoE.MMSmartStreamingInitializationStatus, andDescription description: Swift.String!, forCmdWithId cmdId: Swift.Int, nowtilusPermission enableNowtilus: Swift.Bool)
+  public func initializeAssetForPlayer(assetInfo: MediaMelonQoE.MMAssetInformation, registrationInfo: MediaMelonQoE.MMRegistrationInformation, deviceInfo: MediaMelonQoE.MMDeviceInformation)
+  public func reportUserInitiatedPlayback()
+  public func reportPlayerResolution(width: Swift.Int, height: Swift.Int)
+  public func reportExperimentName(experimentName: Swift.String)
+  public func reportSubPropertyID(subPropertyId: Swift.String)
+  public func reportViewSessionID(viewSessionId: Swift.String)
+  public func reportAppData(appName: Swift.String, appVersion: Swift.String)
+  public func reportCustomMetadata(key: Swift.String, value: Swift.String)
+  public func updateDrmType(drmType: Swift.String)
+  public func reportDeviceID()
+  public func reportNetworkInfo(cdn: Swift.String, asn: Swift.Int, hostName: Swift.String, networkType: Swift.String, networkOperator: Swift.String)
+  public func reportStreamInfo(streamURL: Swift.String, streamFormat: Swift.String, mediaType: Swift.String, sourceType: Swift.String)
+  public func reportMediaTrackInfo(isSubtitleActive: Swift.Bool, subtitleTrack: Swift.String, audioTrack: Swift.String, isVDSActive: Swift.Bool)
+  public func updateSubscriber(subscriberId: Swift.String, subscriberType: Swift.String, subscriberMetadata: Swift.String)
+  public func reportPlayerState(playerState: MediaMelonQoE.MMPlayerState)
+  public func reportBufferingStarted()
+  public func reportBufferingCompleted()
+  public func reportPlayerSeekStarted()
+  public func reportPlayerSeekCompleted(seekEndPositionInMS: Swift.Int)
+  public func reportPlaybackPosition(currentPlayerPosInMS: Swift.Int)
+  public func reportError(errorCode: Swift.String, errorMessage: Swift.String, errorDetails: Swift.String)
+  public func reportFallbackEvent(fallbackManifestURL: Swift.String = "NA", description: Swift.String = "Unknown")
+  public func reportManifestRequestStatus(status: MediaMelonQoE.ManifestRequestStatus, description: Swift.String = "Unknown")
+  public func reportChunkRequestStatus(status: MediaMelonQoE.ChunkRequestStatus, chunkType: MediaMelonQoE.ChunkType, description: Swift.String = "Unknown")
+  public func reportPresentationInfo(isLive: Swift.Bool, videoDurationInMS: Swift.Int, representations: [MediaMelonQoE.MMRepresentation])
+  public func reportBandwidth(bandwidth: Swift.Int)
+  public func reportDownloadRate(downloadRate: Swift.Int)
+  public func reportAdBreakStart()
+  public func reportAdBreakEnd()
+  public func reportAdStart(adInfo: MediaMelonQoE.MMAdInfo)
+  public func reportAdEnd()
+  @objc deinit
+}
+@objc public class MMAssetInformation : ObjectiveC.NSObject, Swift.Codable {
+  public var assetURL: Swift.String
+  public var assetID: Swift.String?
+  public var assetName: Swift.String?
+  public var videoId: Swift.String?
+  public var metafileURL: Foundation.URL?
+  public var customKVPs: [Swift.String : Swift.String]!
+  public var contentType: Swift.String?
+  public var drmProtection: Swift.String?
+  public var episodeNumber: Swift.String?
+  public var genre: Swift.String?
+  public var season: Swift.String?
+  public var seriesTitle: Swift.String?
+  @objc public init(assetURL aURL: Swift.String, assetID aId: Swift.String?, assetName aName: Swift.String?, videoId vId: Swift.String?)
+  @objc public func addCustomKVP(_ key: Swift.String, _ value: Swift.String)
+  @objc public func setQBRMode(_ mode: MediaMelonQoE.MMQBRMode, withMetaURL metaURL: Foundation.URL?)
+  @objc public func setContentType(_ cType: Swift.String?)
+  @objc public func setDrmProtection(_ drmP: Swift.String?)
+  @objc public func setEpisodeNumber(_ eNumber: Swift.String?)
+  @objc public func setGenre(_ genre: Swift.String?)
+  @objc public func setSeason(_ season: Swift.String?)
+  @objc public func setSeriesTitle(_ sTitle: Swift.String?)
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+extension MediaMelonQoE.MMOverridableMetrics : Swift.Equatable {}
+extension MediaMelonQoE.MMOverridableMetrics : Swift.Hashable {}
+extension MediaMelonQoE.ReachabilityMM.NetworkStatus : Swift.Equatable {}
+extension MediaMelonQoE.ReachabilityMM.NetworkStatus : Swift.Hashable {}
+extension MediaMelonQoE.ManifestRequestStatus : Swift.Equatable {}
+extension MediaMelonQoE.ManifestRequestStatus : Swift.Hashable {}
+extension MediaMelonQoE.ManifestRequestStatus : Swift.RawRepresentable {}
+extension MediaMelonQoE.ChunkRequestStatus : Swift.Equatable {}
+extension MediaMelonQoE.ChunkRequestStatus : Swift.Hashable {}
+extension MediaMelonQoE.ChunkRequestStatus : Swift.RawRepresentable {}
+extension MediaMelonQoE.ChunkType : Swift.Equatable {}
+extension MediaMelonQoE.ChunkType : Swift.Hashable {}
+extension MediaMelonQoE.ChunkType : Swift.RawRepresentable {}
