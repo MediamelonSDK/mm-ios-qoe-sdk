@@ -94,6 +94,18 @@ extension MediaMelonQoE.ReachabilityMM {
     get
   }
 }
+@objc @_inheritsConvenienceInitializers public class MMRenditionInformation : ObjectiveC.NSObject, Swift.Codable {
+  public var bitrate: Swift.Int
+  public var width: Swift.Int
+  public var height: Swift.Int
+  public var frameRate: Swift.Double
+  public var aCodec: Swift.String
+  public var vCodec: Swift.String
+  @objc override dynamic public init()
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
 @objc @_inheritsConvenienceInitializers public class MMDeviceInformation : ObjectiveC.NSObject, Swift.Codable {
   public var brandName: Swift.String
   public var deviceModel: Swift.String
@@ -176,7 +188,7 @@ extension UIKit.UIDevice {
   @objc override dynamic public init()
   @objc deinit
 }
-public enum ManifestRequestStatus : Swift.String {
+public enum RequestStatus : Swift.String {
   case FAILED
   case CANCELLED
   public init?(rawValue: Swift.String)
@@ -185,23 +197,13 @@ public enum ManifestRequestStatus : Swift.String {
     get
   }
 }
-public enum ChunkRequestStatus : Swift.String {
-  case FAILED
-  case CANCELLED
-  public init?(rawValue: Swift.String)
-  public typealias RawValue = Swift.String
-  public var rawValue: Swift.String {
-    get
-  }
-}
-public enum ChunkType : Swift.String {
-  case VIDEO
-  case AUDIO
-  public init?(rawValue: Swift.String)
-  public typealias RawValue = Swift.String
-  public var rawValue: Swift.String {
-    get
-  }
+public struct RenditionInfo {
+  public var bitrate: Swift.Int
+  public var width: Swift.Int
+  public var height: Swift.Int
+  public var frameRate: Swift.Int
+  public var aCodec: Swift.String
+  public var vCodec: Swift.String
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class MMCustomAdapter : ObjectiveC.NSObject, MediaMelonQoE.MMSmartStreamingObserver {
   public static let shared: MediaMelonQoE.MMCustomAdapter
@@ -227,11 +229,11 @@ public enum ChunkType : Swift.String {
   public func reportPlayerSeekCompleted(seekEndPositionInMS: Swift.Int)
   public func reportPlaybackPosition(currentPlayerPosInMS: Swift.Int)
   public func reportError(errorCode: Swift.String, errorMessage: Swift.String, errorDetails: Swift.String)
+  public func reportWarning(warningCode: Swift.String, warningMessage: Swift.String, warningDetails: Swift.String)
   public func reportFallbackEvent(fallbackManifestURL: Swift.String = "NA", description: Swift.String = "Unknown")
-  public func reportManifestRequestStatus(status: MediaMelonQoE.ManifestRequestStatus, description: Swift.String = "Unknown")
-  public func reportChunkRequestStatus(status: MediaMelonQoE.ChunkRequestStatus, chunkType: MediaMelonQoE.ChunkType, description: Swift.String = "Unknown")
-  public func reportPresentationInfo(isLive: Swift.Bool, videoDurationInMS: Swift.Int, representations: [MediaMelonQoE.MMRepresentation])
-  public func reportBandwidth(bandwidth: Swift.Int)
+  public func reportRequestStatus(status: MediaMelonQoE.RequestStatus, type: Swift.String, requestInfo: [Swift.String : Any])
+  public func reportRendition(renditionInfo: MediaMelonQoE.MMRenditionInformation)
+  public func reportPresentationInfo(isLive: Swift.Bool, videoDurationInMS: Swift.Int)
   public func reportDownloadRate(downloadRate: Swift.Int)
   public func reportAdBreakStart()
   public func reportAdBreakEnd()
@@ -269,12 +271,6 @@ extension MediaMelonQoE.MMOverridableMetrics : Swift.Equatable {}
 extension MediaMelonQoE.MMOverridableMetrics : Swift.Hashable {}
 extension MediaMelonQoE.ReachabilityMM.NetworkStatus : Swift.Equatable {}
 extension MediaMelonQoE.ReachabilityMM.NetworkStatus : Swift.Hashable {}
-extension MediaMelonQoE.ManifestRequestStatus : Swift.Equatable {}
-extension MediaMelonQoE.ManifestRequestStatus : Swift.Hashable {}
-extension MediaMelonQoE.ManifestRequestStatus : Swift.RawRepresentable {}
-extension MediaMelonQoE.ChunkRequestStatus : Swift.Equatable {}
-extension MediaMelonQoE.ChunkRequestStatus : Swift.Hashable {}
-extension MediaMelonQoE.ChunkRequestStatus : Swift.RawRepresentable {}
-extension MediaMelonQoE.ChunkType : Swift.Equatable {}
-extension MediaMelonQoE.ChunkType : Swift.Hashable {}
-extension MediaMelonQoE.ChunkType : Swift.RawRepresentable {}
+extension MediaMelonQoE.RequestStatus : Swift.Equatable {}
+extension MediaMelonQoE.RequestStatus : Swift.Hashable {}
+extension MediaMelonQoE.RequestStatus : Swift.RawRepresentable {}

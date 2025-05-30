@@ -342,9 +342,6 @@ typedef NS_ENUM(NSInteger, MMPlayerState){
  *Either set combinely to codecIdentify or set aCodec & vCodec individually
  *Adding this for Custom SDK
  */
-@property (nonatomic, strong) NSString* audioCodec;
-
-@property (nonatomic, strong) NSString* videoCodec;
 @end
 
 /**
@@ -372,6 +369,16 @@ typedef NS_ENUM(NSInteger, MMPlayerState){
  * Array of <b>MMRepresentation</b> objects that are selected by the player for the playback.
  */
 @property (nonatomic, strong) NSArray* representations;
+@end
+
+
+@interface MMRenditionInfo : NSObject
+@property (nonatomic, assign) NSInteger bitrate;
+@property (nonatomic, assign) NSInteger width;
+@property (nonatomic, assign) NSInteger height;
+@property (nonatomic, assign) double frameRate;
+@property (nonatomic, assign) NSString* aCodec;
+@property (nonatomic, assign) NSString* vCodec;
 @end
 
 /**
@@ -650,6 +657,8 @@ typedef NS_ENUM(NSInteger, MMSmartStreamingInitializationStatus){
  * @see blacklistRepresentation
  */
 -(void) setPresentationInformation:(MMPresentationInfo*) presentationInfo;
+
+-(void) reportRenditionInformation:(MMRenditionInfo*) renditionInfo;
 
 /**
  * Removes a representation from the list previously defined by setPresentationInformation. This
