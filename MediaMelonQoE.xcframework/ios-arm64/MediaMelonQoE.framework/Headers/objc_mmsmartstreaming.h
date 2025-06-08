@@ -94,11 +94,7 @@ typedef NS_ENUM(NSInteger, MMAdState){
     /*
     Unknown state
     */
-    UNKNOWN,
-    
-    AD_CUETIMELINEADDED,
-    AD_CUETIMELINESTART,
-    AD_CUETIMELINEEND
+    UNKNOWN
 };
 
 /**
@@ -338,10 +334,19 @@ typedef NS_ENUM(NSInteger, MMPlayerState){
  */
 @property (nonatomic, assign) NSInteger height;
 /**
+ * Codec identifier
+ */
+@property (nonatomic, strong) NSString* codecIdentifier;
+/**
  *aCodec & vCodec can be set individually or it can be set combinely to codecIdentifier*
  *Either set combinely to codecIdentify or set aCodec & vCodec individually
  *Adding this for Custom SDK
  */
+/**
+ * Array of information on the segments in representation. If this information is not
+ * provided, then SDK will try to have it itself (if needed)
+ */
+@property (nonatomic, strong) NSArray* chunkInfos;
 @end
 
 /**
@@ -370,7 +375,6 @@ typedef NS_ENUM(NSInteger, MMPlayerState){
  */
 @property (nonatomic, strong) NSArray* representations;
 @end
-
 
 @interface MMRenditionInfo : NSObject
 @property (nonatomic, assign) NSInteger bitrate;
@@ -433,35 +437,8 @@ typedef NS_ENUM(NSInteger, MMPlayerState){
 @property (nonatomic, strong) NSString* seriesTitle;
 @end
 
-
-/**
- * Specifies the QBR operationg mode.
- * <p>Valid values are:
- * <p><b>QBRModeDisabled:</b> Disable QBR optimization; analytics data will be reported.
- * <p><b>QBRModeQuality:</b> Emphasis is on maximizing quality; saving bandwidth is a secondary objective.
- * <p><b>QBRModeBitsave:</b> Emphasis is on savings bandwidth; maximizing quality as a secondary objective.
- * <p><b>QBRModeCostsave:</b> Emphasis is on saving bandwidth without degrading quality.
- */
 typedef NS_ENUM(NSInteger, MMQBRMode){
-    /**
-     * Disable QBR optimization. Analytics data will be reported.
-     */
-    QBRModeDisabled,
-    
-    /**
-     * Emphasis is on maximizing quality; saving bandwidth is a secondary objective.
-     */
-    QBRModeQuality,
-    
-    /**
-     * Emphasis is on savings bandwidth; maximizing quality as a secondary objective.
-     */
-    QBRModeBitsave,
-    
-    /**
-     * Emphasis is on saving bandwidth without degrading quality.
-     */
-    QBRModeCostsave
+    QBRModeDisabled
 };
 
 
@@ -570,16 +547,16 @@ typedef NS_ENUM(NSInteger, MMSmartStreamingInitializationStatus){
  * @param screenHeight Device screen / display window vertical resolution (in integer pixels).
  *                     If not known, set it to -1.
  */
-
 +(void) reportDeviceInfoWithBrandName:(NSString*) brand deviceModel:(NSString*)deviceModel osName:(NSString*)os osVersion:(NSString*)osVersion telOperator:(NSString*)telOper screenWidth:(NSInteger)screenWidth screenHeight:(NSInteger)screenHeight andType:(NSString*)type;
+
 
 +(void) reportExperimentNameWithExperimentName:(NSString*)experimentName;
 
 +(void) reportSubPropertyIDWithSubPropertyId:(NSString*)subPropertyId;
 
-+(void) reportViewSessionIDWithViewSessionId:(NSString*)viewSessionId;
-
 +(void) reportBasePlayerInfoWithBasePlayerName:(NSString*)basePlayerName basePlayerVersion:(NSString*)basePlayerVersion;
+
++(void) reportAppData:(NSString*) appName  andVersion: (NSString*) appVersion;
 
 /**
  * Reports the media player characteristics to analytics.
@@ -623,25 +600,6 @@ typedef NS_ENUM(NSInteger, MMSmartStreamingInitializationStatus){
  * @param [metaURL] URL of the media metadata. If it is null, and QBR operating mode is
  *                Bitsave, CostSave, or Quality, a metadata file with manifestUrl base name will
  *                be used. If the metadata cannot be retrieved, mode will default to Disabled.
- * @param [assetID] Content identifier
- * @param [assetName] Content name
- * @param [videoID] Optional identifier of the asset group (or) sub asset
- * @param observer MMSmartStreamingObserver that will receive the callback on initialization
- *                 completion.
- *
- */
--(NSInteger) initializeSessionWithMode:(MMQBRMode) mode registrationUri:(NSString*) registrationUri forManifest:(NSString*) manifestURL metaURL:(NSString*) metaURL assetID:(NSString*) assetID assetName:(NSString*)assetName videoID:(NSString*)vID forObserver:(id<MMSmartStreamingObserver>) observer;
-
-/**
- * Initializes the session for playback with QBR optimization. This API should be called once for
- * every media session and is asynchronous. Its completion is indicated via callback to
- * MMSmartStreamingObserver::sessionInitializationCompleted that user may choose to ignore.
- *
- * @param mode QBR operating mode.
- * @param manifestURL URL of the media manifest
- * @param [metaURL] URL of the media metadata. If it is null, and QBR operating mode is
- *                Bitsave, CostSave, or Quality, a metadata file with manifestUrl base name will
- *                be used. If the metadata cannot be retrieved, mode will default to Disabled.
  * @param [contentMetadata] content metadata information for the session (like assetid, asset name etc.,)
  * @param observer MMSmartStreamingObserver that will receive the callback on initialization
  *                 completion.
@@ -659,47 +617,6 @@ typedef NS_ENUM(NSInteger, MMSmartStreamingInitializationStatus){
 -(void) setPresentationInformation:(MMPresentationInfo*) presentationInfo;
 
 -(void) reportRenditionInformation:(MMRenditionInfo*) renditionInfo;
-
-/**
- * Removes a representation from the list previously defined by setPresentationInformation. This
- * would typically be used to stop referring to a representation that is listed in the manifest
- * but not currently available.
- *
- * @param representationIdx Representation Index for the representation to be (un)blacklisted.
- * @param blacklistRepresentation True to blacklist the representation; False to un-blacklist
- *                                the representation.
- * @see setPresentationInformation
- */
--(void) blacklistRepresentation:(NSInteger) representationIdx withStatus:(BOOL) status;
-
-/**
- * Returns the bandwidth required for the QBR representation that delivers constant quality across
- * the session.
- *
- * @param representationTrackIdx Track Index of the representation whose corresponding
- *                               quality bitrate is to be evaluated.
- * @param defaultBitrate Bitrate of the CBR representation as advertised in the manifest (in
- *                         bits per second).
- * @param bufferLength Amount of media buffered in player ahead of current playback position (in
- *                    milliseconds).
- * @param playbackPosition Current playback position (in milliseconds).
- * @return Bandwidth of QBR representation (in bits per second).
- */
--(NSInteger) getQBRBandwidthFor:(NSInteger) cbrRepresentationTrackIdx havingBitrate:(NSInteger) defaultBitrate forBufferLen:(NSInteger) bufferLen atPlaybackPos:(NSInteger) playbackPos;
-
-/**
- * During the playback session, player is expected to query the constant quality chunk that it
- * should request from server for the chunk selected based on ABR algorithm.
- * This API is used only if Qubitisation of content is to be achieved.
- * @param cbrChunk MMChunkInformation object identifying the chunk selected by ABR algorithm.
- * For referencing the chunk there are two option:
- * (a) Caller of API may specify resourceURL
- * (b) Caller of API may specify combination of sequence id and track id.
- * Using option b) may result in improved CPU performace of this API and is recommended.
- * @return The chunk selected by the QBR algorithm.
- * @see MMChunkInformation
- */
--(const MMChunkInformation*) getQBRChunk:(const MMChunkInformation*) cbrChunk;
 
 /**
  * Reports the chunk request to analytics. This method is not used when QBR optimization is
@@ -780,6 +697,8 @@ typedef NS_ENUM(NSInteger, MMSmartStreamingInitializationStatus){
  */
 -(void) reportAdBufferingCompleted;
 
+-(void) reportViewSessionIDWithViewSessionId:(NSString*)viewSessionId;
+
 /**
  * Reports that user initiated the playback session.
  * This should be called at different instants depending on the mode of operation of player.
@@ -790,8 +709,7 @@ typedef NS_ENUM(NSInteger, MMSmartStreamingInitializationStatus){
 -(void) reportUserInitiatedPlayback;
 
 /**
- * Reports the ABR bitrate changes to the analytics. This API should be called when neither
- * getQBRChunk nor reportChunkRequest is called by the player.
+ * Reports the ABR bitrate changes to the analytics.
  * @param prevBitrate Previous ABR bitrate in bits per second.
  * @param newBitrate New ABR bitrate in pers per second.
  */
@@ -824,8 +742,6 @@ typedef NS_ENUM(NSInteger, MMSmartStreamingInitializationStatus){
  */
 -(void) reportPresentationSizeWithWidth:(NSInteger)width andHeight:(NSInteger) height;
 
--(NSInteger) getLocationUpdateInterval;
-
 -(void) reportCellularInformation:(MMCellInfo*) cellInfo;
 
 -(void) reportLocationWithLatitude:(double)lat andLongitude:(double)lon;
@@ -836,26 +752,21 @@ typedef NS_ENUM(NSInteger, MMSmartStreamingInitializationStatus){
  */
 -(void) reportWifiSSID:(NSString*) ssid;
 
-
--(void) reportAppData:(NSString*) appName  andVersion: (NSString*) appVersion;
-
 -(void) reportVideoQuality:(NSString*) videoQuality;
 
 -(void) reportSDKVersion:(NSString*) reportSDKVersion;
 
 -(void) reportDeviceID: (NSString*) deviceID;
 
--(void) reportDeviceMarketingName:(NSString*) deviceMarketingName;
+-(void) reportDeviceMarketingName: (NSString*) deviceMarketingName;
 
--(void) reportDeviceCapabilities: (NSString*) deviceCapabilitiesArr;
+-(void) reportDeviceCapabilities: (NSString*) deviceCapabilities;
 
 -(void) reportVolumeChange: (NSString*) volumeStr;
 
 -(void) reportPlaybackRateChange;
 
 -(void) reportPlayerSeekStarted;
-
--(void) reportManifestLoaded;
 
 -(void) reportNetworkInfoWithCdn: (NSString*) cdn asn: (NSInteger) asn sourceHostName: (NSString*) sourceHostName networkType: (NSString*) networkType networkOperator: (NSString*) networkOperator;
 
