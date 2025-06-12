@@ -22,11 +22,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ZNMZDw2Q/DSBHqrDOKrXtQ7Ok0Y=
+		iMip1Mk+RHPT2CvSi9q4Vk/EytY=
 		</data>
 		<key>Modules/MediaMelonQoE.swiftmodule/arm64-apple-tvos.abi.json</key>
 		<data>
-		rQ0/NAZTO3FG0w0E4tTZ3vj54JU=
+		ZOQdJNpmKt1Q/6S8wKeEWknKcc4=
 		</data>
 		<key>Modules/MediaMelonQoE.swiftmodule/arm64-apple-tvos.private.swiftinterface</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Modules/MediaMelonQoE.swiftmodule/arm64-apple-tvos.swiftmodule</key>
 		<data>
-		+y9nXjFwlnAclZ3ets98Zni/10o=
+		Cr/cS5oCg48PEv6LbnVszmuZdgU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -83,7 +83,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dlLkMKKJIcdgGzpTO7Ae4DNZX+9RPgGCTszff/KtwD0=
+			2WWZ8kEGis8bG+4FwbVrbu4FVm1G6L4Twrgo4G2UtPI=
 			</data>
 		</dict>
 		<key>Modules/MediaMelonQoE.swiftmodule/arm64-apple-tvos.private.swiftinterface</key>
@@ -111,7 +111,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZgoOYQwapw9uWHgt/8NTNXH9QPgiTdLNFOwX6Rl9LGc=
+			Rw8/zZx87kyNik4h2Pt+Eq5/E2ueF2Sug8o169MlxEQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
