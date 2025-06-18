@@ -94,7 +94,13 @@ typedef NS_ENUM(NSInteger, MMAdState){
     /*
     Unknown state
     */
-    UNKNOWN
+    UNKNOWN,
+    
+    AD_CUETIMELINEADDED,
+    
+    AD_CUETIMELINESTART,
+    
+    AD_CUETIMELINEEND
 };
 
 /**

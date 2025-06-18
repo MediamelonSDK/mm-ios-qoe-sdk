@@ -12801,56 +12801,49 @@
     {
       "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Wrapper\/MMCustomWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 918,
-      "length": 26,
-      "value": "\"com.mediamelon.sdk.queue\""
-    },
-    {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Wrapper\/MMCustomWrapper.swift",
-      "kind": "StringLiteral",
-      "offset": 1094,
+      "offset": 1016,
       "length": 13,
       "value": "\"SDK_VERSION\""
     },
     {
       "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Wrapper\/MMCustomWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 1145,
+      "offset": 1067,
       "length": 51,
       "value": "\"https:\/\/register.mediamelon.com\/mm-apis\/register\/\""
     },
     {
       "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Wrapper\/MMCustomWrapper.swift",
       "kind": "BooleanLiteral",
-      "offset": 1390,
+      "offset": 1312,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Wrapper\/MMCustomWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 1435,
+      "offset": 1357,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Wrapper\/MMCustomWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 1467,
+      "offset": 1389,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Wrapper\/MMCustomWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 12533,
+      "offset": 11643,
       "length": 4,
       "value": "\"NA\""
     },
     {
       "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Wrapper\/MMCustomWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 12561,
+      "offset": 11671,
       "length": 9,
       "value": "\"Unknown\""
     },
