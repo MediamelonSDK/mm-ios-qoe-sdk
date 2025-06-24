@@ -22,11 +22,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		g1rlsZNeoBuHdPvp1XSzjgjbbuM=
+		wqanUwKN1TUtxQ5M8Sdnux/9vVY=
 		</data>
 		<key>Modules/MediaMelonQoE.swiftmodule/arm64-apple-tvos-simulator.abi.json</key>
 		<data>
-		kTQHdd7SlyTQ/59OHWXgpGcutaU=
+		HPRzmmt0ThTXm6wMnjoLtyjY9PM=
 		</data>
 		<key>Modules/MediaMelonQoE.swiftmodule/arm64-apple-tvos-simulator.private.swiftinterface</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Modules/MediaMelonQoE.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
 		<data>
-		kTQHdd7SlyTQ/59OHWXgpGcutaU=
+		HPRzmmt0ThTXm6wMnjoLtyjY9PM=
 		</data>
 		<key>Modules/MediaMelonQoE.swiftmodule/x86_64-apple-tvos-simulator.private.swiftinterface</key>
 		<data>
@@ -103,7 +103,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LhQ6AaAuPDRqr3sC3kv4oODYzjHEr3WrZGDk1cJCv2o=
+			wga7qKkAobDApdxXgCLLNvb81O/RJImv6y0xpN9D6js=
 			</data>
 		</dict>
 		<key>Modules/MediaMelonQoE.swiftmodule/arm64-apple-tvos-simulator.private.swiftinterface</key>
@@ -138,7 +138,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LhQ6AaAuPDRqr3sC3kv4oODYzjHEr3WrZGDk1cJCv2o=
+			wga7qKkAobDApdxXgCLLNvb81O/RJImv6y0xpN9D6js=
 			</data>
 		</dict>
 		<key>Modules/MediaMelonQoE.swiftmodule/x86_64-apple-tvos-simulator.private.swiftinterface</key>
