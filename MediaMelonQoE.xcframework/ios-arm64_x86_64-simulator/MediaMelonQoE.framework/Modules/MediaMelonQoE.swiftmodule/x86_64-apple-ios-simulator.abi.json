@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "MediaMelonQoE",
+    "printedName": "MediaMelonQoE",
     "children": [
       {
         "kind": "Import",
@@ -1855,6 +1855,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -2137,6 +2151,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -2356,6 +2384,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Error",
@@ -2683,6 +2725,20 @@
               "AccessControl"
             ],
             "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
               {
                 "kind": "Conformance",
                 "name": "Equatable",
@@ -3463,6 +3519,22 @@
         "moduleName": "MediaMelonQoE",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -4111,6 +4183,20 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -5169,6 +5255,20 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -6688,6 +6788,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -6840,6 +6954,22 @@
         "moduleName": "MediaMelonQoE",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -7021,6 +7151,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -7243,6 +7387,20 @@
         ],
         "enumRawTypeName": "String",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -7803,6 +7961,22 @@
         "moduleName": "MediaMelonQoE",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -8854,6 +9028,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -10739,6 +10927,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -10814,6 +11016,7 @@
               "HasInitialValue",
               "Final",
               "HasStorage",
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -10854,6 +11057,7 @@
         "intro_iOS": "2.0",
         "objc_name": "UIDevice",
         "declAttributes": [
+          "Preconcurrency",
           "Available",
           "ObjC",
           "NonSendable",
@@ -10867,6 +11071,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -10923,1936 +11141,1908 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/MMRegistrationInformation.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/MMRegistrationInformation.swift",
       "kind": "StringLiteral",
       "offset": 319,
       "length": 34,
       "value": "\"EXTERNAL-SUBSCRIBER-ID-ADDEDDATE\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/MMRegistrationInformation.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/MMRegistrationInformation.swift",
       "kind": "StringLiteral",
       "offset": 394,
       "length": 24,
       "value": "\"EXTERNAL-SUBSCRIBER-ID\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/MMRegistrationInformation.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/MMRegistrationInformation.swift",
       "kind": "StringLiteral",
       "offset": 597,
       "length": 4,
       "value": "\"NA\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/MMRegistrationInformation.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/MMRegistrationInformation.swift",
       "kind": "BooleanLiteral",
       "offset": 643,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/MMRegistrationInformation.swift",
-      "kind": "StringLiteral",
-      "offset": 211,
-      "length": 25,
-      "value": "\"MediaMelonQoE.MMRegistrationInformation\""
-    },
-    {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/ReachabilityMM.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/ReachabilityMM.swift",
       "kind": "StringLiteral",
       "offset": 1650,
       "length": 33,
       "value": "\"ReachabilityChangedNotification\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/ReachabilityMM.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/ReachabilityMM.swift",
       "kind": "BooleanLiteral",
-      "offset": 3321,
+      "offset": 3310,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/ReachabilityMM.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/ReachabilityMM.swift",
       "kind": "BooleanLiteral",
-      "offset": 3431,
+      "offset": 3420,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/ReachabilityMM.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/ReachabilityMM.swift",
       "kind": "StringLiteral",
-      "offset": 3569,
+      "offset": 3558,
       "length": 32,
       "value": "\"uk.co.ashleymills.reachability\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/MMRenditionInformation.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/MMRenditionInformation.swift",
       "kind": "IntegerLiteral",
       "offset": 225,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/MMRenditionInformation.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/MMRenditionInformation.swift",
       "kind": "IntegerLiteral",
       "offset": 256,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/MMRenditionInformation.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/MMRenditionInformation.swift",
       "kind": "IntegerLiteral",
       "offset": 288,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/MMRenditionInformation.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/MMRenditionInformation.swift",
       "kind": "IntegerLiteral",
       "offset": 326,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/MMRenditionInformation.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/MMRenditionInformation.swift",
       "kind": "StringLiteral",
       "offset": 361,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/MMRenditionInformation.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/MMRenditionInformation.swift",
       "kind": "StringLiteral",
       "offset": 396,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/MMDeviceInformation.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/MMDeviceInformation.swift",
       "kind": "StringLiteral",
       "offset": 223,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/MMDeviceInformation.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/MMDeviceInformation.swift",
       "kind": "StringLiteral",
       "offset": 263,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/MMDeviceInformation.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/MMDeviceInformation.swift",
       "kind": "StringLiteral",
       "offset": 298,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/MMDeviceInformation.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/MMDeviceInformation.swift",
       "kind": "StringLiteral",
       "offset": 336,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/MMDeviceInformation.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/MMDeviceInformation.swift",
       "kind": "StringLiteral",
       "offset": 380,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/MMDeviceInformation.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/MMDeviceInformation.swift",
       "kind": "IntegerLiteral",
       "offset": 417,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/MMDeviceInformation.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/MMDeviceInformation.swift",
       "kind": "IntegerLiteral",
       "offset": 454,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/MMDeviceInformation.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/MMDeviceInformation.swift",
       "kind": "StringLiteral",
       "offset": 492,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Wrapper\/GenericMMWrapper.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Wrapper\/GenericMMWrapper.swift",
       "kind": "BooleanLiteral",
       "offset": 1028,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Wrapper\/GenericMMWrapper.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Wrapper\/GenericMMWrapper.swift",
       "kind": "StringLiteral",
       "offset": 1064,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Wrapper\/GenericMMWrapper.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Wrapper\/GenericMMWrapper.swift",
       "kind": "BooleanLiteral",
       "offset": 1162,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Wrapper\/GenericMMWrapper.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Wrapper\/GenericMMWrapper.swift",
       "kind": "BooleanLiteral",
-      "offset": 16611,
+      "offset": 16658,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 400,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "IntegerLiteral",
       "offset": 492,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 726,
       "length": 9,
       "value": "\"iPod5,1\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 744,
       "length": 13,
       "value": "\"iPodTouch 5\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 775,
       "length": 9,
       "value": "\"iPod7,1\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 793,
       "length": 13,
       "value": "\"iPodTouch 6\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 824,
       "length": 9,
       "value": "\"iPod9,1\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 842,
       "length": 13,
       "value": "\"iPodTouch 7\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 873,
       "length": 11,
       "value": "\"iPhone3,1\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 886,
       "length": 11,
       "value": "\"iPhone3,2\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 899,
       "length": 11,
       "value": "\"iPhone3,3\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 919,
       "length": 10,
       "value": "\"iPhone 4\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 947,
       "length": 11,
       "value": "\"iPhone4,1\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 967,
       "length": 11,
       "value": "\"iPhone 4s\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 996,
       "length": 11,
       "value": "\"iPhone5,1\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 1009,
       "length": 11,
       "value": "\"iPhone5,2\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 1029,
       "length": 10,
       "value": "\"iPhone 5\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 1057,
       "length": 11,
       "value": "\"iPhone5,3\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 1070,
       "length": 11,
       "value": "\"iPhone5,4\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 1090,
       "length": 11,
       "value": "\"iPhone 5c\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 1119,
       "length": 11,
       "value": "\"iPhone6,1\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 1132,
       "length": 11,
       "value": "\"iPhone6,2\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 1152,
       "length": 11,
       "value": "\"iPhone 5s\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 1181,
       "length": 11,
       "value": "\"iPhone7,2\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 1201,
       "length": 10,
       "value": "\"iPhone 6\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 1229,
       "length": 11,
       "value": "\"iPhone7,1\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 1249,
       "length": 15,
       "value": "\"iPhone 6 Plus\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 1282,
       "length": 11,
       "value": "\"iPhone8,1\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 1302,
       "length": 11,
       "value": "\"iPhone 6s\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 1331,
       "length": 11,
       "value": "\"iPhone8,2\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 1351,
       "length": 16,
       "value": "\"iPhone 6s Plus\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 1385,
       "length": 11,
       "value": "\"iPhone9,1\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 1398,
       "length": 11,
       "value": "\"iPhone9,3\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 1418,
       "length": 10,
       "value": "\"iPhone 7\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 1446,
       "length": 11,
       "value": "\"iPhone9,2\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 1459,
       "length": 11,
       "value": "\"iPhone9,4\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 1479,
       "length": 15,
       "value": "\"iPhone 7 Plus\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 1512,
       "length": 11,
       "value": "\"iPhone8,4\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 1532,
       "length": 11,
       "value": "\"iPhone SE\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 1561,
       "length": 12,
       "value": "\"iPhone10,1\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 1575,
       "length": 12,
       "value": "\"iPhone10,4\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 1596,
       "length": 10,
       "value": "\"iPhone 8\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 1624,
       "length": 12,
       "value": "\"iPhone10,2\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 1638,
       "length": 12,
       "value": "\"iPhone10,5\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 1659,
       "length": 15,
       "value": "\"iPhone 8 Plus\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 1692,
       "length": 12,
       "value": "\"iPhone10,3\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 1706,
       "length": 12,
       "value": "\"iPhone10,6\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 1727,
       "length": 10,
       "value": "\"iPhone X\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 1755,
       "length": 12,
       "value": "\"iPhone11,2\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 1776,
       "length": 11,
       "value": "\"iPhone XS\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 1805,
       "length": 12,
       "value": "\"iPhone11,4\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 1819,
       "length": 12,
       "value": "\"iPhone11,6\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 1840,
       "length": 15,
       "value": "\"iPhone XS Max\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 1873,
       "length": 12,
       "value": "\"iPhone11,8\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 1894,
       "length": 11,
       "value": "\"iPhone XR\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 1923,
       "length": 12,
       "value": "\"iPhone12,1\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 1944,
       "length": 11,
       "value": "\"iPhone 11\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 1973,
       "length": 12,
       "value": "\"iPhone12,3\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 1994,
       "length": 15,
       "value": "\"iPhone 11 Pro\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 2027,
       "length": 12,
       "value": "\"iPhone12,5\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 2048,
       "length": 19,
       "value": "\"iPhone 11 Pro Max\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 2085,
       "length": 12,
       "value": "\"iPhone12,8\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 2106,
       "length": 13,
       "value": "\"iPhone SE 2\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 2137,
       "length": 12,
       "value": "\"iPhone13,2\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 2158,
       "length": 11,
       "value": "\"iPhone 12\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 2187,
       "length": 12,
       "value": "\"iPhone13,1\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 2208,
       "length": 16,
       "value": "\"iPhone 12 Mini\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 2242,
       "length": 12,
       "value": "\"iPhone13,3\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 2263,
       "length": 15,
       "value": "\"iPhone 12 Pro\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 2296,
       "length": 12,
       "value": "\"iPhone13,4\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 2317,
       "length": 19,
       "value": "\"iPhone 12 Pro Max\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 2354,
       "length": 12,
       "value": "\"iPhone14,5\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 2375,
       "length": 11,
       "value": "\"iPhone 13\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 2404,
       "length": 12,
       "value": "\"iPhone14,4\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 2425,
       "length": 16,
       "value": "\"iPhone 13 Mini\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 2459,
       "length": 12,
       "value": "\"iPhone14,2\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 2480,
       "length": 15,
       "value": "\"iPhone 13 Pro\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 2513,
       "length": 12,
       "value": "\"iPhone14,3\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 2534,
       "length": 19,
       "value": "\"iPhone 13 Pro Max\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 2571,
       "length": 12,
       "value": "\"iPhone14,6\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 2592,
       "length": 13,
       "value": "\"iPhone SE 3\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 2623,
       "length": 12,
       "value": "\"iPhone14,7\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 2644,
       "length": 11,
       "value": "\"iPhone 14\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 2673,
       "length": 12,
       "value": "\"iPhone14,8\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 2694,
       "length": 16,
       "value": "\"iPhone 14 Plus\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 2728,
       "length": 12,
       "value": "\"iPhone15,2\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 2749,
       "length": 15,
       "value": "\"iPhone 14 Pro\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 2782,
       "length": 12,
       "value": "\"iPhone15,3\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 2803,
       "length": 19,
       "value": "\"iPhone 14 Pro Max\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 2840,
       "length": 12,
       "value": "\"iPhone15,4\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 2861,
       "length": 11,
       "value": "\"iPhone 15\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 2890,
       "length": 12,
       "value": "\"iPhone15,5\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 2911,
       "length": 16,
       "value": "\"iPhone 15 Plus\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 2945,
       "length": 12,
       "value": "\"iPhone16,1\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 2966,
       "length": 15,
       "value": "\"iPhone 15 Pro\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 2999,
       "length": 12,
       "value": "\"iPhone16,2\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 3020,
       "length": 19,
       "value": "\"iPhone 15 Pro Max\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 3057,
       "length": 12,
       "value": "\"iPhone17,3\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 3078,
       "length": 11,
       "value": "\"iPhone 16\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 3107,
       "length": 12,
       "value": "\"iPhone17,4\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 3128,
       "length": 16,
       "value": "\"iPhone 16 Plus\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 3162,
       "length": 12,
       "value": "\"iPhone17,1\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 3183,
       "length": 15,
       "value": "\"iPhone 16 Pro\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 3216,
       "length": 12,
       "value": "\"iPhone17,2\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 3237,
       "length": 19,
       "value": "\"iPhone 16 Pro Max\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 3274,
       "length": 9,
       "value": "\"iPad2,1\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 3285,
       "length": 9,
       "value": "\"iPad2,2\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 3296,
       "length": 9,
       "value": "\"iPad2,3\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 3307,
       "length": 9,
       "value": "\"iPad2,4\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 3325,
       "length": 8,
       "value": "\"iPad 2\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 3351,
       "length": 9,
       "value": "\"iPad3,1\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 3362,
       "length": 9,
       "value": "\"iPad3,2\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 3373,
       "length": 9,
       "value": "\"iPad3,3\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 3391,
       "length": 8,
       "value": "\"iPad 3\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 3417,
       "length": 9,
       "value": "\"iPad3,4\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 3428,
       "length": 9,
       "value": "\"iPad3,5\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 3439,
       "length": 9,
       "value": "\"iPad3,6\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 3457,
       "length": 8,
       "value": "\"iPad 4\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 3483,
       "length": 9,
       "value": "\"iPad4,1\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 3494,
       "length": 9,
       "value": "\"iPad4,2\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 3505,
       "length": 9,
       "value": "\"iPad4,3\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 3523,
       "length": 10,
       "value": "\"iPad Air\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 3551,
       "length": 9,
       "value": "\"iPad5,3\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 3562,
       "length": 9,
       "value": "\"iPad5,4\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 3580,
       "length": 12,
       "value": "\"iPad Air 2\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 3610,
       "length": 10,
       "value": "\"iPad6,11\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 3622,
       "length": 10,
       "value": "\"iPad6,12\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 3641,
       "length": 8,
       "value": "\"iPad 5\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 3667,
       "length": 9,
       "value": "\"iPad7,5\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 3678,
       "length": 9,
       "value": "\"iPad7,6\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 3696,
       "length": 8,
       "value": "\"iPad 6\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 3722,
       "length": 10,
       "value": "\"iPad11,3\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 3734,
       "length": 10,
       "value": "\"iPad11,4\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 3753,
       "length": 12,
       "value": "\"iPad Air 3\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 3783,
       "length": 10,
       "value": "\"iPad7,11\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 3795,
       "length": 10,
       "value": "\"iPad7,12\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 3814,
       "length": 8,
       "value": "\"iPad 7\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 3840,
       "length": 10,
       "value": "\"iPad11,6\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 3852,
       "length": 10,
       "value": "\"iPad11,7\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 3871,
       "length": 8,
       "value": "\"iPad 8\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 3897,
       "length": 10,
       "value": "\"iPad12,1\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 3909,
       "length": 10,
       "value": "\"iPad12,2\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 3928,
       "length": 8,
       "value": "\"iPad 9\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 3954,
       "length": 11,
       "value": "\"iPad13,18\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 3967,
       "length": 11,
       "value": "\"iPad13,19\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 3987,
       "length": 9,
       "value": "\"iPad 10\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 4014,
       "length": 10,
       "value": "\"iPad13,1\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 4026,
       "length": 10,
       "value": "\"iPad13,2\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 4045,
       "length": 12,
       "value": "\"iPad Air 4\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 4075,
       "length": 11,
       "value": "\"iPad13,16\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 4088,
       "length": 11,
       "value": "\"iPad13,17\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 4108,
       "length": 12,
       "value": "\"iPad Air 5\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 4138,
       "length": 10,
       "value": "\"iPad14,8\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 4150,
       "length": 10,
       "value": "\"iPad14,9\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 4169,
       "length": 16,
       "value": "\"iPad Air 11 M2\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 4203,
       "length": 11,
       "value": "\"iPad14,10\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 4216,
       "length": 11,
       "value": "\"iPad14,11\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 4236,
       "length": 16,
       "value": "\"iPad Air 13 M2\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 4270,
       "length": 9,
       "value": "\"iPad2,5\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 4281,
       "length": 9,
       "value": "\"iPad2,6\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 4292,
       "length": 9,
       "value": "\"iPad2,7\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 4310,
       "length": 11,
       "value": "\"iPad Mini\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 4339,
       "length": 9,
       "value": "\"iPad4,4\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 4350,
       "length": 9,
       "value": "\"iPad4,5\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 4361,
       "length": 9,
       "value": "\"iPad4,6\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 4379,
       "length": 13,
       "value": "\"iPad Mini 2\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 4410,
       "length": 9,
       "value": "\"iPad4,7\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 4421,
       "length": 9,
       "value": "\"iPad4,8\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 4432,
       "length": 9,
       "value": "\"iPad4,9\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 4450,
       "length": 13,
       "value": "\"iPad Mini 3\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 4481,
       "length": 9,
       "value": "\"iPad5,1\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 4492,
       "length": 9,
       "value": "\"iPad5,2\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 4510,
       "length": 13,
       "value": "\"iPad Mini 4\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 4541,
       "length": 10,
       "value": "\"iPad11,1\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 4553,
       "length": 10,
       "value": "\"iPad11,2\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 4572,
       "length": 13,
       "value": "\"iPad Mini 5\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 4603,
       "length": 10,
       "value": "\"iPad14,1\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 4615,
       "length": 10,
       "value": "\"iPad14,2\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 4634,
       "length": 13,
       "value": "\"iPad Mini 6\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 4665,
       "length": 9,
       "value": "\"iPad6,3\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 4676,
       "length": 9,
       "value": "\"iPad6,4\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 4694,
       "length": 17,
       "value": "\"iPad Pro 9 Inch\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 4729,
       "length": 9,
       "value": "\"iPad6,7\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 4740,
       "length": 9,
       "value": "\"iPad6,8\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 4758,
       "length": 18,
       "value": "\"iPad Pro 12 Inch\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 4794,
       "length": 9,
       "value": "\"iPad7,1\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 4805,
       "length": 9,
       "value": "\"iPad7,2\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 4823,
       "length": 20,
       "value": "\"iPad Pro 12 Inch 2\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 4861,
       "length": 9,
       "value": "\"iPad7,3\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 4872,
       "length": 9,
       "value": "\"iPad7,4\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 4890,
       "length": 18,
       "value": "\"iPad Pro 10 Inch\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 4926,
       "length": 9,
       "value": "\"iPad8,1\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 4937,
       "length": 9,
       "value": "\"iPad8,2\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 4948,
       "length": 9,
       "value": "\"iPad8,3\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 4959,
       "length": 9,
       "value": "\"iPad8,4\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 4977,
       "length": 18,
       "value": "\"iPad Pro 11 Inch\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 5013,
       "length": 9,
       "value": "\"iPad8,5\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 5024,
       "length": 9,
       "value": "\"iPad8,6\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 5035,
       "length": 9,
       "value": "\"iPad8,7\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 5046,
       "length": 9,
       "value": "\"iPad8,8\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 5064,
       "length": 20,
       "value": "\"iPad Pro 12 Inch 3\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 5102,
       "length": 9,
       "value": "\"iPad8,9\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 5113,
       "length": 10,
       "value": "\"iPad8,10\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 5132,
       "length": 20,
       "value": "\"iPad Pro 11 Inch 2\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 5170,
       "length": 10,
       "value": "\"iPad8,11\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 5182,
       "length": 10,
       "value": "\"iPad8,12\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 5201,
       "length": 20,
       "value": "\"iPad Pro 12 Inch 4\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 5239,
       "length": 10,
       "value": "\"iPad13,4\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 5251,
       "length": 10,
       "value": "\"iPad13,5\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 5263,
       "length": 10,
       "value": "\"iPad13,6\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 5275,
       "length": 10,
       "value": "\"iPad13,7\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 5294,
       "length": 20,
       "value": "\"iPad Pro 11 Inch 3\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 5332,
       "length": 10,
       "value": "\"iPad13,8\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 5344,
       "length": 10,
       "value": "\"iPad13,9\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 5356,
       "length": 11,
       "value": "\"iPad13,10\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 5369,
       "length": 11,
       "value": "\"iPad13,11\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 5389,
       "length": 20,
       "value": "\"iPad Pro 12 Inch 5\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 5427,
       "length": 10,
       "value": "\"iPad14,3\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 5439,
       "length": 10,
       "value": "\"iPad14,4\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 5458,
       "length": 20,
       "value": "\"iPad Pro 11 Inch 4\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 5496,
       "length": 10,
       "value": "\"iPad14,5\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 5508,
       "length": 10,
       "value": "\"iPad14,6\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 5527,
       "length": 20,
       "value": "\"iPad Pro 12 Inch 6\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 5565,
       "length": 10,
       "value": "\"iPad16,3\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 5577,
       "length": 10,
       "value": "\"iPad16,4\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 5596,
       "length": 16,
       "value": "\"iPad Pro 11 M4\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 5630,
       "length": 10,
       "value": "\"iPad16,5\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 5642,
       "length": 10,
       "value": "\"iPad16,6\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 5661,
       "length": 16,
       "value": "\"iPad Pro 13 M4\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 5695,
       "length": 19,
       "value": "\"AudioAccessory1,1\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 5726,
       "length": 9,
       "value": "\"HomePod\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 5753,
       "length": 6,
       "value": "\"i386\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 5761,
       "length": 8,
       "value": "\"x86_64\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 5803,
       "length": 104,
       "value": "\"Simulator \""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 5866,
       "length": 28,
       "value": "\"SIMULATOR_MODEL_IDENTIFIER\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 5899,
       "length": 5,
       "value": "\"iOS\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/UIDeviceExtension+ModelName.swift",
       "kind": "StringLiteral",
       "offset": 5906,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Wrapper\/MMCustomWrapper.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Wrapper\/MMCustomWrapper.swift",
       "kind": "StringLiteral",
       "offset": 172,
       "length": 5,
       "value": "\"RF_\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Wrapper\/MMCustomWrapper.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Wrapper\/MMCustomWrapper.swift",
       "kind": "StringLiteral",
       "offset": 199,
       "length": 5,
       "value": "\"RC_\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Wrapper\/MMCustomWrapper.swift",
-      "kind": "StringLiteral",
-      "offset": 172,
-      "length": 5,
-      "value": "\"RF_\""
-    },
-    {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Wrapper\/MMCustomWrapper.swift",
-      "kind": "StringLiteral",
-      "offset": 199,
-      "length": 5,
-      "value": "\"RC_\""
-    },
-    {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Wrapper\/MMCustomWrapper.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Wrapper\/MMCustomWrapper.swift",
       "kind": "StringLiteral",
       "offset": 1016,
       "length": 13,
       "value": "\"SDK_VERSION\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Wrapper\/MMCustomWrapper.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Wrapper\/MMCustomWrapper.swift",
       "kind": "StringLiteral",
       "offset": 1067,
       "length": 51,
       "value": "\"https:\/\/register.mediamelon.com\/mm-apis\/register\/\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Wrapper\/MMCustomWrapper.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Wrapper\/MMCustomWrapper.swift",
       "kind": "BooleanLiteral",
       "offset": 1312,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Wrapper\/MMCustomWrapper.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Wrapper\/MMCustomWrapper.swift",
       "kind": "IntegerLiteral",
       "offset": 1357,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Wrapper\/MMCustomWrapper.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Wrapper\/MMCustomWrapper.swift",
       "kind": "IntegerLiteral",
       "offset": 1389,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Wrapper\/MMCustomWrapper.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Wrapper\/MMCustomWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 11643,
+      "offset": 11722,
       "length": 4,
       "value": "\"NA\""
     },
     {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Wrapper\/MMCustomWrapper.swift",
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Wrapper\/MMCustomWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 11671,
+      "offset": 11750,
       "length": 9,
       "value": "\"Unknown\""
-    },
-    {
-      "filePath": "\/Users\/aashishkumar\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/MMAssetInformation.swift",
-      "kind": "StringLiteral",
-      "offset": 204,
-      "length": 18,
-      "value": "\"MediaMelonQoE.MMAssetInformation\""
     }
   ]
 }

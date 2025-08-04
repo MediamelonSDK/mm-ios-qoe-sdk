@@ -1,0 +1,6 @@
+framework module MediaMelonQoE {
+  umbrella header "MediaMelonQoE.h"
+  export *
+
+  module * { export * }
+}
