@@ -15,7 +15,7 @@
 /**
  * Advertisement playback state
  */
-typedef NS_ENUM(NSInteger, MMAdState){
+typedef NS_ENUM(NSInteger, MMObjCAdState){
     /**
      * Ad is requested [initial state]]
      */
@@ -91,22 +91,22 @@ typedef NS_ENUM(NSInteger, MMAdState){
     */
     AD_ENDED,
     
-    /*
-    Unknown state
-    */
-    UNKNOWN,
+    AD_CUETIMELINESTART,
     
     AD_CUETIMELINEADDED,
     
-    AD_CUETIMELINESTART,
+    AD_CUETIMELINEEND,
     
-    AD_CUETIMELINEEND
+    /*
+    Unknown state
+    */
+    UNKNOWN
 };
 
 /**
  * Advertisement Type
  */
-typedef NS_ENUM(NSInteger, MMAdType){
+typedef NS_ENUM(NSInteger, MMObjCAdType){
     /**
      * Linear Advertisement
      */
@@ -128,7 +128,7 @@ static int UNKNOWN_LAC = -1;
 static int UNKNOWN_SIGNAL_STRENGTH = -1000;
 static int UNKNOWN_ASU = -1;
 
-@interface MMCellInfo:NSObject
+@interface MMObjCCellInfo:NSObject
     @property (nonatomic, strong) NSString* mCellRadio;
     @property (nonatomic, assign) NSInteger mMcc;
     @property (nonatomic, assign) NSInteger mMnc;
@@ -140,14 +140,14 @@ static int UNKNOWN_ASU = -1;
     @property (nonatomic, assign) NSInteger mSignalStrength;
 @end
 
-@interface MMAdInfo:NSObject
+@interface MMObjCAdInfo:NSObject
 @property (nonatomic, strong) NSString* adClient;
 @property (nonatomic, strong) NSString* adId;
 @property (nonatomic, strong) NSString* adCreativeId;
 @property (nonatomic, assign) NSInteger adDuration;
 @property (nonatomic, assign) NSInteger adPositionInPod;
 @property (nonatomic, strong) NSString* adPosition;
-@property (nonatomic, assign) MMAdType adType;
+@property (nonatomic, assign) MMObjCAdType adType;
 @property (nonatomic, strong) NSString* adCreativeType;
 @property (nonatomic, strong) NSString* adServer;
 @property (nonatomic, strong) NSString* adResolution;
@@ -162,24 +162,28 @@ static int UNKNOWN_ASU = -1;
 
 /**
  * Identifies the chunk/segment resource in a representation.
- * To identify the chunk in unambiguous way, provide any of following combinations:
- * <p>[Option 1] <b>trackIdx</b> and <b>sequence</b> (preferred)
- * <p>[Option 2] <b>bitrate</b> and <b>sequence</b>
- * <p>[Option 3] <b>resourceURL</b>, <b>startTime</b>, and <b>duration</b>
- * <p>[Option 4] <b>resourceURL</b>, <b>startByte</b>, and <b>endByte</b>
- * <p><p>To specify the complete entity, use Option 4 and set <b>startByte</b> to 0
- * and <b>endByte</b> to -1
- * @param [trackIdx] [Option 1] Chunk Track ID
- * @param [bitrate] [Option 2] Chunk bitrate in bits per second
- * @param [sequence] [Optiona 1] [Option 2] Chunk sequence numbe
- * @param [resourceURL] [Option 3] [Option 4] Chunk resource URL
- * @param [duration] [Option 3] Chunk duration in milliseconds
- * @param [startTime] [Option 3] Chunk starting time inmilliseconds
- * @param [startByte] [Option 4] Chunk starting byte
- * @param [endByte] [Option 4] Chunk ending byte
- * @return The MMChunkInformation object
+ *
+ * To identify the chunk in an unambiguous way, provide any of the following combinations:
+ * - **Option 1**: `trackIdx` and `sequence` (preferred)
+ * - **Option 2**: `bitrate` and `sequence`
+ * - **Option 3**: `resourceURL`, `startTime`, and `duration`
+ * - **Option 4**: `resourceURL`, `startByte`, and `endByte`
+ *
+ * To specify the complete entity, use Option 4 and set `startByte` to 0
+ * and `endByte` to -1.
+ *
+ * **Properties:**
+ * - `trackIdx`: (Option 1) Chunk track ID.
+ * - `bitrate`: (Option 2) Chunk bitrate in bits per second.
+ * - `sequence`: (Options 1 & 2) Chunk sequence number.
+ * - `resourceURL`: (Options 3 & 4) Chunk resource URL.
+ * - `duration`: (Option 3) Chunk duration in milliseconds.
+ * - `startTime`: (Option 3) Chunk starting time in milliseconds.
+ * - `startByte`: (Option 4) Chunk starting byte.
+ * - `endByte`: (Option 4) Chunk ending byte.
+ *
  */
-@interface MMChunkInformation:NSObject
+@interface MMObjCChunkInformation:NSObject
 /**
  * Chunk track id
  */
@@ -224,7 +228,7 @@ static int UNKNOWN_ASU = -1;
 /**
  * Specifies the device network connection type.
  */
-typedef NS_ENUM(NSInteger, MMConnectionInfo){
+typedef NS_ENUM(NSInteger, MMObjCConnectionInfo){
     /**
      * Connection type is cellular (generic). If user explicitly knows the kind of connection, 2G or 3G for example, then they should use explicit enum value corresponding to that connection type.
      */
@@ -275,7 +279,7 @@ typedef NS_ENUM(NSInteger, MMConnectionInfo){
  * There may be times when the player needs to override metric values that are computed by the SDK.
  * This object lists the metrics that can be overridden.
  */
-typedef NS_ENUM(NSInteger, MMOverridableMetric){
+typedef NS_ENUM(NSInteger, MMObjCOverridableMetric){
     /**
      * Time between when user requests the start of the playback session and playback starts.
      */
@@ -297,9 +301,9 @@ typedef NS_ENUM(NSInteger, MMOverridableMetric){
 } ;
 
 /**
- * MMPlayerState - State of the player
+ * MMObjCPlayerState - State of the player
  */
-typedef NS_ENUM(NSInteger, MMPlayerState){
+typedef NS_ENUM(NSInteger, MMObjCPlayerState){
     /**
      * Player is playing available content to the screen. Delays due to rebuffering are still considered PLAYING.
      */
@@ -322,7 +326,7 @@ typedef NS_ENUM(NSInteger, MMPlayerState){
 /**
  * Specifies the representation information.
  */
-@interface MMRepresentation:NSObject
+@interface MMObjCRepresentation:NSObject
 /**
  * Representation Track ID
  */
@@ -356,15 +360,19 @@ typedef NS_ENUM(NSInteger, MMPlayerState){
 @end
 
 /**
- * Tells the QBR SmartStreaming engine which representations that the player can present.
- * Representations that are not in this list will not be selected by the QBR SmartStreaming engine.
- * @param isLive True if presentation is live; false if presentation is VOD
- * @param duration Content length in milliseconds. Use -1 for live
- * @param representations Array of MMRepresentation objests that are selected by the player for playback
- * @return The MMPresentationInfo object
- * @see MMRepresentation
+ * Holds information about a presentation for the QBR SmartStreaming engine.
+ *
+ * Representations not included in `representations` will not be selected by
+ * the QBR SmartStreaming engine for playback.
+ *
+ * **Properties:**
+ * - `isLive` — `YES` if presentation is live; `NO` if it is VOD.
+ * - `duration` — Content length in milliseconds. Use `-1` for live streams.
+ * - `representations` — Array of `MMObjCRepresentation` objects that the player has selected for playback.
+ *
+ * @see MMObjCRepresentation
  */
-@interface MMPresentationInfo:NSObject
+@interface MMObjCPresentationInfo:NSObject
 
 /**
  * True if presentation is live; false if presentation is VOD
@@ -377,34 +385,41 @@ typedef NS_ENUM(NSInteger, MMPlayerState){
 @property (nonatomic, assign) NSInteger duration;
 
 /**
- * Array of <b>MMRepresentation</b> objects that are selected by the player for the playback.
+ * Array of <b>MMObjCRepresentation</b> objects that are selected by the player for the playback.
  */
 @property (nonatomic, strong) NSArray* representations;
 @end
 
-@interface MMRenditionInfo : NSObject
+@interface MMObjCRenditionInfo : NSObject
 @property (nonatomic, assign) NSInteger bitrate;
 @property (nonatomic, assign) NSInteger width;
 @property (nonatomic, assign) NSInteger height;
 @property (nonatomic, assign) double frameRate;
-@property (nonatomic, assign) NSString* aCodec;
-@property (nonatomic, assign) NSString* vCodec;
+@property (nonatomic, strong) NSString* aCodec;
+@property (nonatomic, strong) NSString* vCodec;
 @end
 
 /**
- * Content/Asset Metadata
- * @param assetId Unique identifier for the asset
- * @param assetName Unique name of the asset, aka Episode Title
- * @param videoId Unique video ID
- * @param contentType Type of content (Movie / Special / Clip / Scene Epis Lifts)
- * @param drmProtection Widevine, Fairplay, Playready etc. Unknown means content is protected, For clear contents, do not set this field
- * @param episodeNumber Sequence Number of the Episode.
- * @param genre Genre of the content
- * @param season  For example - Season1,2,3 etc
- * @param seriesTitle Title of the series
- * @return The MMContentMetadata object
+ * Content/Asset metadata container.
+ *
+ * This object holds metadata describing the content or asset being played.
+ *
+ * **Properties:**
+ * - `assetId` — Unique identifier for the asset.
+ * - `assetName` — Unique name of the asset, e.g. episode title.
+ * - `videoId` — Unique video ID.
+ * - `contentType` — Type of content (Movie, Special, Clip, Scene, Episodic Lift, etc.).
+ * - `drmProtection` — DRM type (Widevine, Fairplay, Playready, etc.).
+ *   `"Unknown"` means content is protected.
+ *   For clear content, do not set this field.
+ * - `episodeNumber` — Sequence number of the episode.
+ * - `genre` — Genre of the content.
+ * - `season` — Season label, e.g. `"Season 1"`, `"Season 2"`.
+ * - `seriesTitle` — Title of the series.
+ *
+ * @see MMObjCContentMetadata
  */
-@interface MMContentMetadata:NSObject
+@interface MMObjCContentMetadata:NSObject
 /**
  * assetId
  */
@@ -443,7 +458,7 @@ typedef NS_ENUM(NSInteger, MMPlayerState){
 @property (nonatomic, strong) NSString* seriesTitle;
 @end
 
-typedef NS_ENUM(NSInteger, MMQBRMode){
+typedef NS_ENUM(NSInteger, MMObjCQBRMode){
     QBRModeDisabled
 };
 
@@ -451,7 +466,7 @@ typedef NS_ENUM(NSInteger, MMQBRMode){
 /**
  * Status of the Initialization API
  */
-typedef NS_ENUM(NSInteger, MMSmartStreamingInitializationStatus){
+typedef NS_ENUM(NSInteger, MMObjCSmartStreamingInitializationStatus){
     /**
      * Initialisation not completed yet, and is in pending state
      */
@@ -479,18 +494,11 @@ typedef NS_ENUM(NSInteger, MMSmartStreamingInitializationStatus){
  *
  * @param status : status of the completion of the initialisation API
  * @param description : optional description of status accompanying the status
- * @param cmdId : Cmd ID of the completed command
  */
--(void) sessionInitializationCompletedWithStatus:(MMSmartStreamingInitializationStatus)status andDescription:(NSString*) description forCmdWithId:(NSInteger) cmdId nowtilusPermission:(BOOL) enableNowtilus;
+-(void) sessionInitializationCompletedWithStatus:(MMObjCSmartStreamingInitializationStatus)status andDescription:(NSString*) description;
 @end
 
 @interface MMSmartStreaming:NSObject
-/**
- * Gets the SDK instance
- * @return SDK instance
- */
-+ (id)getInstance;
-
 /**
  * Gets the SDK version
  * @return SDK version (major.minor.patch)
@@ -503,7 +511,7 @@ typedef NS_ENUM(NSInteger, MMSmartStreamingInitializationStatus){
  * otherwise returns false.
  * @see registerMMSmartStreaming
  */
-+(BOOL) getRegistrationStatus;
+-(BOOL) getRegistrationStatus;
 
 /**
  * Registers the QBR SmartStreaming engine and performs a license verification. This API should
@@ -527,7 +535,7 @@ typedef NS_ENUM(NSInteger, MMSmartStreamingInitializationStatus){
  * @see updateSubscriberID
  */
     
-+(void)registerMMSmartStreamingForPlayerWithName:(NSString*) playerName forCustID:(NSString*) customerID component:(NSString*)component subsID:(NSString*)subscriberID domainName:(NSString*) domainName andSubscriberType:(NSString*) subsType withTag:(NSString*) tag hashSubID:(BOOL) hashSubID;
+-(void)registerMMSmartStreamingForPlayerWithName:(NSString*) playerName forCustID:(NSString*) customerID component:(NSString*)component subsID:(NSString*)subscriberID domainName:(NSString*) domainName andSubscriberType:(NSString*) subsType withTag:(NSString*) tag hashSubID:(BOOL) hashSubID;
 
 /**
  * After the registration, user may will like to update the subscriber ID,
@@ -536,7 +544,7 @@ typedef NS_ENUM(NSInteger, MMSmartStreamingInitializationStatus){
  * @param subscriberID New Subscriber ID
  * @see registerMMSmartStreaming
  */
-+(void) updateSubscriberWithID:(NSString*) subscriberID andType:(NSString*)type withTag:(NSString*) tag;
+-(void) updateSubscriberWithID:(NSString*) subscriberID andType:(NSString*)type withTag:(NSString*) tag;
 
 /**
  * Reports the physical device characteristics to analytics. All values are optional;
@@ -553,16 +561,16 @@ typedef NS_ENUM(NSInteger, MMSmartStreamingInitializationStatus){
  * @param screenHeight Device screen / display window vertical resolution (in integer pixels).
  *                     If not known, set it to -1.
  */
-+(void) reportDeviceInfoWithBrandName:(NSString*) brand deviceModel:(NSString*)deviceModel osName:(NSString*)os osVersion:(NSString*)osVersion telOperator:(NSString*)telOper screenWidth:(NSInteger)screenWidth screenHeight:(NSInteger)screenHeight andType:(NSString*)type;
+-(void) reportDeviceInfoWithBrandName:(NSString*) brand deviceModel:(NSString*)deviceModel osName:(NSString*)os osVersion:(NSString*)osVersion telOperator:(NSString*)telOper screenWidth:(NSInteger)screenWidth screenHeight:(NSInteger)screenHeight andType:(NSString*)type;
 
 
-+(void) reportExperimentNameWithExperimentName:(NSString*)experimentName;
+-(void) reportExperimentNameWithExperimentName:(NSString*)experimentName;
 
-+(void) reportSubPropertyIDWithSubPropertyId:(NSString*)subPropertyId;
+-(void) reportSubPropertyIDWithSubPropertyId:(NSString*)subPropertyId;
 
-+(void) reportBasePlayerInfoWithBasePlayerName:(NSString*)basePlayerName basePlayerVersion:(NSString*)basePlayerVersion;
+-(void) reportBasePlayerInfoWithBasePlayerName:(NSString*)basePlayerName basePlayerVersion:(NSString*)basePlayerVersion;
 
-+(void) reportAppData:(NSString*) appName  andVersion: (NSString*) appVersion;
+-(void) reportAppData:(NSString*) appName  andVersion: (NSString*) appVersion;
 
 /**
  * Reports the media player characteristics to analytics.
@@ -574,27 +582,7 @@ typedef NS_ENUM(NSInteger, MMSmartStreamingInitializationStatus){
  *              the player.
  * @param [version] Version of the player.
  */
-+(void) reportPlayerInfoWithBrandName:(NSString*) brand model:(NSString*) model andVersion:(NSString*) version;
-
-/**
- * Sets Toolbox Endpoint Data
- * <p>Use a NULL pointer if the value is unknown or inapplicable.
- *
- * @param [endpointURL]
- * @param [jwtToken]
- * @param [profileID] Version of the player.
- */
-+(void) setToolboxEndpoint:(NSString*) endpointURL jwtToken:(NSString*) jwtToken profileID:(NSString*) profileID cId:(NSString*) cId;
-
-/**
- * Sets Toolbox Endpoint Data
- * <p>Use a NULL pointer if the value is unknown or inapplicable.
- *
- * @param [endpointURL]
- * @param [starzAPIKey]
- * @param [starzSessionID] Version of the player.
- */
-+(void) setStarzEndpoint:(NSString*) endpointURL starzAPIKey:(NSString*) starzAPIKey starzSessionID :(NSString*) starzSessionID cId :(NSString*) cId;
+-(void) reportPlayerInfoWithBrandName:(NSString*) brand model:(NSString*) model andVersion:(NSString*) version;
 
 /**
  * Initializes the session for playback with QBR optimization. This API should be called once for
@@ -611,7 +599,7 @@ typedef NS_ENUM(NSInteger, MMSmartStreamingInitializationStatus){
  *                 completion.
  *
  */
--(NSInteger) initializeSessionWithMode:(MMQBRMode) mode registrationUri:(NSString*) registrationUri forManifest:(NSString*) manifestURL metaURL:(NSString*) metaURL contentMetadata:(MMContentMetadata*) contentMetadata forObserver:(id<MMSmartStreamingObserver>) observer;
+-(NSInteger) initializeSessionWithMode:(MMObjCQBRMode) mode registrationUri:(NSString*) registrationUri forManifest:(NSString*) manifestURL metaURL:(NSString*) metaURL contentMetadata:(MMObjCContentMetadata*) contentMetadata forObserver:(id<MMSmartStreamingObserver>) observer;
 
 /**
  * Tells the QBR SmartStreaming engine which representations that the player can present.
@@ -620,16 +608,16 @@ typedef NS_ENUM(NSInteger, MMSmartStreamingInitializationStatus){
  *                         the player for playback.
  * @see blacklistRepresentation
  */
--(void) setPresentationInformation:(MMPresentationInfo*) presentationInfo;
+-(void) setPresentationInformation:(MMObjCPresentationInfo*) presentationInfo;
 
--(void) reportRenditionInformation:(MMRenditionInfo*) renditionInfo;
+-(void) reportRenditionInformation:(MMObjCRenditionInfo*) renditionInfo;
 
 /**
  * Reports the chunk request to analytics. This method is not used when QBR optimization is
  * enabled.
  * @param chunkInfo Chunk selected by the player.
  */
--(void) reportChunkRequest:(const MMChunkInformation*) chunkInfo;
+-(void) reportChunkRequest:(const MMObjCChunkInformation*) chunkInfo;
 
 /**
  * Reports current download rate (rate at which chunk is downloaded) to analytics. This should be
@@ -660,7 +648,7 @@ typedef NS_ENUM(NSInteger, MMSmartStreamingInitializationStatus){
  * Reports the communications network type to analytics.
  * @param networkType : Connection Info.
  */
--(void) reportNetworkType:(MMConnectionInfo) networkType;
+-(void) reportNetworkType:(MMObjCConnectionInfo) networkType;
 
 /**
  * Override the SmartSight-calculated metric with a specific value.
@@ -672,16 +660,16 @@ typedef NS_ENUM(NSInteger, MMSmartStreamingInitializationStatus){
  * - For Latency, the latency in seconds, with with millisecond resolution (e.g., "1.236")
  * - For ServerAddress, the name of the cdn (e.g., "PrivateCDN")
  * - For DurationWatched, the duration watched in seconds, with millisecond resolution (e.g., "137.935")
- * @see MMOverridableMetric
+ * @see MMObjCOverridableMetric
  */
--(void) reportMetricValueForMetric:(MMOverridableMetric) metric value:(NSString*)value;
+-(void) reportMetricValueForMetric:(MMObjCOverridableMetric) metric value:(NSString*)value;
 
 /**
  * Reports the current player state to analytics.
  *
  * @param playerState : Player State
  */
--(void) reportPlayerState:(MMPlayerState) playerState;
+-(void) reportPlayerState:(MMObjCPlayerState) playerState;
 
 /**
  * Reports the start of the buffering.
@@ -748,7 +736,7 @@ typedef NS_ENUM(NSInteger, MMSmartStreamingInitializationStatus){
  */
 -(void) reportPresentationSizeWithWidth:(NSInteger)width andHeight:(NSInteger) height;
 
--(void) reportCellularInformation:(MMCellInfo*) cellInfo;
+-(void) reportCellularInformation:(MMObjCCellInfo*) cellInfo;
 
 -(void) reportLocationWithLatitude:(double)lat andLongitude:(double)lon;
 
@@ -800,24 +788,27 @@ typedef NS_ENUM(NSInteger, MMSmartStreamingInitializationStatus){
 /**
  * Reports advertisement playback state
  * @param adState State of the advertisement
- * @see MMAdState
+ * @see MMObjCAdState
  */
--(void) reportAdState:(MMAdState) adState;
+-(void) reportAdState:(MMObjCAdState) adState;
 
 /**
- * Reports advertisement-related information
+ * Reports advertisement-related information.
  *
- * @param adClient Client used to play the ad, eg: VAST
- * @param adURL Tag represented by the ad.
- * @param adDuration Length of the video ad (in milliseconds).
- * @param adPosition Position of the ad in the video  playback; one of "pre", "post" or "mid"
- *                   that represents that the ad played before, after or during playback respectively.
- * @param adType Type of advertisement : {LINEAR etc}
- * @param adCreativeType Ad MIME type
- * @param adServer Ad server (ex. DoubleClick, YuMe, AdTech, Brightroll, etc.)
- * @param adResolution Advertisement video resolution
+ * The `adInfo` parameter contains:
+ * - **adClient** — Client used to play the ad, e.g. VAST.
+ * - **adURL** — Tag represented by the ad.
+ * - **adDuration** — Length of the video ad in milliseconds.
+ * - **adPosition** — Position of the ad in the video playback; one of `"pre"`, `"post"`, or `"mid"`,
+ *   indicating the ad played before, after, or during playback.
+ * - **adType** — Type of advertisement (e.g. LINEAR).
+ * - **adCreativeType** — Ad MIME type.
+ * - **adServer** — Ad server (e.g. DoubleClick, YuMe, AdTech, Brightroll, etc.).
+ * - **adResolution** — Advertisement video resolution.
+ *
+ * @param adInfo Struct containing all advertisement-related fields.
  */
--(void) reportAdInfo:(MMAdInfo *) adInfo;
+-(void) reportAdInfo:(MMObjCAdInfo *) adInfo;
 
 /**
  * Reports current advertisement playback position
@@ -840,7 +831,7 @@ typedef NS_ENUM(NSInteger, MMSmartStreamingInitializationStatus){
  * @param enable Disables/Enables the manifest fetch by the SDK
  * @see setPresentationInformation
  */
-+(void) disableManifestsFetch:(BOOL)enable;
+-(void) disableManifestsFetch:(BOOL)enable;
 
 /**
  * Reports the Media Track Info to analytics.

@@ -22,47 +22,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		AsLCAK7MinghIUWCd+uFez/zUUw=
+		EoLGecgnsIIe31rX82d4jCY6cLo=
 		</data>
-		<key>Modules/MediaMelonQoE.swiftmodule/arm64-apple-xros-simulator.abi.json</key>
+		<key>Modules/MediaMelonQoE.swiftmodule/arm64-apple-xros.abi.json</key>
 		<data>
-		/eFY9xFIV6+kOPUzVq8Lkt6+EP0=
+		nVcpQzHY8dCh9vl/5CiuP5YG6zw=
 		</data>
-		<key>Modules/MediaMelonQoE.swiftmodule/arm64-apple-xros-simulator.private.swiftinterface</key>
+		<key>Modules/MediaMelonQoE.swiftmodule/arm64-apple-xros.private.swiftinterface</key>
 		<data>
-		uPRpraqmR5lyCp3nbF6HttW4MQg=
+		D+umD6/FY5hP5WDeN+Qc8yWCDWk=
 		</data>
-		<key>Modules/MediaMelonQoE.swiftmodule/arm64-apple-xros-simulator.swiftdoc</key>
+		<key>Modules/MediaMelonQoE.swiftmodule/arm64-apple-xros.swiftdoc</key>
 		<data>
-		dQy3WF7cDI0CYy1n5d8jAMJqzHw=
+		dnYVVTGl9GqYuO6ZcXU0Pluq7GA=
 		</data>
-		<key>Modules/MediaMelonQoE.swiftmodule/arm64-apple-xros-simulator.swiftinterface</key>
+		<key>Modules/MediaMelonQoE.swiftmodule/arm64-apple-xros.swiftinterface</key>
 		<data>
-		uPRpraqmR5lyCp3nbF6HttW4MQg=
+		D+umD6/FY5hP5WDeN+Qc8yWCDWk=
 		</data>
-		<key>Modules/MediaMelonQoE.swiftmodule/arm64-apple-xros-simulator.swiftmodule</key>
+		<key>Modules/MediaMelonQoE.swiftmodule/arm64-apple-xros.swiftmodule</key>
 		<data>
-		eN5LdOiQarDHh94G2LE4oNZiJBo=
-		</data>
-		<key>Modules/MediaMelonQoE.swiftmodule/x86_64-apple-xros-simulator.abi.json</key>
-		<data>
-		/eFY9xFIV6+kOPUzVq8Lkt6+EP0=
-		</data>
-		<key>Modules/MediaMelonQoE.swiftmodule/x86_64-apple-xros-simulator.private.swiftinterface</key>
-		<data>
-		fHQyfcNizEeux5B18ziveZqSuL8=
-		</data>
-		<key>Modules/MediaMelonQoE.swiftmodule/x86_64-apple-xros-simulator.swiftdoc</key>
-		<data>
-		LSuvOjCFpzi/4X4LiCQnDi8B2BE=
-		</data>
-		<key>Modules/MediaMelonQoE.swiftmodule/x86_64-apple-xros-simulator.swiftinterface</key>
-		<data>
-		fHQyfcNizEeux5B18ziveZqSuL8=
-		</data>
-		<key>Modules/MediaMelonQoE.swiftmodule/x86_64-apple-xros-simulator.swiftmodule</key>
-		<data>
-		+6easU64ScNSQS/z9uTuKUwsubI=
+		0LIArZ9dSlhKWfRmW9XE3/MQzwo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -99,74 +79,39 @@
 			v9oub3YKDw3n/JnaGNel8NN8qCAMMSTF6Vzcis3Vpc8=
 			</data>
 		</dict>
-		<key>Modules/MediaMelonQoE.swiftmodule/arm64-apple-xros-simulator.abi.json</key>
+		<key>Modules/MediaMelonQoE.swiftmodule/arm64-apple-xros.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MuEerRcgZMC1KEqr2IXDkX5Ot45ZDvQgvKVyNASfd4I=
+			cegUDLCTQInymzWMX69p5XG39m4xSOpTtn/gw5zi7Tk=
 			</data>
 		</dict>
-		<key>Modules/MediaMelonQoE.swiftmodule/arm64-apple-xros-simulator.private.swiftinterface</key>
+		<key>Modules/MediaMelonQoE.swiftmodule/arm64-apple-xros.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LNwMQQz5QFYBhNEG817iMvO/ORX7WkuqagFfVxpUySo=
+			PfQgx7jM4ohshKARohiLtDGF94XInldnBC3g+D/8NKg=
 			</data>
 		</dict>
-		<key>Modules/MediaMelonQoE.swiftmodule/arm64-apple-xros-simulator.swiftdoc</key>
+		<key>Modules/MediaMelonQoE.swiftmodule/arm64-apple-xros.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LGA7pINFdtwW3ar/EGnQ1TKG+5zkJNtg3MYdRc/5z6A=
+			OIbETrdjaAfHILW3SFjgknhCWPn4KmeEDkcxnhOEXIs=
 			</data>
 		</dict>
-		<key>Modules/MediaMelonQoE.swiftmodule/arm64-apple-xros-simulator.swiftinterface</key>
+		<key>Modules/MediaMelonQoE.swiftmodule/arm64-apple-xros.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LNwMQQz5QFYBhNEG817iMvO/ORX7WkuqagFfVxpUySo=
+			PfQgx7jM4ohshKARohiLtDGF94XInldnBC3g+D/8NKg=
 			</data>
 		</dict>
-		<key>Modules/MediaMelonQoE.swiftmodule/arm64-apple-xros-simulator.swiftmodule</key>
+		<key>Modules/MediaMelonQoE.swiftmodule/arm64-apple-xros.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lx+qDp/6cCUS+LuHFSk/tQboo6XczDwHQ9EmsUOQ3L4=
-			</data>
-		</dict>
-		<key>Modules/MediaMelonQoE.swiftmodule/x86_64-apple-xros-simulator.abi.json</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			MuEerRcgZMC1KEqr2IXDkX5Ot45ZDvQgvKVyNASfd4I=
-			</data>
-		</dict>
-		<key>Modules/MediaMelonQoE.swiftmodule/x86_64-apple-xros-simulator.private.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			tXWC0xQRd/vRT1StoZl48W6TzRjzGdr40np3lFj0W6Y=
-			</data>
-		</dict>
-		<key>Modules/MediaMelonQoE.swiftmodule/x86_64-apple-xros-simulator.swiftdoc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			UHRzPQ3furuNwMPwgDu5tZNCSkGTGmOWOo8hpmKDDuo=
-			</data>
-		</dict>
-		<key>Modules/MediaMelonQoE.swiftmodule/x86_64-apple-xros-simulator.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			tXWC0xQRd/vRT1StoZl48W6TzRjzGdr40np3lFj0W6Y=
-			</data>
-		</dict>
-		<key>Modules/MediaMelonQoE.swiftmodule/x86_64-apple-xros-simulator.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			YWVwAo/HNxpz6jvdsuFP/OPWFHz++SfFrP38aMbRgVI=
+			3jm6Zu1vdug+DhZ6oDHefe5oMJ1bAgF/0YQEyOKeKt0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

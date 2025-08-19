@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
-// swift-module-flags: -target arm64-apple-tvos12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name MediaMelonQoE
+// swift-module-flags: -target arm64-apple-tvos15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name MediaMelonQoE
 // swift-module-flags-ignorable:  -interface-compiler-version 6.1.2
 import AVFoundation
 import AVKit
@@ -128,29 +128,29 @@ extension MediaMelonQoE.ReachabilityMM {
   required public init(from decoder: any Swift.Decoder) throws
 }
 @_inheritsConvenienceInitializers @objc public class GenericMMWrapper : ObjectiveC.NSObject, MediaMelonQoE.MMSmartStreamingObserver {
-  @objc public func sessionInitializationCompleted(with status: MediaMelonQoE.MMSmartStreamingInitializationStatus, andDescription description: Swift.String!, forCmdWithId cmdId: Swift.Int, nowtilusPermission enableNowtilus: Swift.Bool)
+  @objc public func sessionInitializationCompleted(with status: MediaMelonQoE.MMObjCSmartStreamingInitializationStatus, andDescription description: Swift.String!)
   public static let shared: MediaMelonQoE.GenericMMWrapper
   public var extIsLive: Swift.Bool
   public func getCoreSDKVersion() -> Swift.String
   public func getHarmonicSSAIVersion() -> Swift.String
   public func reportSDKVersion(sdkVersion: Swift.String)
-  public static func disableManifestsFetch(disable: Swift.Bool)
+  public func disableManifestsFetch(disable: Swift.Bool)
   public func reportDeviceCapabilities()
   public func reportCustomMetadata(key: Swift.String, value: Swift.String)
-  public static func updateSubscriber(subscriberId: Swift.String, subscriberType: Swift.String, subscriberMetadata: Swift.String)
+  public func updateSubscriber(subscriberId: Swift.String, subscriberType: Swift.String, subscriberMetadata: Swift.String)
   public func reportVideoQuality(videoQuality: Swift.String)
   public func reportDeviceMarketingName(deviceMarketingName: Swift.String)
   public func reportDeviceID()
   public func reportAppData(appName: Swift.String, appVersion: Swift.String)
   public func enableLogTrace(logStTrace: Swift.Bool)
   public func reportError(error: Swift.String, playbackPosMilliSec: Swift.Int)
-  public static func reportMetricValue(metricToOverride: MediaMelonQoE.MMOverridableMetric, value: Swift.String)
+  public func reportMetricValue(metricToOverride: MediaMelonQoE.MMObjCOverridableMetric, value: Swift.String)
   public func reportMediaTrackInfo(isSubtitleActive: Swift.Bool, subtitleTrack: Swift.String, audioTrack: Swift.String, isVDSActive: Swift.Bool)
-  public func reportNetworkType(connInfo: MediaMelonQoE.MMConnectionInfo)
+  public func reportNetworkType(connInfo: MediaMelonQoE.MMObjCConnectionInfo)
   public func reportLocation(latitude: Swift.Double, longitude: Swift.Double)
-  public func reportChunkRequest(chunkInfo: MediaMelonQoE.MMChunkInformation)
+  public func reportChunkRequest(chunkInfo: MediaMelonQoE.MMObjCChunkInformation)
   public func reportChunkRequest(bitrate: Swift.Int, fragmentDuration: Swift.Int?, url: Swift.String?)
-  public func setPresentationInformation(presentationInfo: MediaMelonQoE.MMPresentationInfo)
+  public func setPresentationInformation(presentationInfo: MediaMelonQoE.MMObjCPresentationInfo)
   public func reportDownloadRate(downloadRate: Swift.Int)
   public func reportBufferingStarted()
   public func reportBufferingCompleted()
@@ -159,7 +159,7 @@ extension MediaMelonQoE.ReachabilityMM {
   public func reportPresentationSize(width: Swift.Int, height: Swift.Int)
   public func reportPlayerSeekCompleted(seekEndPos: Swift.Int)
   public func reportPlayerSeekStarted()
-  public func reportPlayerState(playerState: MediaMelonQoE.MMPlayerState)
+  public func reportPlayerState(playerState: MediaMelonQoE.MMObjCPlayerState)
   public func registerForMMSDK(registrationInformation pInfo: MediaMelonQoE.MMRegistrationInformation)
   public func reportExperimentName(experimentName: Swift.String?)
   public func reportSubPropertyID(subPropertyId: Swift.String?)
@@ -168,8 +168,6 @@ extension MediaMelonQoE.ReachabilityMM {
   public func reportUserInitiatedPlayback()
   public func initialiseSession(registrationUri: Swift.String, assetInformation: MediaMelonQoE.MMAssetInformation)
   public func updatePlaybackPosition(currentPosition: Swift.Int)
-  public func setToolboxEndpointDetails(url: Swift.String, tbtoken: Swift.String, tbid: Swift.String, cid: Swift.String)
-  public func setStarzEndpointDetails(url: Swift.String, szapikey: Swift.String, szsession: Swift.String, cid: Swift.String)
   public func isAdPlaying() -> Swift.Bool
   @objc override dynamic public init()
   @objc deinit
@@ -205,9 +203,9 @@ public struct RenditionInfo {
   public var aCodec: Swift.String
   public var vCodec: Swift.String
 }
-@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class MMCustomAdapter : ObjectiveC.NSObject, MediaMelonQoE.MMSmartStreamingObserver {
-  public static let shared: MediaMelonQoE.MMCustomAdapter
-  @objc public func sessionInitializationCompleted(with status: MediaMelonQoE.MMSmartStreamingInitializationStatus, andDescription description: Swift.String!, forCmdWithId cmdId: Swift.Int, nowtilusPermission enableNowtilus: Swift.Bool)
+@objc @_inheritsConvenienceInitializers public class MMCustomAdapter : ObjectiveC.NSObject, MediaMelonQoE.MMSmartStreamingObserver {
+  @objc override dynamic public init()
+  @objc public func sessionInitializationCompleted(with status: MediaMelonQoE.MMObjCSmartStreamingInitializationStatus, andDescription description: Swift.String!)
   public func initializeAssetForPlayer(assetInfo: MediaMelonQoE.MMAssetInformation, registrationInfo: MediaMelonQoE.MMRegistrationInformation, deviceInfo: MediaMelonQoE.MMDeviceInformation)
   public func reportUserInitiatedPlayback()
   public func reportPlayerResolution(width: Swift.Int, height: Swift.Int)
@@ -222,7 +220,7 @@ public struct RenditionInfo {
   public func reportStreamInfo(streamURL: Swift.String, streamFormat: Swift.String, mediaType: Swift.String, sourceType: Swift.String)
   public func reportMediaTrackInfo(isSubtitleActive: Swift.Bool, subtitleTrack: Swift.String, audioTrack: Swift.String, isVDSActive: Swift.Bool)
   public func updateSubscriber(subscriberId: Swift.String, subscriberType: Swift.String, subscriberMetadata: Swift.String)
-  public func reportPlayerState(playerState: MediaMelonQoE.MMPlayerState)
+  public func reportPlayerState(playerState: MediaMelonQoE.MMObjCPlayerState)
   public func reportBufferingStarted()
   public func reportBufferingCompleted()
   public func reportPlayerSeekStarted()
@@ -237,7 +235,7 @@ public struct RenditionInfo {
   public func reportDownloadRate(downloadRate: Swift.Int)
   public func reportAdBreakStart()
   public func reportAdBreakEnd()
-  public func reportAdStart(adInfo: MediaMelonQoE.MMAdInfo)
+  public func reportAdStart(adInfo: MediaMelonQoE.MMObjCAdInfo)
   public func reportAdEnd()
   @objc deinit
 }
@@ -256,7 +254,7 @@ public struct RenditionInfo {
   public var seriesTitle: Swift.String?
   @objc public init(assetURL aURL: Swift.String, assetID aId: Swift.String?, assetName aName: Swift.String?, videoId vId: Swift.String?)
   @objc public func addCustomKVP(_ key: Swift.String, _ value: Swift.String)
-  @objc public func setQBRMode(_ mode: MediaMelonQoE.MMQBRMode, withMetaURL metaURL: Foundation.URL?)
+  @objc public func setQBRMode(_ mode: MediaMelonQoE.MMObjCQBRMode, withMetaURL metaURL: Foundation.URL?)
   @objc public func setContentType(_ cType: Swift.String?)
   @objc public func setDrmProtection(_ drmP: Swift.String?)
   @objc public func setEpisodeNumber(_ eNumber: Swift.String?)
