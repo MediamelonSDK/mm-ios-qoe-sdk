@@ -8219,6 +8219,32 @@
           },
           {
             "kind": "Function",
+            "name": "reportAppSessionID",
+            "printedName": "reportAppSessionID(appSessionId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MediaMelonQoE15MMCustomAdapterC18reportAppSessionID03appH2IdySS_tF",
+            "mangledName": "$s13MediaMelonQoE15MMCustomAdapterC18reportAppSessionID03appH2IdySS_tF",
+            "moduleName": "MediaMelonQoE",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "reportViewSessionID",
             "printedName": "reportViewSessionID(viewSessionId:)",
             "children": [
@@ -8327,6 +8353,32 @@
             "declKind": "Func",
             "usr": "s:13MediaMelonQoE15MMCustomAdapterC13updateDrmType03drmH0ySS_tF",
             "mangledName": "$s13MediaMelonQoE15MMCustomAdapterC13updateDrmType03drmH0ySS_tF",
+            "moduleName": "MediaMelonQoE",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "reportPreload",
+            "printedName": "reportPreload(preload:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MediaMelonQoE15MMCustomAdapterC13reportPreload7preloadySb_tF",
+            "mangledName": "$s13MediaMelonQoE15MMCustomAdapterC13reportPreload7preloadySb_tF",
             "moduleName": "MediaMelonQoE",
             "declAttributes": [
               "AccessControl"
@@ -11471,14 +11523,14 @@
     {
       "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Wrapper\/MMCustomWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 11781,
+      "offset": 12048,
       "length": 4,
       "value": "\"NA\""
     },
     {
       "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Wrapper\/MMCustomWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 11809,
+      "offset": 12076,
       "length": 9,
       "value": "\"Unknown\""
     }

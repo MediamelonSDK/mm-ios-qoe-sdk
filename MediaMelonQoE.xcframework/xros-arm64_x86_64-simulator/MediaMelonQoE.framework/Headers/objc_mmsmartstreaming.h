@@ -705,6 +705,10 @@ typedef NS_ENUM(NSInteger, MMSmartStreamingInitializationStatus){
 
 -(void) reportViewSessionIDWithViewSessionId:(NSString*)viewSessionId;
 
+-(void) reportAppSessionIDWithAppSessionId:(NSString*)appSessionId;
+
+-(void) reportPreloadWithPreload:(BOOL)preload;
+
 /**
  * Reports that user initiated the playback session.
  * This should be called at different instants depending on the mode of operation of player.
