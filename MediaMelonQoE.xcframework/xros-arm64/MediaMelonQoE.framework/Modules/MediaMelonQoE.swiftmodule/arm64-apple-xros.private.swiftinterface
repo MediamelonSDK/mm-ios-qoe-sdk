@@ -106,15 +106,41 @@ extension MediaMelonQoE.ReachabilityMM {
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
 }
-@objc @_inheritsConvenienceInitializers public class MMDeviceInformation : ObjectiveC.NSObject, Swift.Codable {
+public class MMDeviceInformation {
   public var brandName: Swift.String
-  public var deviceModel: Swift.String
-  public var osName: Swift.String
-  public var osVersion: Swift.String
-  public var telecomOperator: Swift.String
-  public var screenWidth: Swift.Int
-  public var screenHeight: Swift.Int
-  public var devicetype: Swift.String
+  public var deviceModel: Swift.String {
+    get
+    set
+  }
+  public var osName: Swift.String {
+    get
+    set
+  }
+  public var osVersion: Swift.String {
+    get
+    set
+  }
+  public var telecomOperator: Swift.String {
+    get
+    set
+  }
+  public var screenWidth: Swift.Int {
+    get
+    set
+  }
+  public var screenHeight: Swift.Int {
+    get
+    set
+  }
+  public var devicetype: Swift.String {
+    get
+    set
+  }
+  public var deviceName: Swift.String {
+    get
+    set
+  }
+  public init()
   public func setBrandName(brandName: Swift.String)
   public func setDeviceModel(deviceModel: Swift.String)
   public func setOSName(osName: Swift.String)
@@ -122,15 +148,11 @@ extension MediaMelonQoE.ReachabilityMM {
   public func setTelecomOperator(telecomOperator: Swift.String)
   public func setScreenResolution(width: Swift.Int, height: Swift.Int)
   public func setDeviceTpe(type: Swift.String)
-  @objc override dynamic public init()
   @objc deinit
-  public func encode(to encoder: any Swift.Encoder) throws
-  required public init(from decoder: any Swift.Decoder) throws
 }
 @_inheritsConvenienceInitializers @objc public class GenericMMWrapper : ObjectiveC.NSObject, MediaMelonQoE.MMSmartStreamingObserver {
   @objc public func sessionInitializationCompleted(with status: MediaMelonQoE.MMSmartStreamingInitializationStatus, andDescription description: Swift.String!, forCmdWithId cmdId: Swift.Int, nowtilusPermission enableNowtilus: Swift.Bool)
   public static let shared: MediaMelonQoE.GenericMMWrapper
-  public var extIsLive: Swift.Bool
   public func getCoreSDKVersion() -> Swift.String
   public func getHarmonicSSAIVersion() -> Swift.String
   public func reportSDKVersion(sdkVersion: Swift.String)
@@ -140,13 +162,16 @@ extension MediaMelonQoE.ReachabilityMM {
   public static func updateSubscriber(subscriberId: Swift.String, subscriberType: Swift.String, subscriberMetadata: Swift.String)
   public func reportVideoQuality(videoQuality: Swift.String)
   public func reportDeviceMarketingName(deviceMarketingName: Swift.String)
-  public func reportDeviceID()
+  public func reportDeviceID(deviceID: Swift.String = "")
   public func reportAppData(appName: Swift.String, appVersion: Swift.String)
   public func enableLogTrace(logStTrace: Swift.Bool)
   public func reportError(error: Swift.String, playbackPosMilliSec: Swift.Int)
   public static func reportMetricValue(metricToOverride: MediaMelonQoE.MMOverridableMetric, value: Swift.String)
   public func reportMediaTrackInfo(isSubtitleActive: Swift.Bool, subtitleTrack: Swift.String, audioTrack: Swift.String, isVDSActive: Swift.Bool)
   public func reportNetworkType(connInfo: MediaMelonQoE.MMConnectionInfo)
+  public func reportStreamInfo(streamFormat: Swift.String, mediaType: Swift.String, sourceType: Swift.String)
+  public func reportPlayerResolution(width: Swift.Int, height: Swift.Int)
+  public func reportFallbackEvent(fallbackManifestURL: Swift.String, description: Swift.String)
   public func reportLocation(latitude: Swift.Double, longitude: Swift.Double)
   public func reportChunkRequest(chunkInfo: MediaMelonQoE.MMChunkInformation)
   public func reportChunkRequest(bitrate: Swift.Int, fragmentDuration: Swift.Int?, url: Swift.String?)
@@ -173,13 +198,6 @@ extension MediaMelonQoE.ReachabilityMM {
   public func isAdPlaying() -> Swift.Bool
   @objc override dynamic public init()
   @objc deinit
-}
-public class VOPlayerAlternateInfo {
-  public init(tIndex: Swift.Int?, bitRate: Swift.Int?, width: Swift.Int?, height: Swift.Int?, codecIdentifier: Swift.String?)
-  @objc deinit
-}
-extension UIKit.UIDevice {
-  @_Concurrency.MainActor @preconcurrency public static let modelName: Swift.String
 }
 @_inheritsConvenienceInitializers @objc public class MMReachabilityManager : ObjectiveC.NSObject {
   public static let shared: MediaMelonQoE.MMReachabilityManager
