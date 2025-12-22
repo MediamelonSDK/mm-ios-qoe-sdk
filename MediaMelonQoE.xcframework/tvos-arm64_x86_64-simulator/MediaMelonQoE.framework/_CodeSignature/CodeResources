@@ -22,11 +22,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		S+DU6ZXbwXUDxbgWtX8RAVbKng0=
+		QD3Rek4cFn2uZTMVcvsuiFDNX7Q=
 		</data>
 		<key>Modules/MediaMelonQoE.swiftmodule/arm64-apple-tvos-simulator.abi.json</key>
 		<data>
-		F3uA/opx6KLb7yCTJgRpJbVdNcM=
+		ZN7k8UbmWxlSmMCi2Pa3VWWlwWc=
 		</data>
 		<key>Modules/MediaMelonQoE.swiftmodule/arm64-apple-tvos-simulator.private.swiftinterface</key>
 		<data>
@@ -42,11 +42,11 @@
 		</data>
 		<key>Modules/MediaMelonQoE.swiftmodule/arm64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		9q+dcwndrBrZobvb2/X1LsY+w7I=
+		5AbckWgKD9SQGoaOnsUtWl+6CwI=
 		</data>
 		<key>Modules/MediaMelonQoE.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
 		<data>
-		F3uA/opx6KLb7yCTJgRpJbVdNcM=
+		ZN7k8UbmWxlSmMCi2Pa3VWWlwWc=
 		</data>
 		<key>Modules/MediaMelonQoE.swiftmodule/x86_64-apple-tvos-simulator.private.swiftinterface</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Modules/MediaMelonQoE.swiftmodule/x86_64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		Q49JoaeC4DiWaO+EcNq8GnKhwOQ=
+		W4j7dGCGUX+HH/RmeaGdNxFDMxg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -103,7 +103,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LywpK4Cuqf3oKPToNJ2P3NIZRUxbsh6/GTRHyahTkg4=
+			0Br2uK4jfLgqRZ7n3rQclMrvk/MXGDrd62k8XYUf5eI=
 			</data>
 		</dict>
 		<key>Modules/MediaMelonQoE.swiftmodule/arm64-apple-tvos-simulator.private.swiftinterface</key>
@@ -131,14 +131,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			iFgSxk8cTjHR9oXiXFZ9sapAuR0GGHku28mORMTzsoU=
+			36+levtPsDwPEb1TEn9xnDz/M7uTD5aTyYrUVtTaLXg=
 			</data>
 		</dict>
 		<key>Modules/MediaMelonQoE.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LywpK4Cuqf3oKPToNJ2P3NIZRUxbsh6/GTRHyahTkg4=
+			0Br2uK4jfLgqRZ7n3rQclMrvk/MXGDrd62k8XYUf5eI=
 			</data>
 		</dict>
 		<key>Modules/MediaMelonQoE.swiftmodule/x86_64-apple-tvos-simulator.private.swiftinterface</key>
@@ -166,7 +166,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6D84esxkFVBSFXJoiER+rvOWhWpFRM2zebSpv8g8OYg=
+			EkQVS/OEy4AQC+RW3Vd7Ht0dnnWVKvbQH0iTa8JOrnM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

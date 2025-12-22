@@ -10975,21 +10975,21 @@
     {
       "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/MMDeviceInformation.swift",
       "kind": "IntegerLiteral",
-      "offset": 1049,
+      "offset": 1085,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/MMDeviceInformation.swift",
       "kind": "StringLiteral",
-      "offset": 1252,
+      "offset": 1324,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/MMDeviceInformation.swift",
       "kind": "StringLiteral",
-      "offset": 1321,
+      "offset": 1393,
       "length": 12,
       "value": "\"Simulator \""
     },
