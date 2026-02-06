@@ -240,6 +240,7 @@ public struct RenditionInfo {
   public func reportPreload(preload: Swift.Bool)
   public func reportDeviceID()
   public func reportNetworkInfo(cdn: Swift.String, asn: Swift.Int, hostName: Swift.String, networkType: Swift.String, networkOperator: Swift.String)
+  public func reportCDN(cdn: Swift.String)
   public func reportStreamInfo(streamURL: Swift.String, streamFormat: Swift.String, mediaType: Swift.String, sourceType: Swift.String)
   public func reportMediaTrackInfo(isSubtitleActive: Swift.Bool, subtitleTrack: Swift.String, audioTrack: Swift.String, isVDSActive: Swift.Bool)
   public func updateSubscriber(subscriberId: Swift.String, subscriberType: Swift.String, subscriberMetadata: Swift.String)

@@ -282,11 +282,6 @@ typedef NS_ENUM(NSInteger, MMOverridableMetric){
     Latency,
     
     /**
-     * IP address of manifest server
-     */
-    ServerAddress,
-    
-    /**
      * Duration of time that the player was in the PLAYING state, excluding advertisement play time.
      */
     DurationWatched,
@@ -295,6 +290,10 @@ typedef NS_ENUM(NSInteger, MMOverridableMetric){
     
     DrmProtection
 } ;
+
+typedef NS_ENUM(NSInteger, MMStringDimension) {
+    CDN
+};
 
 /**
  * MMPlayerState - State of the player
@@ -676,6 +675,8 @@ typedef NS_ENUM(NSInteger, MMSmartStreamingInitializationStatus){
  */
 -(void) reportMetricValueForMetric:(MMOverridableMetric) metric value:(NSString*)value;
 
+-(void) reportStringDimensionForDimension:(MMStringDimension) dimension value:(NSString*)value;
+
 /**
  * Reports the current player state to analytics.
  *
@@ -778,7 +779,7 @@ typedef NS_ENUM(NSInteger, MMSmartStreamingInitializationStatus){
 
 -(void) reportPlayerSeekStarted;
 
--(void) reportNetworkInfoWithCdn: (NSString*) cdn asn: (NSInteger) asn sourceHostName: (NSString*) sourceHostName networkType: (NSString*) networkType networkOperator: (NSString*) networkOperator;
+-(void) reportNetworkInfoWithAsn: (NSInteger) asn sourceHostName: (NSString*) sourceHostName networkType: (NSString*) networkType networkOperator: (NSString*) networkOperator;
 
 -(void) reportStreamInfoWithStreamFormat: (NSString*) streamFormat mediaType: (NSString*) mediaType sourceType: (NSString*) sourceType;
 
@@ -845,6 +846,8 @@ typedef NS_ENUM(NSInteger, MMSmartStreamingInitializationStatus){
  * @see setPresentationInformation
  */
 +(void) disableManifestsFetch:(BOOL)enable;
+
++(void) disableVRTBuffering:(BOOL)disable;
 
 /**
  * Reports the Media Track Info to analytics.
