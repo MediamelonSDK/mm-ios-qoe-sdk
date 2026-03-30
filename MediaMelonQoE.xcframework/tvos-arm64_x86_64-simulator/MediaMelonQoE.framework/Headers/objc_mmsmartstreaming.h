@@ -292,7 +292,8 @@ typedef NS_ENUM(NSInteger, MMOverridableMetric){
 } ;
 
 typedef NS_ENUM(NSInteger, MMStringDimension) {
-    CDN
+    CDN,
+    ENCODING_SERVICE
 };
 
 /**
@@ -786,6 +787,8 @@ typedef NS_ENUM(NSInteger, MMSmartStreamingInitializationStatus){
 -(void) reportEventAndDescriptionWithEvent: (NSString*) eventName description: (NSString*) description;
 
 -(void) reportPlayerResolutionWithWidth: (NSInteger) width height: (NSInteger) height;
+
+-(void) reportCustomEventWithEventName: (NSString*) eventName eventValue: (NSString*) eventValue;
 /**
  * Reports the WiFi signal strength. This may be useful, if someone is analyzing a
  * back playback session using smartsight's microscope feature, and wants to know if Wifi signal

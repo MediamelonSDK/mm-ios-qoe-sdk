@@ -17,16 +17,16 @@ import _SwiftConcurrencyShims
   public var customerID: Swift.String!
   public var component: Swift.String!
   public var playerName: Swift.String!
-  public var domainName: Swift.String?
+  public var domainName: Swift.String
   public var subscriberID: Swift.String?
   public var hashSubscriberID: Swift.Bool!
-  public var subscriberType: Swift.String?
-  public var subscriberTag: Swift.String?
-  public var playerBrand: Swift.String?
-  public var playerModel: Swift.String?
-  public var playerVersion: Swift.String?
-  public var basePlayerName: Swift.String?
-  public var basePlayerVersion: Swift.String?
+  public var subscriberType: Swift.String
+  public var subscriberTag: Swift.String
+  public var playerBrand: Swift.String
+  public var playerModel: Swift.String
+  public var playerVersion: Swift.String
+  public var basePlayerName: Swift.String
+  public var basePlayerVersion: Swift.String
   @objc public init(customerID cID: Swift.String, playerName pName: Swift.String)
   @objc public func setDomain(_ dName: Swift.String?)
   @objc public func setSubscriberInformation(subscriberID subsID: Swift.String?, subscriberType subsType: Swift.String?, subscriberTag subsTag: Swift.String?, hashSubscriberID hashSubID: Swift.Bool)
@@ -35,14 +35,6 @@ import _SwiftConcurrencyShims
   @objc public func setComponentName(_ cName: Swift.String?)
   @objc public func setBasePlayerInformation(basePlayerName: Swift.String?, basePlayerVersion: Swift.String?)
   @objc deinit
-}
-public enum MMOverridableMetrics {
-  case Latency, CDN, DurationWatched
-  public static func == (a: MediaMelonQoE.MMOverridableMetrics, b: MediaMelonQoE.MMOverridableMetrics) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
 }
 public enum ReachabilityErrorMM : Swift.Error {
   case FailedToCreateWithAddress(Darwin.sockaddr_in)
@@ -154,6 +146,7 @@ public class MMDeviceInformation {
 @_inheritsConvenienceInitializers @objc public class GenericMMWrapper : ObjectiveC.NSObject, MediaMelonQoE.MMSmartStreamingObserver {
   @objc public func sessionInitializationCompleted(with status: MediaMelonQoE.MMSmartStreamingInitializationStatus, andDescription description: Swift.String!, forCmdWithId cmdId: Swift.Int, nowtilusPermission enableNowtilus: Swift.Bool)
   public static let shared: MediaMelonQoE.GenericMMWrapper
+  public var isLive: Swift.Bool
   public func getCoreSDKVersion() -> Swift.String
   public func getHarmonicSSAIVersion() -> Swift.String
   public func reportSDKVersion(sdkVersion: Swift.String)
@@ -168,6 +161,7 @@ public class MMDeviceInformation {
   public func enableLogTrace(logStTrace: Swift.Bool)
   public func reportError(error: Swift.String, playbackPosMilliSec: Swift.Int)
   public static func reportMetricValue(metricToOverride: MediaMelonQoE.MMOverridableMetric, value: Swift.String)
+  public func reportStringDimension(dimension: MediaMelonQoE.MMStringDimension, value: Swift.String)
   public func reportMediaTrackInfo(isSubtitleActive: Swift.Bool, subtitleTrack: Swift.String, audioTrack: Swift.String, isVDSActive: Swift.Bool)
   public func reportNetworkType(connInfo: MediaMelonQoE.MMConnectionInfo)
   public func reportStreamInfo(streamFormat: Swift.String, mediaType: Swift.String, sourceType: Swift.String)
@@ -187,10 +181,13 @@ public class MMDeviceInformation {
   public func reportPlayerSeekStarted()
   public func reportPlayerState(playerState: MediaMelonQoE.MMPlayerState)
   public func registerForMMSDK(registrationInformation pInfo: MediaMelonQoE.MMRegistrationInformation)
-  public func reportExperimentName(experimentName: Swift.String?)
-  public func reportSubPropertyID(subPropertyId: Swift.String?)
-  public func reportViewSessionID(viewSessionId: Swift.String?)
-  public func reportBasePlayerInfo(basePlayerName: Swift.String?, basePlayerVersion: Swift.String?)
+  public func reportExperimentName(experimentName: Swift.String)
+  public func reportSubPropertyID(subPropertyId: Swift.String)
+  public func reportAppSessionID(appSessionId: Swift.String)
+  public func reportViewSessionID(viewSessionId: Swift.String)
+  public func reportEncodingService(encodingService: Swift.String)
+  public func reportCustomEvent(eventName: Swift.String, eventValue: Swift.String)
+  public static func reportBasePlayerInfo(basePlayerName: Swift.String, basePlayerVersion: Swift.String)
   public func reportUserInitiatedPlayback()
   public func initialiseSession(registrationUri: Swift.String, assetInformation: MediaMelonQoE.MMAssetInformation)
   public func updatePlaybackPosition(currentPosition: Swift.Int)
@@ -238,6 +235,7 @@ public struct RenditionInfo {
   public func reportCustomMetadata(key: Swift.String, value: Swift.String)
   public func updateDrmType(drmType: Swift.String)
   public func reportPreload(preload: Swift.Bool)
+  public func reportEncodingService(encodingService: Swift.String)
   public func reportDeviceID()
   public func reportNetworkInfo(cdn: Swift.String, asn: Swift.Int, hostName: Swift.String, networkType: Swift.String, networkOperator: Swift.String)
   public func reportCDN(cdn: Swift.String)
@@ -247,6 +245,8 @@ public struct RenditionInfo {
   public func reportPlayerState(playerState: MediaMelonQoE.MMPlayerState)
   public func reportBufferingStarted()
   public func reportBufferingCompleted()
+  public func reportAdBufferingStarted()
+  public func reportAdBufferingCompleted()
   public func reportPlayerSeekStarted()
   public func reportPlayerSeekCompleted(seekEndPositionInMS: Swift.Int)
   public func reportPlaybackPosition(currentPlayerPosInMS: Swift.Int)
@@ -261,6 +261,10 @@ public struct RenditionInfo {
   public func reportAdBreakEnd()
   public func reportAdStart(adInfo: MediaMelonQoE.MMAdInfo)
   public func reportAdEnd()
+  public func reportCustomEvent(eventName: Swift.String, eventValue: Swift.String)
+  public func isPlaybackActive() -> Swift.Bool
+  public func isPlaybackStarted() -> Swift.Bool
+  public func isPlaybackEnded() -> Swift.Bool
   @objc deinit
 }
 @objc public class MMAssetInformation : ObjectiveC.NSObject, Swift.Codable {
@@ -289,8 +293,6 @@ public struct RenditionInfo {
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
 }
-extension MediaMelonQoE.MMOverridableMetrics : Swift.Equatable {}
-extension MediaMelonQoE.MMOverridableMetrics : Swift.Hashable {}
 extension MediaMelonQoE.ReachabilityMM.NetworkStatus : Swift.Equatable {}
 extension MediaMelonQoE.ReachabilityMM.NetworkStatus : Swift.Hashable {}
 extension MediaMelonQoE.RequestStatus : Swift.Equatable {}
