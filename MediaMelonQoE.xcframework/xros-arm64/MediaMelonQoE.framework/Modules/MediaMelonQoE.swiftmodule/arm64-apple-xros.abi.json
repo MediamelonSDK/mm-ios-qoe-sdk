@@ -33,26 +33,18 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "ImplicitlyUnwrappedOptional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Var",
-            "usr": "s:13MediaMelonQoE25MMRegistrationInformationC10customerIDSSSgvp",
-            "mangledName": "$s13MediaMelonQoE25MMRegistrationInformationC10customerIDSSSgvp",
+            "usr": "s:13MediaMelonQoE25MMRegistrationInformationC10customerIDSSvp",
+            "mangledName": "$s13MediaMelonQoE25MMRegistrationInformationC10customerIDSSvp",
             "moduleName": "MediaMelonQoE",
             "declAttributes": [
-              "HasInitialValue",
               "HasStorage",
+              "SetterAccess",
               "AccessControl",
               "RawDocComment"
             ],
@@ -65,75 +57,17 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "ImplicitlyUnwrappedOptional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13MediaMelonQoE25MMRegistrationInformationC10customerIDSSSgvg",
-                "mangledName": "$s13MediaMelonQoE25MMRegistrationInformationC10customerIDSSSgvg",
+                "usr": "s:13MediaMelonQoE25MMRegistrationInformationC10customerIDSSvg",
+                "mangledName": "$s13MediaMelonQoE25MMRegistrationInformationC10customerIDSSvg",
                 "moduleName": "MediaMelonQoE",
                 "implicit": true,
                 "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ImplicitlyUnwrappedOptional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13MediaMelonQoE25MMRegistrationInformationC10customerIDSSSgvs",
-                "mangledName": "$s13MediaMelonQoE25MMRegistrationInformationC10customerIDSSSgvs",
-                "moduleName": "MediaMelonQoE",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13MediaMelonQoE25MMRegistrationInformationC10customerIDSSSgvM",
-                "mangledName": "$s13MediaMelonQoE25MMRegistrationInformationC10customerIDSSSgvM",
-                "moduleName": "MediaMelonQoE",
-                "implicit": true,
-                "accessorKind": "_modify"
               }
             ]
           },
@@ -144,26 +78,18 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "ImplicitlyUnwrappedOptional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Var",
-            "usr": "s:13MediaMelonQoE25MMRegistrationInformationC9componentSSSgvp",
-            "mangledName": "$s13MediaMelonQoE25MMRegistrationInformationC9componentSSSgvp",
+            "usr": "s:13MediaMelonQoE25MMRegistrationInformationC9componentSSvp",
+            "mangledName": "$s13MediaMelonQoE25MMRegistrationInformationC9componentSSvp",
             "moduleName": "MediaMelonQoE",
             "declAttributes": [
-              "HasInitialValue",
               "HasStorage",
+              "SetterAccess",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -175,75 +101,17 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "ImplicitlyUnwrappedOptional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13MediaMelonQoE25MMRegistrationInformationC9componentSSSgvg",
-                "mangledName": "$s13MediaMelonQoE25MMRegistrationInformationC9componentSSSgvg",
+                "usr": "s:13MediaMelonQoE25MMRegistrationInformationC9componentSSvg",
+                "mangledName": "$s13MediaMelonQoE25MMRegistrationInformationC9componentSSvg",
                 "moduleName": "MediaMelonQoE",
                 "implicit": true,
                 "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ImplicitlyUnwrappedOptional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13MediaMelonQoE25MMRegistrationInformationC9componentSSSgvs",
-                "mangledName": "$s13MediaMelonQoE25MMRegistrationInformationC9componentSSSgvs",
-                "moduleName": "MediaMelonQoE",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13MediaMelonQoE25MMRegistrationInformationC9componentSSSgvM",
-                "mangledName": "$s13MediaMelonQoE25MMRegistrationInformationC9componentSSSgvM",
-                "moduleName": "MediaMelonQoE",
-                "implicit": true,
-                "accessorKind": "_modify"
               }
             ]
           },
@@ -254,26 +122,18 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "ImplicitlyUnwrappedOptional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Var",
-            "usr": "s:13MediaMelonQoE25MMRegistrationInformationC10playerNameSSSgvp",
-            "mangledName": "$s13MediaMelonQoE25MMRegistrationInformationC10playerNameSSSgvp",
+            "usr": "s:13MediaMelonQoE25MMRegistrationInformationC10playerNameSSvp",
+            "mangledName": "$s13MediaMelonQoE25MMRegistrationInformationC10playerNameSSvp",
             "moduleName": "MediaMelonQoE",
             "declAttributes": [
-              "HasInitialValue",
               "HasStorage",
+              "SetterAccess",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -285,75 +145,17 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "ImplicitlyUnwrappedOptional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13MediaMelonQoE25MMRegistrationInformationC10playerNameSSSgvg",
-                "mangledName": "$s13MediaMelonQoE25MMRegistrationInformationC10playerNameSSSgvg",
+                "usr": "s:13MediaMelonQoE25MMRegistrationInformationC10playerNameSSvg",
+                "mangledName": "$s13MediaMelonQoE25MMRegistrationInformationC10playerNameSSvg",
                 "moduleName": "MediaMelonQoE",
                 "implicit": true,
                 "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ImplicitlyUnwrappedOptional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13MediaMelonQoE25MMRegistrationInformationC10playerNameSSSgvs",
-                "mangledName": "$s13MediaMelonQoE25MMRegistrationInformationC10playerNameSSSgvs",
-                "moduleName": "MediaMelonQoE",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13MediaMelonQoE25MMRegistrationInformationC10playerNameSSSgvM",
-                "mangledName": "$s13MediaMelonQoE25MMRegistrationInformationC10playerNameSSSgvM",
-                "moduleName": "MediaMelonQoE",
-                "implicit": true,
-                "accessorKind": "_modify"
               }
             ]
           },
@@ -560,22 +362,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "ImplicitlyUnwrappedOptional",
-                "printedName": "Swift.Bool?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "usr": "s:Sq"
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
               }
             ],
             "declKind": "Var",
-            "usr": "s:13MediaMelonQoE25MMRegistrationInformationC16hashSubscriberIDSbSgvp",
-            "mangledName": "$s13MediaMelonQoE25MMRegistrationInformationC16hashSubscriberIDSbSgvp",
+            "usr": "s:13MediaMelonQoE25MMRegistrationInformationC16hashSubscriberIDSbvp",
+            "mangledName": "$s13MediaMelonQoE25MMRegistrationInformationC16hashSubscriberIDSbvp",
             "moduleName": "MediaMelonQoE",
             "declAttributes": [
               "HasInitialValue",
@@ -591,22 +385,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "ImplicitlyUnwrappedOptional",
-                    "printedName": "Swift.Bool?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Bool",
-                        "printedName": "Swift.Bool",
-                        "usr": "s:Sb"
-                      }
-                    ],
-                    "usr": "s:Sq"
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13MediaMelonQoE25MMRegistrationInformationC16hashSubscriberIDSbSgvg",
-                "mangledName": "$s13MediaMelonQoE25MMRegistrationInformationC16hashSubscriberIDSbSgvg",
+                "usr": "s:13MediaMelonQoE25MMRegistrationInformationC16hashSubscriberIDSbvg",
+                "mangledName": "$s13MediaMelonQoE25MMRegistrationInformationC16hashSubscriberIDSbvg",
                 "moduleName": "MediaMelonQoE",
                 "implicit": true,
                 "accessorKind": "get"
@@ -623,22 +409,14 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "ImplicitlyUnwrappedOptional",
-                    "printedName": "Swift.Bool?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Bool",
-                        "printedName": "Swift.Bool",
-                        "usr": "s:Sb"
-                      }
-                    ],
-                    "usr": "s:Sq"
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13MediaMelonQoE25MMRegistrationInformationC16hashSubscriberIDSbSgvs",
-                "mangledName": "$s13MediaMelonQoE25MMRegistrationInformationC16hashSubscriberIDSbSgvs",
+                "usr": "s:13MediaMelonQoE25MMRegistrationInformationC16hashSubscriberIDSbvs",
+                "mangledName": "$s13MediaMelonQoE25MMRegistrationInformationC16hashSubscriberIDSbvs",
                 "moduleName": "MediaMelonQoE",
                 "implicit": true,
                 "accessorKind": "set"
@@ -655,8 +433,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13MediaMelonQoE25MMRegistrationInformationC16hashSubscriberIDSbSgvM",
-                "mangledName": "$s13MediaMelonQoE25MMRegistrationInformationC16hashSubscriberIDSbSgvM",
+                "usr": "s:13MediaMelonQoE25MMRegistrationInformationC16hashSubscriberIDSbvM",
+                "mangledName": "$s13MediaMelonQoE25MMRegistrationInformationC16hashSubscriberIDSbvM",
                 "moduleName": "MediaMelonQoE",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -829,6 +607,92 @@
                 "declKind": "Accessor",
                 "usr": "s:13MediaMelonQoE25MMRegistrationInformationC13subscriberTagSSvM",
                 "mangledName": "$s13MediaMelonQoE25MMRegistrationInformationC13subscriberTagSSvM",
+                "moduleName": "MediaMelonQoE",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "playerId",
+            "printedName": "playerId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13MediaMelonQoE25MMRegistrationInformationC8playerIdSSvp",
+            "mangledName": "$s13MediaMelonQoE25MMRegistrationInformationC8playerIdSSvp",
+            "moduleName": "MediaMelonQoE",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MediaMelonQoE25MMRegistrationInformationC8playerIdSSvg",
+                "mangledName": "$s13MediaMelonQoE25MMRegistrationInformationC8playerIdSSvg",
+                "moduleName": "MediaMelonQoE",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MediaMelonQoE25MMRegistrationInformationC8playerIdSSvs",
+                "mangledName": "$s13MediaMelonQoE25MMRegistrationInformationC8playerIdSSvs",
+                "moduleName": "MediaMelonQoE",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MediaMelonQoE25MMRegistrationInformationC8playerIdSSvM",
+                "mangledName": "$s13MediaMelonQoE25MMRegistrationInformationC8playerIdSSvM",
                 "moduleName": "MediaMelonQoE",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -1466,6 +1330,42 @@
             "mangledName": "$s13MediaMelonQoE25MMRegistrationInformationC013setSubscriberE012subscriberID0H4Type0H3TagySSSg_A2HtF",
             "moduleName": "MediaMelonQoE",
             "objc_name": "setSubscriberInformationWithSubscriberID:subscriberType:subscriberTag:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setPlayerId",
+            "printedName": "setPlayerId(playerId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MediaMelonQoE@objc(cs)MMRegistrationInformation(im)setPlayerIdWithPlayerId:",
+            "mangledName": "$s13MediaMelonQoE25MMRegistrationInformationC11setPlayerId06playerH0ySSSg_tF",
+            "moduleName": "MediaMelonQoE",
+            "objc_name": "setPlayerIdWithPlayerId:",
             "declAttributes": [
               "AccessControl",
               "ObjC"
@@ -3799,6 +3699,1720 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MediaMelonQoE",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MMAdType",
+        "printedName": "MMAdType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "linear",
+            "printedName": "linear",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MediaMelonQoE.MMAdType.Type) -> MediaMelonQoE.MMAdType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MMAdType",
+                    "printedName": "MediaMelonQoE.MMAdType",
+                    "usr": "s:13MediaMelonQoE8MMAdTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MediaMelonQoE.MMAdType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MMAdType",
+                        "printedName": "MediaMelonQoE.MMAdType",
+                        "usr": "s:13MediaMelonQoE8MMAdTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13MediaMelonQoE8MMAdTypeO6linearyA2CmF",
+            "mangledName": "$s13MediaMelonQoE8MMAdTypeO6linearyA2CmF",
+            "moduleName": "MediaMelonQoE"
+          },
+          {
+            "kind": "Var",
+            "name": "unknown",
+            "printedName": "unknown",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MediaMelonQoE.MMAdType.Type) -> MediaMelonQoE.MMAdType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MMAdType",
+                    "printedName": "MediaMelonQoE.MMAdType",
+                    "usr": "s:13MediaMelonQoE8MMAdTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MediaMelonQoE.MMAdType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MMAdType",
+                        "printedName": "MediaMelonQoE.MMAdType",
+                        "usr": "s:13MediaMelonQoE8MMAdTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13MediaMelonQoE8MMAdTypeO7unknownyA2CmF",
+            "mangledName": "$s13MediaMelonQoE8MMAdTypeO7unknownyA2CmF",
+            "moduleName": "MediaMelonQoE"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "MediaMelonQoE.MMAdType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MMAdType",
+                    "printedName": "MediaMelonQoE.MMAdType",
+                    "usr": "s:13MediaMelonQoE8MMAdTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13MediaMelonQoE8MMAdTypeO8rawValueACSgSi_tcfc",
+            "mangledName": "$s13MediaMelonQoE8MMAdTypeO8rawValueACSgSi_tcfc",
+            "moduleName": "MediaMelonQoE",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13MediaMelonQoE8MMAdTypeO8rawValueSivp",
+            "mangledName": "$s13MediaMelonQoE8MMAdTypeO8rawValueSivp",
+            "moduleName": "MediaMelonQoE",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MediaMelonQoE8MMAdTypeO8rawValueSivg",
+                "mangledName": "$s13MediaMelonQoE8MMAdTypeO8rawValueSivg",
+                "moduleName": "MediaMelonQoE",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:13MediaMelonQoE8MMAdTypeO",
+        "mangledName": "$s13MediaMelonQoE8MMAdTypeO",
+        "moduleName": "MediaMelonQoE",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MMAdInformation",
+        "printedName": "MMAdInformation",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "adClient",
+            "printedName": "adClient",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13MediaMelonQoE15MMAdInformationC8adClientSSvp",
+            "mangledName": "$s13MediaMelonQoE15MMAdInformationC8adClientSSvp",
+            "moduleName": "MediaMelonQoE",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MediaMelonQoE15MMAdInformationC8adClientSSvg",
+                "mangledName": "$s13MediaMelonQoE15MMAdInformationC8adClientSSvg",
+                "moduleName": "MediaMelonQoE",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "adId",
+            "printedName": "adId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13MediaMelonQoE15MMAdInformationC4adIdSSvp",
+            "mangledName": "$s13MediaMelonQoE15MMAdInformationC4adIdSSvp",
+            "moduleName": "MediaMelonQoE",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MediaMelonQoE15MMAdInformationC4adIdSSvg",
+                "mangledName": "$s13MediaMelonQoE15MMAdInformationC4adIdSSvg",
+                "moduleName": "MediaMelonQoE",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "adCreativeId",
+            "printedName": "adCreativeId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13MediaMelonQoE15MMAdInformationC12adCreativeIdSSvp",
+            "mangledName": "$s13MediaMelonQoE15MMAdInformationC12adCreativeIdSSvp",
+            "moduleName": "MediaMelonQoE",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MediaMelonQoE15MMAdInformationC12adCreativeIdSSvg",
+                "mangledName": "$s13MediaMelonQoE15MMAdInformationC12adCreativeIdSSvg",
+                "moduleName": "MediaMelonQoE",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "adUniversalId",
+            "printedName": "adUniversalId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13MediaMelonQoE15MMAdInformationC13adUniversalIdSSvp",
+            "mangledName": "$s13MediaMelonQoE15MMAdInformationC13adUniversalIdSSvp",
+            "moduleName": "MediaMelonQoE",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MediaMelonQoE15MMAdInformationC13adUniversalIdSSvg",
+                "mangledName": "$s13MediaMelonQoE15MMAdInformationC13adUniversalIdSSvg",
+                "moduleName": "MediaMelonQoE",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "adDuration",
+            "printedName": "adDuration",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13MediaMelonQoE15MMAdInformationC10adDurationSivp",
+            "mangledName": "$s13MediaMelonQoE15MMAdInformationC10adDurationSivp",
+            "moduleName": "MediaMelonQoE",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MediaMelonQoE15MMAdInformationC10adDurationSivg",
+                "mangledName": "$s13MediaMelonQoE15MMAdInformationC10adDurationSivg",
+                "moduleName": "MediaMelonQoE",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "adPositionInPod",
+            "printedName": "adPositionInPod",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13MediaMelonQoE15MMAdInformationC15adPositionInPodSivp",
+            "mangledName": "$s13MediaMelonQoE15MMAdInformationC15adPositionInPodSivp",
+            "moduleName": "MediaMelonQoE",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MediaMelonQoE15MMAdInformationC15adPositionInPodSivg",
+                "mangledName": "$s13MediaMelonQoE15MMAdInformationC15adPositionInPodSivg",
+                "moduleName": "MediaMelonQoE",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "adPosition",
+            "printedName": "adPosition",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13MediaMelonQoE15MMAdInformationC10adPositionSSvp",
+            "mangledName": "$s13MediaMelonQoE15MMAdInformationC10adPositionSSvp",
+            "moduleName": "MediaMelonQoE",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MediaMelonQoE15MMAdInformationC10adPositionSSvg",
+                "mangledName": "$s13MediaMelonQoE15MMAdInformationC10adPositionSSvg",
+                "moduleName": "MediaMelonQoE",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "adType",
+            "printedName": "adType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MMAdType",
+                "printedName": "MediaMelonQoE.MMAdType",
+                "usr": "s:13MediaMelonQoE8MMAdTypeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13MediaMelonQoE15MMAdInformationC6adTypeAA0dG0Ovp",
+            "mangledName": "$s13MediaMelonQoE15MMAdInformationC6adTypeAA0dG0Ovp",
+            "moduleName": "MediaMelonQoE",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MMAdType",
+                    "printedName": "MediaMelonQoE.MMAdType",
+                    "usr": "s:13MediaMelonQoE8MMAdTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MediaMelonQoE15MMAdInformationC6adTypeAA0dG0Ovg",
+                "mangledName": "$s13MediaMelonQoE15MMAdInformationC6adTypeAA0dG0Ovg",
+                "moduleName": "MediaMelonQoE",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "adCreativeType",
+            "printedName": "adCreativeType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13MediaMelonQoE15MMAdInformationC14adCreativeTypeSSvp",
+            "mangledName": "$s13MediaMelonQoE15MMAdInformationC14adCreativeTypeSSvp",
+            "moduleName": "MediaMelonQoE",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MediaMelonQoE15MMAdInformationC14adCreativeTypeSSvg",
+                "mangledName": "$s13MediaMelonQoE15MMAdInformationC14adCreativeTypeSSvg",
+                "moduleName": "MediaMelonQoE",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "adServer",
+            "printedName": "adServer",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13MediaMelonQoE15MMAdInformationC8adServerSSvp",
+            "mangledName": "$s13MediaMelonQoE15MMAdInformationC8adServerSSvp",
+            "moduleName": "MediaMelonQoE",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MediaMelonQoE15MMAdInformationC8adServerSSvg",
+                "mangledName": "$s13MediaMelonQoE15MMAdInformationC8adServerSSvg",
+                "moduleName": "MediaMelonQoE",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "adResolution",
+            "printedName": "adResolution",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13MediaMelonQoE15MMAdInformationC12adResolutionSSvp",
+            "mangledName": "$s13MediaMelonQoE15MMAdInformationC12adResolutionSSvp",
+            "moduleName": "MediaMelonQoE",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MediaMelonQoE15MMAdInformationC12adResolutionSSvg",
+                "mangledName": "$s13MediaMelonQoE15MMAdInformationC12adResolutionSSvg",
+                "moduleName": "MediaMelonQoE",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "adUrl",
+            "printedName": "adUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13MediaMelonQoE15MMAdInformationC5adUrlSSvp",
+            "mangledName": "$s13MediaMelonQoE15MMAdInformationC5adUrlSSvp",
+            "moduleName": "MediaMelonQoE",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MediaMelonQoE15MMAdInformationC5adUrlSSvg",
+                "mangledName": "$s13MediaMelonQoE15MMAdInformationC5adUrlSSvg",
+                "moduleName": "MediaMelonQoE",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "adTitle",
+            "printedName": "adTitle",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13MediaMelonQoE15MMAdInformationC7adTitleSSvp",
+            "mangledName": "$s13MediaMelonQoE15MMAdInformationC7adTitleSSvp",
+            "moduleName": "MediaMelonQoE",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MediaMelonQoE15MMAdInformationC7adTitleSSvg",
+                "mangledName": "$s13MediaMelonQoE15MMAdInformationC7adTitleSSvg",
+                "moduleName": "MediaMelonQoE",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "adPodIndex",
+            "printedName": "adPodIndex",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13MediaMelonQoE15MMAdInformationC10adPodIndexSivp",
+            "mangledName": "$s13MediaMelonQoE15MMAdInformationC10adPodIndexSivp",
+            "moduleName": "MediaMelonQoE",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MediaMelonQoE15MMAdInformationC10adPodIndexSivg",
+                "mangledName": "$s13MediaMelonQoE15MMAdInformationC10adPodIndexSivg",
+                "moduleName": "MediaMelonQoE",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "adPodLendth",
+            "printedName": "adPodLendth",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13MediaMelonQoE15MMAdInformationC11adPodLendthSivp",
+            "mangledName": "$s13MediaMelonQoE15MMAdInformationC11adPodLendthSivp",
+            "moduleName": "MediaMelonQoE",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MediaMelonQoE15MMAdInformationC11adPodLendthSivg",
+                "mangledName": "$s13MediaMelonQoE15MMAdInformationC11adPodLendthSivg",
+                "moduleName": "MediaMelonQoE",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isBumper",
+            "printedName": "isBumper",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13MediaMelonQoE15MMAdInformationC8isBumperSbvp",
+            "mangledName": "$s13MediaMelonQoE15MMAdInformationC8isBumperSbvp",
+            "moduleName": "MediaMelonQoE",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MediaMelonQoE15MMAdInformationC8isBumperSbvg",
+                "mangledName": "$s13MediaMelonQoE15MMAdInformationC8isBumperSbvg",
+                "moduleName": "MediaMelonQoE",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "adBitrate",
+            "printedName": "adBitrate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13MediaMelonQoE15MMAdInformationC9adBitrateSivp",
+            "mangledName": "$s13MediaMelonQoE15MMAdInformationC9adBitrateSivp",
+            "moduleName": "MediaMelonQoE",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MediaMelonQoE15MMAdInformationC9adBitrateSivg",
+                "mangledName": "$s13MediaMelonQoE15MMAdInformationC9adBitrateSivg",
+                "moduleName": "MediaMelonQoE",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "adScheduleTime",
+            "printedName": "adScheduleTime",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13MediaMelonQoE15MMAdInformationC14adScheduleTimeSivp",
+            "mangledName": "$s13MediaMelonQoE15MMAdInformationC14adScheduleTimeSivp",
+            "moduleName": "MediaMelonQoE",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MediaMelonQoE15MMAdInformationC14adScheduleTimeSivg",
+                "mangledName": "$s13MediaMelonQoE15MMAdInformationC14adScheduleTimeSivg",
+                "moduleName": "MediaMelonQoE",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MMAdInformation",
+                "printedName": "MediaMelonQoE.MMAdInformation",
+                "usr": "s:13MediaMelonQoE15MMAdInformationC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13MediaMelonQoE15MMAdInformationCACycfc",
+            "mangledName": "$s13MediaMelonQoE15MMAdInformationCACycfc",
+            "moduleName": "MediaMelonQoE",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "setAdClient",
+            "printedName": "setAdClient(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MediaMelonQoE15MMAdInformationC11setAdClientyySSSgF",
+            "mangledName": "$s13MediaMelonQoE15MMAdInformationC11setAdClientyySSSgF",
+            "moduleName": "MediaMelonQoE",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setAdId",
+            "printedName": "setAdId(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MediaMelonQoE15MMAdInformationC7setAdIdyySSSgF",
+            "mangledName": "$s13MediaMelonQoE15MMAdInformationC7setAdIdyySSSgF",
+            "moduleName": "MediaMelonQoE",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setAdCreativeId",
+            "printedName": "setAdCreativeId(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MediaMelonQoE15MMAdInformationC15setAdCreativeIdyySSSgF",
+            "mangledName": "$s13MediaMelonQoE15MMAdInformationC15setAdCreativeIdyySSSgF",
+            "moduleName": "MediaMelonQoE",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setAdUniversalId",
+            "printedName": "setAdUniversalId(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MediaMelonQoE15MMAdInformationC16setAdUniversalIdyySSSgF",
+            "mangledName": "$s13MediaMelonQoE15MMAdInformationC16setAdUniversalIdyySSSgF",
+            "moduleName": "MediaMelonQoE",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setAdDuration",
+            "printedName": "setAdDuration(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MediaMelonQoE15MMAdInformationC13setAdDurationyySiF",
+            "mangledName": "$s13MediaMelonQoE15MMAdInformationC13setAdDurationyySiF",
+            "moduleName": "MediaMelonQoE",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setAdPositionInPod",
+            "printedName": "setAdPositionInPod(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MediaMelonQoE15MMAdInformationC18setAdPositionInPodyySiF",
+            "mangledName": "$s13MediaMelonQoE15MMAdInformationC18setAdPositionInPodyySiF",
+            "moduleName": "MediaMelonQoE",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setAdPosition",
+            "printedName": "setAdPosition(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MediaMelonQoE15MMAdInformationC13setAdPositionyySSSgF",
+            "mangledName": "$s13MediaMelonQoE15MMAdInformationC13setAdPositionyySSSgF",
+            "moduleName": "MediaMelonQoE",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setAdType",
+            "printedName": "setAdType(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MMAdType",
+                "printedName": "MediaMelonQoE.MMAdType",
+                "usr": "s:13MediaMelonQoE8MMAdTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MediaMelonQoE15MMAdInformationC9setAdTypeyyAA0dH0OF",
+            "mangledName": "$s13MediaMelonQoE15MMAdInformationC9setAdTypeyyAA0dH0OF",
+            "moduleName": "MediaMelonQoE",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setAdCreativeType",
+            "printedName": "setAdCreativeType(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MediaMelonQoE15MMAdInformationC17setAdCreativeTypeyySSSgF",
+            "mangledName": "$s13MediaMelonQoE15MMAdInformationC17setAdCreativeTypeyySSSgF",
+            "moduleName": "MediaMelonQoE",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setAdServer",
+            "printedName": "setAdServer(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MediaMelonQoE15MMAdInformationC11setAdServeryySSSgF",
+            "mangledName": "$s13MediaMelonQoE15MMAdInformationC11setAdServeryySSSgF",
+            "moduleName": "MediaMelonQoE",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setAdResolution",
+            "printedName": "setAdResolution(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MediaMelonQoE15MMAdInformationC15setAdResolutionyySSSgF",
+            "mangledName": "$s13MediaMelonQoE15MMAdInformationC15setAdResolutionyySSSgF",
+            "moduleName": "MediaMelonQoE",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setAdUrl",
+            "printedName": "setAdUrl(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MediaMelonQoE15MMAdInformationC8setAdUrlyySSSgF",
+            "mangledName": "$s13MediaMelonQoE15MMAdInformationC8setAdUrlyySSSgF",
+            "moduleName": "MediaMelonQoE",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setAdTitle",
+            "printedName": "setAdTitle(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MediaMelonQoE15MMAdInformationC10setAdTitleyySSSgF",
+            "mangledName": "$s13MediaMelonQoE15MMAdInformationC10setAdTitleyySSSgF",
+            "moduleName": "MediaMelonQoE",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setAdPodIndex",
+            "printedName": "setAdPodIndex(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MediaMelonQoE15MMAdInformationC13setAdPodIndexyySiF",
+            "mangledName": "$s13MediaMelonQoE15MMAdInformationC13setAdPodIndexyySiF",
+            "moduleName": "MediaMelonQoE",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setAdPodLendth",
+            "printedName": "setAdPodLendth(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MediaMelonQoE15MMAdInformationC14setAdPodLendthyySiF",
+            "mangledName": "$s13MediaMelonQoE15MMAdInformationC14setAdPodLendthyySiF",
+            "moduleName": "MediaMelonQoE",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setIsBumper",
+            "printedName": "setIsBumper(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MediaMelonQoE15MMAdInformationC11setIsBumperyySbF",
+            "mangledName": "$s13MediaMelonQoE15MMAdInformationC11setIsBumperyySbF",
+            "moduleName": "MediaMelonQoE",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setAdBitrate",
+            "printedName": "setAdBitrate(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MediaMelonQoE15MMAdInformationC12setAdBitrateyySiF",
+            "mangledName": "$s13MediaMelonQoE15MMAdInformationC12setAdBitrateyySiF",
+            "moduleName": "MediaMelonQoE",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setAdScheduleTime",
+            "printedName": "setAdScheduleTime(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MediaMelonQoE15MMAdInformationC17setAdScheduleTimeyySiF",
+            "mangledName": "$s13MediaMelonQoE15MMAdInformationC17setAdScheduleTimeyySiF",
+            "moduleName": "MediaMelonQoE",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MMAdInformation",
+                "printedName": "MediaMelonQoE.MMAdInformation",
+                "usr": "s:13MediaMelonQoE15MMAdInformationC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13MediaMelonQoE15MMAdInformationC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s13MediaMelonQoE15MMAdInformationC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "MediaMelonQoE",
+            "implicit": true,
+            "declAttributes": [
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MediaMelonQoE15MMAdInformationC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s13MediaMelonQoE15MMAdInformationC6encode2toys7Encoder_p_tKF",
+            "moduleName": "MediaMelonQoE",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:13MediaMelonQoE15MMAdInformationC",
+        "mangledName": "$s13MediaMelonQoE15MMAdInformationC",
+        "moduleName": "MediaMelonQoE",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -4850,7 +6464,7 @@
           {
             "kind": "Function",
             "name": "sessionInitializationCompleted",
-            "printedName": "sessionInitializationCompleted(with:andDescription:forCmdWithId:nowtilusPermission:)",
+            "printedName": "sessionInitializationCompleted(with:andDescription:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -4859,9 +6473,9 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "MMSmartStreamingInitializationStatus",
-                "printedName": "MediaMelonQoE.MMSmartStreamingInitializationStatus",
-                "usr": "c:@E@MMSmartStreamingInitializationStatus"
+                "name": "MMObjCSmartStreamingInitializationStatus",
+                "printedName": "MediaMelonQoE.MMObjCSmartStreamingInitializationStatus",
+                "usr": "c:@E@MMObjCSmartStreamingInitializationStatus"
               },
               {
                 "kind": "TypeNominal",
@@ -4876,25 +6490,13 @@
                   }
                 ],
                 "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@MediaMelonQoE@objc(cs)GenericMMWrapper(im)sessionInitializationCompletedWithStatus:andDescription:forCmdWithId:nowtilusPermission:",
-            "mangledName": "$s13MediaMelonQoE16GenericMMWrapperC30sessionInitializationCompleted4with14andDescription12forCmdWithId18nowtilusPermissionySo016MMSmartStreamingG6StatusV_SSSgSiSbtF",
+            "usr": "c:@M@MediaMelonQoE@objc(cs)GenericMMWrapper(im)sessionInitializationCompletedWithStatus:andDescription:",
+            "mangledName": "$s13MediaMelonQoE16GenericMMWrapperC30sessionInitializationCompleted4with14andDescriptionySo020MMObjCSmartStreamingG6StatusV_SSSgtF",
             "moduleName": "MediaMelonQoE",
-            "objc_name": "sessionInitializationCompletedWithStatus:andDescription:forCmdWithId:nowtilusPermission:",
+            "objc_name": "sessionInitializationCompletedWithStatus:andDescription:",
             "declAttributes": [
               "ObjC",
               "AccessControl"
@@ -4954,8 +6556,8 @@
           },
           {
             "kind": "Var",
-            "name": "isLive",
-            "printedName": "isLive",
+            "name": "extIsLive",
+            "printedName": "extIsLive",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -4965,8 +6567,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:13MediaMelonQoE16GenericMMWrapperC6isLiveSbvp",
-            "mangledName": "$s13MediaMelonQoE16GenericMMWrapperC6isLiveSbvp",
+            "usr": "s:13MediaMelonQoE16GenericMMWrapperC9extIsLiveSbvp",
+            "mangledName": "$s13MediaMelonQoE16GenericMMWrapperC9extIsLiveSbvp",
             "moduleName": "MediaMelonQoE",
             "declAttributes": [
               "HasInitialValue",
@@ -4988,8 +6590,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13MediaMelonQoE16GenericMMWrapperC6isLiveSbvg",
-                "mangledName": "$s13MediaMelonQoE16GenericMMWrapperC6isLiveSbvg",
+                "usr": "s:13MediaMelonQoE16GenericMMWrapperC9extIsLiveSbvg",
+                "mangledName": "$s13MediaMelonQoE16GenericMMWrapperC9extIsLiveSbvg",
                 "moduleName": "MediaMelonQoE",
                 "implicit": true,
                 "accessorKind": "get"
@@ -5012,8 +6614,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13MediaMelonQoE16GenericMMWrapperC6isLiveSbvs",
-                "mangledName": "$s13MediaMelonQoE16GenericMMWrapperC6isLiveSbvs",
+                "usr": "s:13MediaMelonQoE16GenericMMWrapperC9extIsLiveSbvs",
+                "mangledName": "$s13MediaMelonQoE16GenericMMWrapperC9extIsLiveSbvs",
                 "moduleName": "MediaMelonQoE",
                 "implicit": true,
                 "accessorKind": "set"
@@ -5030,8 +6632,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13MediaMelonQoE16GenericMMWrapperC6isLiveSbvM",
-                "mangledName": "$s13MediaMelonQoE16GenericMMWrapperC6isLiveSbvM",
+                "usr": "s:13MediaMelonQoE16GenericMMWrapperC9extIsLiveSbvM",
+                "mangledName": "$s13MediaMelonQoE16GenericMMWrapperC9extIsLiveSbvM",
                 "moduleName": "MediaMelonQoE",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -5124,12 +6726,10 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:13MediaMelonQoE16GenericMMWrapperC21disableManifestsFetch0F0ySb_tFZ",
-            "mangledName": "$s13MediaMelonQoE16GenericMMWrapperC21disableManifestsFetch0F0ySb_tFZ",
+            "usr": "s:13MediaMelonQoE16GenericMMWrapperC21disableManifestsFetch0F0ySb_tF",
+            "mangledName": "$s13MediaMelonQoE16GenericMMWrapperC21disableManifestsFetch0F0ySb_tF",
             "moduleName": "MediaMelonQoE",
-            "static": true,
             "declAttributes": [
-              "Final",
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
@@ -5217,12 +6817,10 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:13MediaMelonQoE16GenericMMWrapperC16updateSubscriber12subscriberId0H4Type0H8MetadataySS_S2StFZ",
-            "mangledName": "$s13MediaMelonQoE16GenericMMWrapperC16updateSubscriber12subscriberId0H4Type0H8MetadataySS_S2StFZ",
+            "usr": "s:13MediaMelonQoE16GenericMMWrapperC16updateSubscriber12subscriberId0H4Type0H8MetadataySS_S2StF",
+            "mangledName": "$s13MediaMelonQoE16GenericMMWrapperC16updateSubscriber12subscriberId0H4Type0H8MetadataySS_S2StF",
             "moduleName": "MediaMelonQoE",
-            "static": true,
             "declAttributes": [
-              "Final",
               "AccessControl",
               "RawDocComment"
             ],
@@ -5282,29 +6880,21 @@
           },
           {
             "kind": "Function",
-            "name": "reportDeviceID",
-            "printedName": "reportDeviceID(deviceID:)",
+            "name": "reportDeviceId",
+            "printedName": "reportDeviceId()",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "hasDefaultArg": true,
-                "usr": "s:SS"
               }
             ],
             "declKind": "Func",
-            "usr": "s:13MediaMelonQoE16GenericMMWrapperC14reportDeviceID06deviceH0ySS_tF",
-            "mangledName": "$s13MediaMelonQoE16GenericMMWrapperC14reportDeviceID06deviceH0ySS_tF",
+            "usr": "s:13MediaMelonQoE16GenericMMWrapperC14reportDeviceIdyyF",
+            "mangledName": "$s13MediaMelonQoE16GenericMMWrapperC14reportDeviceIdyyF",
             "moduleName": "MediaMelonQoE",
             "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -5413,9 +7003,9 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "MMOverridableMetric",
-                "printedName": "MediaMelonQoE.MMOverridableMetric",
-                "usr": "c:@E@MMOverridableMetric"
+                "name": "MMObjCOverridableMetric",
+                "printedName": "MediaMelonQoE.MMObjCOverridableMetric",
+                "usr": "c:@E@MMObjCOverridableMetric"
               },
               {
                 "kind": "TypeNominal",
@@ -5425,42 +7015,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:13MediaMelonQoE16GenericMMWrapperC17reportMetricValue16metricToOverride5valueySo013MMOverridableG0V_SStFZ",
-            "mangledName": "$s13MediaMelonQoE16GenericMMWrapperC17reportMetricValue16metricToOverride5valueySo013MMOverridableG0V_SStFZ",
-            "moduleName": "MediaMelonQoE",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "reportStringDimension",
-            "printedName": "reportStringDimension(dimension:value:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "MMStringDimension",
-                "printedName": "MediaMelonQoE.MMStringDimension",
-                "usr": "c:@E@MMStringDimension"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13MediaMelonQoE16GenericMMWrapperC21reportStringDimension9dimension5valueySo08MMStringH0V_SStF",
-            "mangledName": "$s13MediaMelonQoE16GenericMMWrapperC21reportStringDimension9dimension5valueySo08MMStringH0V_SStF",
+            "usr": "s:13MediaMelonQoE16GenericMMWrapperC17reportMetricValue16metricToOverride5valueySo017MMObjCOverridableG0V_SStF",
+            "mangledName": "$s13MediaMelonQoE16GenericMMWrapperC17reportMetricValue16metricToOverride5valueySo017MMObjCOverridableG0V_SStF",
             "moduleName": "MediaMelonQoE",
             "declAttributes": [
               "AccessControl"
@@ -5523,116 +7079,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "MMConnectionInfo",
-                "printedName": "MediaMelonQoE.MMConnectionInfo",
-                "usr": "c:@E@MMConnectionInfo"
+                "name": "MMObjCConnectionInfo",
+                "printedName": "MediaMelonQoE.MMObjCConnectionInfo",
+                "usr": "c:@E@MMObjCConnectionInfo"
               }
             ],
             "declKind": "Func",
-            "usr": "s:13MediaMelonQoE16GenericMMWrapperC17reportNetworkType8connInfoySo012MMConnectionJ0V_tF",
-            "mangledName": "$s13MediaMelonQoE16GenericMMWrapperC17reportNetworkType8connInfoySo012MMConnectionJ0V_tF",
-            "moduleName": "MediaMelonQoE",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "reportStreamInfo",
-            "printedName": "reportStreamInfo(streamFormat:mediaType:sourceType:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13MediaMelonQoE16GenericMMWrapperC16reportStreamInfo12streamFormat9mediaType06sourceL0ySS_S2StF",
-            "mangledName": "$s13MediaMelonQoE16GenericMMWrapperC16reportStreamInfo12streamFormat9mediaType06sourceL0ySS_S2StF",
-            "moduleName": "MediaMelonQoE",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "reportPlayerResolution",
-            "printedName": "reportPlayerResolution(width:height:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13MediaMelonQoE16GenericMMWrapperC22reportPlayerResolution5width6heightySi_SitF",
-            "mangledName": "$s13MediaMelonQoE16GenericMMWrapperC22reportPlayerResolution5width6heightySi_SitF",
-            "moduleName": "MediaMelonQoE",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "reportFallbackEvent",
-            "printedName": "reportFallbackEvent(fallbackManifestURL:description:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13MediaMelonQoE16GenericMMWrapperC19reportFallbackEvent19fallbackManifestURL11descriptionySS_SStF",
-            "mangledName": "$s13MediaMelonQoE16GenericMMWrapperC19reportFallbackEvent19fallbackManifestURL11descriptionySS_SStF",
+            "usr": "s:13MediaMelonQoE16GenericMMWrapperC17reportNetworkType8connInfoySo016MMObjCConnectionJ0V_tF",
+            "mangledName": "$s13MediaMelonQoE16GenericMMWrapperC17reportNetworkType8connInfoySo016MMObjCConnectionJ0V_tF",
             "moduleName": "MediaMelonQoE",
             "declAttributes": [
               "AccessControl"
@@ -5683,14 +7137,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "MMChunkInformation",
-                "printedName": "MediaMelonQoE.MMChunkInformation",
-                "usr": "c:objc(cs)MMChunkInformation"
+                "name": "MMObjCChunkInformation",
+                "printedName": "MediaMelonQoE.MMObjCChunkInformation",
+                "usr": "c:objc(cs)MMObjCChunkInformation"
               }
             ],
             "declKind": "Func",
-            "usr": "s:13MediaMelonQoE16GenericMMWrapperC18reportChunkRequest9chunkInfoySo18MMChunkInformationC_tF",
-            "mangledName": "$s13MediaMelonQoE16GenericMMWrapperC18reportChunkRequest9chunkInfoySo18MMChunkInformationC_tF",
+            "usr": "s:13MediaMelonQoE16GenericMMWrapperC18reportChunkRequest9chunkInfoySo22MMObjCChunkInformationC_tF",
+            "mangledName": "$s13MediaMelonQoE16GenericMMWrapperC18reportChunkRequest9chunkInfoySo22MMObjCChunkInformationC_tF",
             "moduleName": "MediaMelonQoE",
             "declAttributes": [
               "AccessControl"
@@ -5763,14 +7217,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "MMPresentationInfo",
-                "printedName": "MediaMelonQoE.MMPresentationInfo",
-                "usr": "c:objc(cs)MMPresentationInfo"
+                "name": "MMObjCPresentationInfo",
+                "printedName": "MediaMelonQoE.MMObjCPresentationInfo",
+                "usr": "c:objc(cs)MMObjCPresentationInfo"
               }
             ],
             "declKind": "Func",
-            "usr": "s:13MediaMelonQoE16GenericMMWrapperC26setPresentationInformation16presentationInfoySo014MMPresentationJ0C_tF",
-            "mangledName": "$s13MediaMelonQoE16GenericMMWrapperC26setPresentationInformation16presentationInfoySo014MMPresentationJ0C_tF",
+            "usr": "s:13MediaMelonQoE16GenericMMWrapperC26setPresentationInformation16presentationInfoySo018MMObjCPresentationJ0C_tF",
+            "mangledName": "$s13MediaMelonQoE16GenericMMWrapperC26setPresentationInformation16presentationInfoySo018MMObjCPresentationJ0C_tF",
             "moduleName": "MediaMelonQoE",
             "declAttributes": [
               "AccessControl"
@@ -5991,14 +7445,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "MMPlayerState",
-                "printedName": "MediaMelonQoE.MMPlayerState",
-                "usr": "c:@E@MMPlayerState"
+                "name": "MMObjCPlayerState",
+                "printedName": "MediaMelonQoE.MMObjCPlayerState",
+                "usr": "c:@E@MMObjCPlayerState"
               }
             ],
             "declKind": "Func",
-            "usr": "s:13MediaMelonQoE16GenericMMWrapperC17reportPlayerState06playerH0ySo08MMPlayerH0V_tF",
-            "mangledName": "$s13MediaMelonQoE16GenericMMWrapperC17reportPlayerState06playerH0ySo08MMPlayerH0V_tF",
+            "usr": "s:13MediaMelonQoE16GenericMMWrapperC17reportPlayerState06playerH0ySo012MMObjCPlayerH0V_tF",
+            "mangledName": "$s13MediaMelonQoE16GenericMMWrapperC17reportPlayerState06playerH0ySo012MMObjCPlayerH0V_tF",
             "moduleName": "MediaMelonQoE",
             "declAttributes": [
               "AccessControl"
@@ -6043,14 +7497,22 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:13MediaMelonQoE16GenericMMWrapperC20reportExperimentName010experimentH0ySS_tF",
-            "mangledName": "$s13MediaMelonQoE16GenericMMWrapperC20reportExperimentName010experimentH0ySS_tF",
+            "usr": "s:13MediaMelonQoE16GenericMMWrapperC20reportExperimentName010experimentH0ySSSg_tF",
+            "mangledName": "$s13MediaMelonQoE16GenericMMWrapperC20reportExperimentName010experimentH0ySSSg_tF",
             "moduleName": "MediaMelonQoE",
             "declAttributes": [
               "AccessControl"
@@ -6069,40 +7531,22 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:13MediaMelonQoE16GenericMMWrapperC19reportSubPropertyID03subH2IdySS_tF",
-            "mangledName": "$s13MediaMelonQoE16GenericMMWrapperC19reportSubPropertyID03subH2IdySS_tF",
-            "moduleName": "MediaMelonQoE",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "reportAppSessionID",
-            "printedName": "reportAppSessionID(appSessionId:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13MediaMelonQoE16GenericMMWrapperC18reportAppSessionID03appH2IdySS_tF",
-            "mangledName": "$s13MediaMelonQoE16GenericMMWrapperC18reportAppSessionID03appH2IdySS_tF",
+            "usr": "s:13MediaMelonQoE16GenericMMWrapperC19reportSubPropertyID03subH2IdySSSg_tF",
+            "mangledName": "$s13MediaMelonQoE16GenericMMWrapperC19reportSubPropertyID03subH2IdySSSg_tF",
             "moduleName": "MediaMelonQoE",
             "declAttributes": [
               "AccessControl"
@@ -6121,72 +7565,22 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:13MediaMelonQoE16GenericMMWrapperC19reportViewSessionID04viewH2IdySS_tF",
-            "mangledName": "$s13MediaMelonQoE16GenericMMWrapperC19reportViewSessionID04viewH2IdySS_tF",
-            "moduleName": "MediaMelonQoE",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "reportEncodingService",
-            "printedName": "reportEncodingService(encodingService:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13MediaMelonQoE16GenericMMWrapperC21reportEncodingService08encodingH0ySS_tF",
-            "mangledName": "$s13MediaMelonQoE16GenericMMWrapperC21reportEncodingService08encodingH0ySS_tF",
-            "moduleName": "MediaMelonQoE",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "reportCustomEvent",
-            "printedName": "reportCustomEvent(eventName:eventValue:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13MediaMelonQoE16GenericMMWrapperC17reportCustomEvent9eventName0I5ValueySS_SStF",
-            "mangledName": "$s13MediaMelonQoE16GenericMMWrapperC17reportCustomEvent9eventName0I5ValueySS_SStF",
+            "usr": "s:13MediaMelonQoE16GenericMMWrapperC19reportViewSessionID04viewH2IdySSSg_tF",
+            "mangledName": "$s13MediaMelonQoE16GenericMMWrapperC19reportViewSessionID04viewH2IdySSSg_tF",
             "moduleName": "MediaMelonQoE",
             "declAttributes": [
               "AccessControl"
@@ -6205,24 +7599,38 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:13MediaMelonQoE16GenericMMWrapperC20reportBasePlayerInfo04baseH4Name0jH7VersionySS_SStFZ",
-            "mangledName": "$s13MediaMelonQoE16GenericMMWrapperC20reportBasePlayerInfo04baseH4Name0jH7VersionySS_SStFZ",
+            "usr": "s:13MediaMelonQoE16GenericMMWrapperC20reportBasePlayerInfo04baseH4Name0jH7VersionySSSg_AGtF",
+            "mangledName": "$s13MediaMelonQoE16GenericMMWrapperC20reportBasePlayerInfo04baseH4Name0jH7VersionySSSg_AGtF",
             "moduleName": "MediaMelonQoE",
-            "static": true,
             "declAttributes": [
-              "Final",
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
@@ -6299,95 +7707,6 @@
             "declKind": "Func",
             "usr": "s:13MediaMelonQoE16GenericMMWrapperC22updatePlaybackPosition07currentH0ySi_tF",
             "mangledName": "$s13MediaMelonQoE16GenericMMWrapperC22updatePlaybackPosition07currentH0ySi_tF",
-            "moduleName": "MediaMelonQoE",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "setToolboxEndpointDetails",
-            "printedName": "setToolboxEndpointDetails(url:tbtoken:tbid:cid:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13MediaMelonQoE16GenericMMWrapperC25setToolboxEndpointDetails3url7tbtoken4tbid3cidySS_S3StF",
-            "mangledName": "$s13MediaMelonQoE16GenericMMWrapperC25setToolboxEndpointDetails3url7tbtoken4tbid3cidySS_S3StF",
-            "moduleName": "MediaMelonQoE",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "setStarzEndpointDetails",
-            "printedName": "setStarzEndpointDetails(url:szapikey:szsession:cid:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13MediaMelonQoE16GenericMMWrapperC23setStarzEndpointDetails3url8szapikey9szsession3cidySS_S3StF",
-            "mangledName": "$s13MediaMelonQoE16GenericMMWrapperC23setStarzEndpointDetails3url8szapikey9szsession3cidySS_S3StF",
             "moduleName": "MediaMelonQoE",
             "declAttributes": [
               "AccessControl"
@@ -6519,6 +7838,127 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VOPlayerAlternateInfo",
+        "printedName": "VOPlayerAlternateInfo",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(tIndex:bitRate:width:height:codecIdentifier:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VOPlayerAlternateInfo",
+                "printedName": "MediaMelonQoE.VOPlayerAlternateInfo",
+                "usr": "s:13MediaMelonQoE21VOPlayerAlternateInfoC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13MediaMelonQoE21VOPlayerAlternateInfoC6tIndex7bitRate5width6height15codecIdentifierACSiSg_A3ISSSgtcfc",
+            "mangledName": "$s13MediaMelonQoE21VOPlayerAlternateInfoC6tIndex7bitRate5width6height15codecIdentifierACSiSg_A3ISSSgtcfc",
+            "moduleName": "MediaMelonQoE",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:13MediaMelonQoE21VOPlayerAlternateInfoC",
+        "mangledName": "$s13MediaMelonQoE21VOPlayerAlternateInfoC",
+        "moduleName": "MediaMelonQoE",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -6967,553 +8407,13 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "RenditionInfo",
-        "printedName": "RenditionInfo",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "bitrate",
-            "printedName": "bitrate",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13MediaMelonQoE13RenditionInfoV7bitrateSivp",
-            "mangledName": "$s13MediaMelonQoE13RenditionInfoV7bitrateSivp",
-            "moduleName": "MediaMelonQoE",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13MediaMelonQoE13RenditionInfoV7bitrateSivg",
-                "mangledName": "$s13MediaMelonQoE13RenditionInfoV7bitrateSivg",
-                "moduleName": "MediaMelonQoE",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13MediaMelonQoE13RenditionInfoV7bitrateSivs",
-                "mangledName": "$s13MediaMelonQoE13RenditionInfoV7bitrateSivs",
-                "moduleName": "MediaMelonQoE",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13MediaMelonQoE13RenditionInfoV7bitrateSivM",
-                "mangledName": "$s13MediaMelonQoE13RenditionInfoV7bitrateSivM",
-                "moduleName": "MediaMelonQoE",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "width",
-            "printedName": "width",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13MediaMelonQoE13RenditionInfoV5widthSivp",
-            "mangledName": "$s13MediaMelonQoE13RenditionInfoV5widthSivp",
-            "moduleName": "MediaMelonQoE",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13MediaMelonQoE13RenditionInfoV5widthSivg",
-                "mangledName": "$s13MediaMelonQoE13RenditionInfoV5widthSivg",
-                "moduleName": "MediaMelonQoE",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13MediaMelonQoE13RenditionInfoV5widthSivs",
-                "mangledName": "$s13MediaMelonQoE13RenditionInfoV5widthSivs",
-                "moduleName": "MediaMelonQoE",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13MediaMelonQoE13RenditionInfoV5widthSivM",
-                "mangledName": "$s13MediaMelonQoE13RenditionInfoV5widthSivM",
-                "moduleName": "MediaMelonQoE",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "height",
-            "printedName": "height",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13MediaMelonQoE13RenditionInfoV6heightSivp",
-            "mangledName": "$s13MediaMelonQoE13RenditionInfoV6heightSivp",
-            "moduleName": "MediaMelonQoE",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13MediaMelonQoE13RenditionInfoV6heightSivg",
-                "mangledName": "$s13MediaMelonQoE13RenditionInfoV6heightSivg",
-                "moduleName": "MediaMelonQoE",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13MediaMelonQoE13RenditionInfoV6heightSivs",
-                "mangledName": "$s13MediaMelonQoE13RenditionInfoV6heightSivs",
-                "moduleName": "MediaMelonQoE",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13MediaMelonQoE13RenditionInfoV6heightSivM",
-                "mangledName": "$s13MediaMelonQoE13RenditionInfoV6heightSivM",
-                "moduleName": "MediaMelonQoE",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "frameRate",
-            "printedName": "frameRate",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13MediaMelonQoE13RenditionInfoV9frameRateSivp",
-            "mangledName": "$s13MediaMelonQoE13RenditionInfoV9frameRateSivp",
-            "moduleName": "MediaMelonQoE",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13MediaMelonQoE13RenditionInfoV9frameRateSivg",
-                "mangledName": "$s13MediaMelonQoE13RenditionInfoV9frameRateSivg",
-                "moduleName": "MediaMelonQoE",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13MediaMelonQoE13RenditionInfoV9frameRateSivs",
-                "mangledName": "$s13MediaMelonQoE13RenditionInfoV9frameRateSivs",
-                "moduleName": "MediaMelonQoE",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13MediaMelonQoE13RenditionInfoV9frameRateSivM",
-                "mangledName": "$s13MediaMelonQoE13RenditionInfoV9frameRateSivM",
-                "moduleName": "MediaMelonQoE",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "aCodec",
-            "printedName": "aCodec",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13MediaMelonQoE13RenditionInfoV6aCodecSSvp",
-            "mangledName": "$s13MediaMelonQoE13RenditionInfoV6aCodecSSvp",
-            "moduleName": "MediaMelonQoE",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13MediaMelonQoE13RenditionInfoV6aCodecSSvg",
-                "mangledName": "$s13MediaMelonQoE13RenditionInfoV6aCodecSSvg",
-                "moduleName": "MediaMelonQoE",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13MediaMelonQoE13RenditionInfoV6aCodecSSvs",
-                "mangledName": "$s13MediaMelonQoE13RenditionInfoV6aCodecSSvs",
-                "moduleName": "MediaMelonQoE",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13MediaMelonQoE13RenditionInfoV6aCodecSSvM",
-                "mangledName": "$s13MediaMelonQoE13RenditionInfoV6aCodecSSvM",
-                "moduleName": "MediaMelonQoE",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "vCodec",
-            "printedName": "vCodec",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13MediaMelonQoE13RenditionInfoV6vCodecSSvp",
-            "mangledName": "$s13MediaMelonQoE13RenditionInfoV6vCodecSSvp",
-            "moduleName": "MediaMelonQoE",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13MediaMelonQoE13RenditionInfoV6vCodecSSvg",
-                "mangledName": "$s13MediaMelonQoE13RenditionInfoV6vCodecSSvg",
-                "moduleName": "MediaMelonQoE",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13MediaMelonQoE13RenditionInfoV6vCodecSSvs",
-                "mangledName": "$s13MediaMelonQoE13RenditionInfoV6vCodecSSvs",
-                "moduleName": "MediaMelonQoE",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13MediaMelonQoE13RenditionInfoV6vCodecSSvM",
-                "mangledName": "$s13MediaMelonQoE13RenditionInfoV6vCodecSSvM",
-                "moduleName": "MediaMelonQoE",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:13MediaMelonQoE13RenditionInfoV",
-        "mangledName": "$s13MediaMelonQoE13RenditionInfoV",
-        "moduleName": "MediaMelonQoE",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
         "name": "MMCustomAdapter",
         "printedName": "MMCustomAdapter",
         "children": [
           {
-            "kind": "Var",
-            "name": "shared",
-            "printedName": "shared",
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -7522,49 +8422,24 @@
                 "usr": "c:@M@MediaMelonQoE@objc(cs)MMCustomAdapter"
               }
             ],
-            "declKind": "Var",
-            "usr": "s:13MediaMelonQoE15MMCustomAdapterC6sharedACvpZ",
-            "mangledName": "$s13MediaMelonQoE15MMCustomAdapterC6sharedACvpZ",
+            "declKind": "Constructor",
+            "usr": "c:@M@MediaMelonQoE@objc(cs)MMCustomAdapter(im)init",
+            "mangledName": "$s13MediaMelonQoE15MMCustomAdapterCACycfc",
             "moduleName": "MediaMelonQoE",
-            "static": true,
+            "overriding": true,
+            "objc_name": "init",
             "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
+              "Dynamic",
+              "ObjC",
+              "Override",
               "AccessControl"
             ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "MMCustomAdapter",
-                    "printedName": "MediaMelonQoE.MMCustomAdapter",
-                    "usr": "c:@M@MediaMelonQoE@objc(cs)MMCustomAdapter"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13MediaMelonQoE15MMCustomAdapterC6sharedACvgZ",
-                "mangledName": "$s13MediaMelonQoE15MMCustomAdapterC6sharedACvgZ",
-                "moduleName": "MediaMelonQoE",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
+            "init_kind": "Designated"
           },
           {
             "kind": "Function",
             "name": "sessionInitializationCompleted",
-            "printedName": "sessionInitializationCompleted(with:andDescription:forCmdWithId:nowtilusPermission:)",
+            "printedName": "sessionInitializationCompleted(with:andDescription:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -7573,9 +8448,9 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "MMSmartStreamingInitializationStatus",
-                "printedName": "MediaMelonQoE.MMSmartStreamingInitializationStatus",
-                "usr": "c:@E@MMSmartStreamingInitializationStatus"
+                "name": "MMObjCSmartStreamingInitializationStatus",
+                "printedName": "MediaMelonQoE.MMObjCSmartStreamingInitializationStatus",
+                "usr": "c:@E@MMObjCSmartStreamingInitializationStatus"
               },
               {
                 "kind": "TypeNominal",
@@ -7590,27 +8465,67 @@
                   }
                 ],
                 "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@MediaMelonQoE@objc(cs)MMCustomAdapter(im)sessionInitializationCompletedWithStatus:andDescription:forCmdWithId:nowtilusPermission:",
-            "mangledName": "$s13MediaMelonQoE15MMCustomAdapterC30sessionInitializationCompleted4with14andDescription12forCmdWithId18nowtilusPermissionySo016MMSmartStreamingG6StatusV_SSSgSiSbtF",
+            "usr": "c:@M@MediaMelonQoE@objc(cs)MMCustomAdapter(im)sessionInitializationCompletedWithStatus:andDescription:",
+            "mangledName": "$s13MediaMelonQoE15MMCustomAdapterC30sessionInitializationCompleted4with14andDescriptionySo020MMObjCSmartStreamingG6StatusV_SSSgtF",
             "moduleName": "MediaMelonQoE",
-            "objc_name": "sessionInitializationCompletedWithStatus:andDescription:forCmdWithId:nowtilusPermission:",
+            "objc_name": "sessionInitializationCompletedWithStatus:andDescription:",
             "declAttributes": [
               "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "reportRegistrationInformation",
+            "printedName": "reportRegistrationInformation(registrationInfo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MMRegistrationInformation",
+                "printedName": "MediaMelonQoE.MMRegistrationInformation",
+                "usr": "c:@M@MediaMelonQoE@objc(cs)MMRegistrationInformation"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MediaMelonQoE15MMCustomAdapterC29reportRegistrationInformation16registrationInfoyAA014MMRegistrationH0C_tF",
+            "mangledName": "$s13MediaMelonQoE15MMCustomAdapterC29reportRegistrationInformation16registrationInfoyAA014MMRegistrationH0C_tF",
+            "moduleName": "MediaMelonQoE",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "reportDeviceInformation",
+            "printedName": "reportDeviceInformation(deviceInfo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MMDeviceInformation",
+                "printedName": "MediaMelonQoE.MMDeviceInformation",
+                "usr": "s:13MediaMelonQoE19MMDeviceInformationC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MediaMelonQoE15MMCustomAdapterC23reportDeviceInformation10deviceInfoyAA08MMDeviceH0C_tF",
+            "mangledName": "$s13MediaMelonQoE15MMCustomAdapterC23reportDeviceInformation10deviceInfoyAA08MMDeviceH0C_tF",
+            "moduleName": "MediaMelonQoE",
+            "declAttributes": [
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
@@ -7647,6 +8562,34 @@
             "declKind": "Func",
             "usr": "s:13MediaMelonQoE15MMCustomAdapterC24initializeAssetForPlayer9assetInfo012registrationK006deviceK0yAA18MMAssetInformationC_AA014MMRegistrationO0CAA08MMDeviceO0CtF",
             "mangledName": "$s13MediaMelonQoE15MMCustomAdapterC24initializeAssetForPlayer9assetInfo012registrationK006deviceK0yAA18MMAssetInformationC_AA014MMRegistrationO0CAA08MMDeviceO0CtF",
+            "moduleName": "MediaMelonQoE",
+            "deprecated": true,
+            "declAttributes": [
+              "AccessControl",
+              "Available"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "initializeAssetForPlayer",
+            "printedName": "initializeAssetForPlayer(assetInfo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MMAssetInformation",
+                "printedName": "MediaMelonQoE.MMAssetInformation",
+                "usr": "c:@M@MediaMelonQoE@objc(cs)MMAssetInformation"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MediaMelonQoE15MMCustomAdapterC24initializeAssetForPlayer9assetInfoyAA18MMAssetInformationC_tF",
+            "mangledName": "$s13MediaMelonQoE15MMCustomAdapterC24initializeAssetForPlayer9assetInfoyAA18MMAssetInformationC_tF",
             "moduleName": "MediaMelonQoE",
             "declAttributes": [
               "AccessControl"
@@ -7894,6 +8837,40 @@
             "usr": "s:13MediaMelonQoE15MMCustomAdapterC13updateDrmType03drmH0ySS_tF",
             "mangledName": "$s13MediaMelonQoE15MMCustomAdapterC13updateDrmType03drmH0ySS_tF",
             "moduleName": "MediaMelonQoE",
+            "deprecated": true,
+            "declAttributes": [
+              "AccessControl",
+              "Available"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateDRM",
+            "printedName": "updateDRM(drmProtection:drmLevel:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MediaMelonQoE15MMCustomAdapterC9updateDRM13drmProtection0H5LevelySS_SStF",
+            "mangledName": "$s13MediaMelonQoE15MMCustomAdapterC9updateDRM13drmProtection0H5LevelySS_SStF",
+            "moduleName": "MediaMelonQoE",
             "declAttributes": [
               "AccessControl"
             ],
@@ -7945,26 +8922,6 @@
             "declKind": "Func",
             "usr": "s:13MediaMelonQoE15MMCustomAdapterC21reportEncodingService08encodingH0ySS_tF",
             "mangledName": "$s13MediaMelonQoE15MMCustomAdapterC21reportEncodingService08encodingH0ySS_tF",
-            "moduleName": "MediaMelonQoE",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "reportDeviceID",
-            "printedName": "reportDeviceID()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13MediaMelonQoE15MMCustomAdapterC14reportDeviceIDyyF",
-            "mangledName": "$s13MediaMelonQoE15MMCustomAdapterC14reportDeviceIDyyF",
             "moduleName": "MediaMelonQoE",
             "declAttributes": [
               "AccessControl"
@@ -8185,14 +9142,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "MMPlayerState",
-                "printedName": "MediaMelonQoE.MMPlayerState",
-                "usr": "c:@E@MMPlayerState"
+                "name": "MMObjCPlayerState",
+                "printedName": "MediaMelonQoE.MMObjCPlayerState",
+                "usr": "c:@E@MMObjCPlayerState"
               }
             ],
             "declKind": "Func",
-            "usr": "s:13MediaMelonQoE15MMCustomAdapterC17reportPlayerState06playerH0ySo08MMPlayerH0V_tF",
-            "mangledName": "$s13MediaMelonQoE15MMCustomAdapterC17reportPlayerState06playerH0ySo08MMPlayerH0V_tF",
+            "usr": "s:13MediaMelonQoE15MMCustomAdapterC17reportPlayerState06playerH0ySo012MMObjCPlayerH0V_tF",
+            "mangledName": "$s13MediaMelonQoE15MMCustomAdapterC17reportPlayerState06playerH0ySo012MMObjCPlayerH0V_tF",
             "moduleName": "MediaMelonQoE",
             "declAttributes": [
               "AccessControl"
@@ -8648,14 +9605,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "MMAdInfo",
-                "printedName": "MediaMelonQoE.MMAdInfo",
-                "usr": "c:objc(cs)MMAdInfo"
+                "name": "MMAdInformation",
+                "printedName": "MediaMelonQoE.MMAdInformation",
+                "usr": "s:13MediaMelonQoE15MMAdInformationC"
               }
             ],
             "declKind": "Func",
-            "usr": "s:13MediaMelonQoE15MMCustomAdapterC13reportAdStart6adInfoySo04MMAdJ0C_tF",
-            "mangledName": "$s13MediaMelonQoE15MMCustomAdapterC13reportAdStart6adInfoySo04MMAdJ0C_tF",
+            "usr": "s:13MediaMelonQoE15MMCustomAdapterC13reportAdStart6adInfoyAA15MMAdInformationC_tF",
+            "mangledName": "$s13MediaMelonQoE15MMCustomAdapterC13reportAdStart6adInfoyAA15MMAdInformationC_tF",
             "moduleName": "MediaMelonQoE",
             "declAttributes": [
               "AccessControl"
@@ -8787,7 +9744,6 @@
           "ObjC"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
-        "hasMissingDesignatedInitializers": true,
         "inheritsConvenienceInitializers": true,
         "superclassNames": [
           "ObjectiveC.NSObject"
@@ -8897,9 +9853,9 @@
             "mangledName": "$s13MediaMelonQoE18MMAssetInformationC8assetURLSSvp",
             "moduleName": "MediaMelonQoE",
             "declAttributes": [
+              "HasInitialValue",
               "HasStorage",
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "hasStorage": true,
             "accessors": [
@@ -8993,8 +9949,7 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "hasStorage": true,
             "accessors": [
@@ -9104,8 +10059,7 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "hasStorage": true,
             "accessors": [
@@ -9215,8 +10169,7 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "hasStorage": true,
             "accessors": [
@@ -9301,33 +10254,38 @@
           },
           {
             "kind": "Var",
-            "name": "metafileURL",
-            "printedName": "metafileURL",
+            "name": "customKVPs",
+            "printedName": "customKVPs",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Foundation.URL?",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "URL",
-                    "printedName": "Foundation.URL",
-                    "usr": "s:10Foundation3URLV"
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   }
                 ],
-                "usr": "s:Sq"
+                "usr": "s:SD"
               }
             ],
             "declKind": "Var",
-            "usr": "s:13MediaMelonQoE18MMAssetInformationC11metafileURL10Foundation0G0VSgvp",
-            "mangledName": "$s13MediaMelonQoE18MMAssetInformationC11metafileURL10Foundation0G0VSgvp",
+            "usr": "s:13MediaMelonQoE18MMAssetInformationC10customKVPsSDyS2SGvp",
+            "mangledName": "$s13MediaMelonQoE18MMAssetInformationC10customKVPsSDyS2SGvp",
             "moduleName": "MediaMelonQoE",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "hasStorage": true,
             "accessors": [
@@ -9335,90 +10293,6 @@
                 "kind": "Accessor",
                 "name": "Get",
                 "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Foundation.URL?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "URL",
-                        "printedName": "Foundation.URL",
-                        "usr": "s:10Foundation3URLV"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13MediaMelonQoE18MMAssetInformationC11metafileURL10Foundation0G0VSgvg",
-                "mangledName": "$s13MediaMelonQoE18MMAssetInformationC11metafileURL10Foundation0G0VSgvg",
-                "moduleName": "MediaMelonQoE",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Foundation.URL?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "URL",
-                        "printedName": "Foundation.URL",
-                        "usr": "s:10Foundation3URLV"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13MediaMelonQoE18MMAssetInformationC11metafileURL10Foundation0G0VSgvs",
-                "mangledName": "$s13MediaMelonQoE18MMAssetInformationC11metafileURL10Foundation0G0VSgvs",
-                "moduleName": "MediaMelonQoE",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13MediaMelonQoE18MMAssetInformationC11metafileURL10Foundation0G0VSgvM",
-                "mangledName": "$s13MediaMelonQoE18MMAssetInformationC11metafileURL10Foundation0G0VSgvM",
-                "moduleName": "MediaMelonQoE",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "customKVPs",
-            "printedName": "customKVPs",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ImplicitlyUnwrappedOptional",
-                "printedName": "[Swift.String : Swift.String]?",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -9441,58 +10315,9 @@
                     "usr": "s:SD"
                   }
                 ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13MediaMelonQoE18MMAssetInformationC10customKVPsSDyS2SGSgvp",
-            "mangledName": "$s13MediaMelonQoE18MMAssetInformationC10customKVPsSDyS2SGSgvp",
-            "moduleName": "MediaMelonQoE",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ImplicitlyUnwrappedOptional",
-                    "printedName": "[Swift.String : Swift.String]?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Dictionary",
-                        "printedName": "[Swift.String : Swift.String]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ],
-                        "usr": "s:SD"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
                 "declKind": "Accessor",
-                "usr": "s:13MediaMelonQoE18MMAssetInformationC10customKVPsSDyS2SGSgvg",
-                "mangledName": "$s13MediaMelonQoE18MMAssetInformationC10customKVPsSDyS2SGSgvg",
+                "usr": "s:13MediaMelonQoE18MMAssetInformationC10customKVPsSDyS2SGvg",
+                "mangledName": "$s13MediaMelonQoE18MMAssetInformationC10customKVPsSDyS2SGvg",
                 "moduleName": "MediaMelonQoE",
                 "implicit": true,
                 "accessorKind": "get"
@@ -9509,36 +10334,28 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "ImplicitlyUnwrappedOptional",
-                    "printedName": "[Swift.String : Swift.String]?",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "Dictionary",
-                        "printedName": "[Swift.String : Swift.String]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ],
-                        "usr": "s:SD"
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
                       }
                     ],
-                    "usr": "s:Sq"
+                    "usr": "s:SD"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13MediaMelonQoE18MMAssetInformationC10customKVPsSDyS2SGSgvs",
-                "mangledName": "$s13MediaMelonQoE18MMAssetInformationC10customKVPsSDyS2SGSgvs",
+                "usr": "s:13MediaMelonQoE18MMAssetInformationC10customKVPsSDyS2SGvs",
+                "mangledName": "$s13MediaMelonQoE18MMAssetInformationC10customKVPsSDyS2SGvs",
                 "moduleName": "MediaMelonQoE",
                 "implicit": true,
                 "accessorKind": "set"
@@ -9555,8 +10372,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13MediaMelonQoE18MMAssetInformationC10customKVPsSDyS2SGSgvM",
-                "mangledName": "$s13MediaMelonQoE18MMAssetInformationC10customKVPsSDyS2SGSgvM",
+                "usr": "s:13MediaMelonQoE18MMAssetInformationC10customKVPsSDyS2SGvM",
+                "mangledName": "$s13MediaMelonQoE18MMAssetInformationC10customKVPsSDyS2SGvM",
                 "moduleName": "MediaMelonQoE",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -9590,8 +10407,7 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "hasStorage": true,
             "accessors": [
@@ -9778,6 +10594,116 @@
                 "declKind": "Accessor",
                 "usr": "s:13MediaMelonQoE18MMAssetInformationC13drmProtectionSSSgvM",
                 "mangledName": "$s13MediaMelonQoE18MMAssetInformationC13drmProtectionSSSgvM",
+                "moduleName": "MediaMelonQoE",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "drmLevel",
+            "printedName": "drmLevel",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13MediaMelonQoE18MMAssetInformationC8drmLevelSSSgvp",
+            "mangledName": "$s13MediaMelonQoE18MMAssetInformationC8drmLevelSSSgvp",
+            "moduleName": "MediaMelonQoE",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MediaMelonQoE18MMAssetInformationC8drmLevelSSSgvg",
+                "mangledName": "$s13MediaMelonQoE18MMAssetInformationC8drmLevelSSSgvg",
+                "moduleName": "MediaMelonQoE",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MediaMelonQoE18MMAssetInformationC8drmLevelSSSgvs",
+                "mangledName": "$s13MediaMelonQoE18MMAssetInformationC8drmLevelSSSgvs",
+                "moduleName": "MediaMelonQoE",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MediaMelonQoE18MMAssetInformationC8drmLevelSSSgvM",
+                "mangledName": "$s13MediaMelonQoE18MMAssetInformationC8drmLevelSSSgvM",
                 "moduleName": "MediaMelonQoE",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -10332,48 +11258,6 @@
           },
           {
             "kind": "Function",
-            "name": "setQBRMode",
-            "printedName": "setQBRMode(_:withMetaURL:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "MMQBRMode",
-                "printedName": "MediaMelonQoE.MMQBRMode",
-                "usr": "c:@E@MMQBRMode"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Foundation.URL?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "URL",
-                    "printedName": "Foundation.URL",
-                    "usr": "s:10Foundation3URLV"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@MediaMelonQoE@objc(cs)MMAssetInformation(im)setQBRMode:withMetaURL:",
-            "mangledName": "$s13MediaMelonQoE18MMAssetInformationC10setQBRMode_11withMetaURLySo9MMQBRModeV_10Foundation0J0VSgtF",
-            "moduleName": "MediaMelonQoE",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
             "name": "setContentType",
             "printedName": "setContentType(_:)",
             "children": [
@@ -10435,6 +11319,41 @@
             "declKind": "Func",
             "usr": "c:@M@MediaMelonQoE@objc(cs)MMAssetInformation(im)setDrmProtection:",
             "mangledName": "$s13MediaMelonQoE18MMAssetInformationC16setDrmProtectionyySSSgF",
+            "moduleName": "MediaMelonQoE",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setDrmLevel",
+            "printedName": "setDrmLevel(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MediaMelonQoE@objc(cs)MMAssetInformation(im)setDrmLevel:",
+            "mangledName": "$s13MediaMelonQoE18MMAssetInformationC11setDrmLevelyySSSgF",
             "moduleName": "MediaMelonQoE",
             "declAttributes": [
               "AccessControl",
@@ -10762,70 +11681,77 @@
     {
       "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/MMRegistrationInformation.swift",
       "kind": "StringLiteral",
-      "offset": 410,
+      "offset": 446,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/MMRegistrationInformation.swift",
       "kind": "StringLiteral",
-      "offset": 452,
-      "length": 4,
-      "value": "\"NA\""
+      "offset": 488,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/MMRegistrationInformation.swift",
       "kind": "BooleanLiteral",
-      "offset": 498,
+      "offset": 531,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/MMRegistrationInformation.swift",
       "kind": "StringLiteral",
-      "offset": 544,
+      "offset": 577,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/MMRegistrationInformation.swift",
       "kind": "StringLiteral",
-      "offset": 586,
+      "offset": 619,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/MMRegistrationInformation.swift",
       "kind": "StringLiteral",
-      "offset": 626,
+      "offset": 656,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/MMRegistrationInformation.swift",
       "kind": "StringLiteral",
-      "offset": 666,
+      "offset": 696,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/MMRegistrationInformation.swift",
       "kind": "StringLiteral",
-      "offset": 708,
+      "offset": 736,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/MMRegistrationInformation.swift",
       "kind": "StringLiteral",
-      "offset": 751,
+      "offset": 778,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/MMRegistrationInformation.swift",
       "kind": "StringLiteral",
-      "offset": 797,
+      "offset": 821,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/MMRegistrationInformation.swift",
+      "kind": "StringLiteral",
+      "offset": 867,
       "length": 2,
       "value": "\"\""
     },
@@ -10900,6 +11826,139 @@
       "value": "\"\""
     },
     {
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/MMAdInformation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 173,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/MMAdInformation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 194,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/MMAdInformation.swift",
+      "kind": "StringLiteral",
+      "offset": 498,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/MMAdInformation.swift",
+      "kind": "StringLiteral",
+      "offset": 544,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/MMAdInformation.swift",
+      "kind": "StringLiteral",
+      "offset": 598,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/MMAdInformation.swift",
+      "kind": "StringLiteral",
+      "offset": 653,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/MMAdInformation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 702,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/MMAdInformation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 756,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/MMAdInformation.swift",
+      "kind": "StringLiteral",
+      "offset": 808,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/MMAdInformation.swift",
+      "kind": "StringLiteral",
+      "offset": 920,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/MMAdInformation.swift",
+      "kind": "StringLiteral",
+      "offset": 970,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/MMAdInformation.swift",
+      "kind": "StringLiteral",
+      "offset": 1024,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/MMAdInformation.swift",
+      "kind": "StringLiteral",
+      "offset": 1071,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/MMAdInformation.swift",
+      "kind": "StringLiteral",
+      "offset": 1120,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/MMAdInformation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1169,
+      "length": 2,
+      "value": "-2"
+    },
+    {
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/MMAdInformation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1219,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/MMAdInformation.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1267,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/MMAdInformation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1318,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/MMAdInformation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1371,
+      "length": 2,
+      "value": "-1"
+    },
+    {
       "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/MMDeviceInformation.swift",
       "kind": "StringLiteral",
       "offset": 313,
@@ -10930,51 +11989,30 @@
     {
       "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Wrapper\/GenericMMWrapper.swift",
       "kind": "BooleanLiteral",
-      "offset": 873,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Wrapper\/GenericMMWrapper.swift",
-      "kind": "BooleanLiteral",
-      "offset": 993,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Wrapper\/GenericMMWrapper.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1115,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Wrapper\/GenericMMWrapper.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1160,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Wrapper\/GenericMMWrapper.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1205,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Wrapper\/GenericMMWrapper.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1241,
+      "offset": 933,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Wrapper\/GenericMMWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 4328,
+      "offset": 969,
       "length": 2,
       "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Wrapper\/GenericMMWrapper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1067,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Wrapper\/GenericMMWrapper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 15257,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Wrapper\/MMCustomWrapper.swift",
@@ -10993,51 +12031,135 @@
     {
       "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Wrapper\/MMCustomWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 1222,
+      "offset": 985,
       "length": 13,
       "value": "\"SDK_VERSION\""
     },
     {
       "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Wrapper\/MMCustomWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 1273,
+      "offset": 1036,
       "length": 51,
       "value": "\"https:\/\/register.mediamelon.com\/mm-apis\/register\/\""
     },
     {
       "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Wrapper\/MMCustomWrapper.swift",
       "kind": "BooleanLiteral",
-      "offset": 1578,
+      "offset": 1341,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Wrapper\/MMCustomWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 1623,
+      "offset": 1386,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Wrapper\/MMCustomWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 1655,
+      "offset": 1418,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Wrapper\/MMCustomWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 13459,
+      "offset": 14973,
       "length": 4,
       "value": "\"NA\""
     },
     {
       "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Wrapper\/MMCustomWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 13487,
+      "offset": 15001,
       "length": 9,
       "value": "\"Unknown\""
+    },
+    {
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/MMAssetInformation.swift",
+      "kind": "StringLiteral",
+      "offset": 278,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/MMAssetInformation.swift",
+      "kind": "StringLiteral",
+      "offset": 315,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/MMAssetInformation.swift",
+      "kind": "StringLiteral",
+      "offset": 354,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/MMAssetInformation.swift",
+      "kind": "StringLiteral",
+      "offset": 391,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/MMAssetInformation.swift",
+      "kind": "Dictionary",
+      "offset": 439,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/MMAssetInformation.swift",
+      "kind": "StringLiteral",
+      "offset": 481,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/MMAssetInformation.swift",
+      "kind": "StringLiteral",
+      "offset": 524,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/MMAssetInformation.swift",
+      "kind": "StringLiteral",
+      "offset": 562,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/MMAssetInformation.swift",
+      "kind": "StringLiteral",
+      "offset": 605,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/MMAssetInformation.swift",
+      "kind": "StringLiteral",
+      "offset": 640,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/MMAssetInformation.swift",
+      "kind": "StringLiteral",
+      "offset": 676,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Common\/MMAssetInformation.swift",
+      "kind": "StringLiteral",
+      "offset": 717,
+      "length": 2,
+      "value": "\"\""
     }
   ]
 }
