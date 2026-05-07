@@ -8407,6 +8407,257 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "MMPlayerState",
+        "printedName": "MMPlayerState",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "PLAYING",
+            "printedName": "PLAYING",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MediaMelonQoE.MMPlayerState.Type) -> MediaMelonQoE.MMPlayerState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MMPlayerState",
+                    "printedName": "MediaMelonQoE.MMPlayerState",
+                    "usr": "s:13MediaMelonQoE13MMPlayerStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MediaMelonQoE.MMPlayerState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MMPlayerState",
+                        "printedName": "MediaMelonQoE.MMPlayerState",
+                        "usr": "s:13MediaMelonQoE13MMPlayerStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13MediaMelonQoE13MMPlayerStateO7PLAYINGyA2CmF",
+            "mangledName": "$s13MediaMelonQoE13MMPlayerStateO7PLAYINGyA2CmF",
+            "moduleName": "MediaMelonQoE"
+          },
+          {
+            "kind": "Var",
+            "name": "PAUSED",
+            "printedName": "PAUSED",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MediaMelonQoE.MMPlayerState.Type) -> MediaMelonQoE.MMPlayerState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MMPlayerState",
+                    "printedName": "MediaMelonQoE.MMPlayerState",
+                    "usr": "s:13MediaMelonQoE13MMPlayerStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MediaMelonQoE.MMPlayerState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MMPlayerState",
+                        "printedName": "MediaMelonQoE.MMPlayerState",
+                        "usr": "s:13MediaMelonQoE13MMPlayerStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13MediaMelonQoE13MMPlayerStateO6PAUSEDyA2CmF",
+            "mangledName": "$s13MediaMelonQoE13MMPlayerStateO6PAUSEDyA2CmF",
+            "moduleName": "MediaMelonQoE"
+          },
+          {
+            "kind": "Var",
+            "name": "STOPPED",
+            "printedName": "STOPPED",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MediaMelonQoE.MMPlayerState.Type) -> MediaMelonQoE.MMPlayerState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MMPlayerState",
+                    "printedName": "MediaMelonQoE.MMPlayerState",
+                    "usr": "s:13MediaMelonQoE13MMPlayerStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MediaMelonQoE.MMPlayerState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MMPlayerState",
+                        "printedName": "MediaMelonQoE.MMPlayerState",
+                        "usr": "s:13MediaMelonQoE13MMPlayerStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13MediaMelonQoE13MMPlayerStateO7STOPPEDyA2CmF",
+            "mangledName": "$s13MediaMelonQoE13MMPlayerStateO7STOPPEDyA2CmF",
+            "moduleName": "MediaMelonQoE"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MMPlayerState",
+                "printedName": "MediaMelonQoE.MMPlayerState",
+                "usr": "s:13MediaMelonQoE13MMPlayerStateO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MMPlayerState",
+                "printedName": "MediaMelonQoE.MMPlayerState",
+                "usr": "s:13MediaMelonQoE13MMPlayerStateO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MediaMelonQoE13MMPlayerStateO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s13MediaMelonQoE13MMPlayerStateO2eeoiySbAC_ACtFZ",
+            "moduleName": "MediaMelonQoE",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13MediaMelonQoE13MMPlayerStateO9hashValueSivp",
+            "mangledName": "$s13MediaMelonQoE13MMPlayerStateO9hashValueSivp",
+            "moduleName": "MediaMelonQoE",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MediaMelonQoE13MMPlayerStateO9hashValueSivg",
+                "mangledName": "$s13MediaMelonQoE13MMPlayerStateO9hashValueSivg",
+                "moduleName": "MediaMelonQoE",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MediaMelonQoE13MMPlayerStateO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s13MediaMelonQoE13MMPlayerStateO4hash4intoys6HasherVz_tF",
+            "moduleName": "MediaMelonQoE",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:13MediaMelonQoE13MMPlayerStateO",
+        "mangledName": "$s13MediaMelonQoE13MMPlayerStateO",
+        "moduleName": "MediaMelonQoE",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "MMCustomAdapter",
         "printedName": "MMCustomAdapter",
         "children": [
@@ -9142,14 +9393,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "MMObjCPlayerState",
-                "printedName": "MediaMelonQoE.MMObjCPlayerState",
-                "usr": "c:@E@MMObjCPlayerState"
+                "name": "MMPlayerState",
+                "printedName": "MediaMelonQoE.MMPlayerState",
+                "usr": "s:13MediaMelonQoE13MMPlayerStateO"
               }
             ],
             "declKind": "Func",
-            "usr": "s:13MediaMelonQoE15MMCustomAdapterC17reportPlayerState06playerH0ySo012MMObjCPlayerH0V_tF",
-            "mangledName": "$s13MediaMelonQoE15MMCustomAdapterC17reportPlayerState06playerH0ySo012MMObjCPlayerH0V_tF",
+            "usr": "s:13MediaMelonQoE15MMCustomAdapterC17reportPlayerState06playerH0yAA08MMPlayerH0O_tF",
+            "mangledName": "$s13MediaMelonQoE15MMCustomAdapterC17reportPlayerState06playerH0yAA08MMPlayerH0O_tF",
             "moduleName": "MediaMelonQoE",
             "declAttributes": [
               "AccessControl"
@@ -9569,7 +9820,8 @@
             "mangledName": "$s13MediaMelonQoE15MMCustomAdapterC18reportAdBreakStartyyF",
             "moduleName": "MediaMelonQoE",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -12017,49 +12269,49 @@
     {
       "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Wrapper\/MMCustomWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 985,
+      "offset": 1058,
       "length": 13,
       "value": "\"SDK_VERSION\""
     },
     {
       "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Wrapper\/MMCustomWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 1036,
+      "offset": 1109,
       "length": 51,
       "value": "\"https:\/\/register.mediamelon.com\/mm-apis\/register\/\""
     },
     {
       "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Wrapper\/MMCustomWrapper.swift",
       "kind": "BooleanLiteral",
-      "offset": 1341,
+      "offset": 1422,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Wrapper\/MMCustomWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 1386,
+      "offset": 1467,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Wrapper\/MMCustomWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 1418,
+      "offset": 1499,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Wrapper\/MMCustomWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 14973,
+      "offset": 15058,
       "length": 4,
       "value": "\"NA\""
     },
     {
       "filePath": "\/Users\/mm3\/Desktop\/mm-ios-player-sdk\/MMGenericFramework\/MMGenericFramework\/Classes\/Wrapper\/MMCustomWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 15001,
+      "offset": 15086,
       "length": 9,
       "value": "\"Unknown\""
     },

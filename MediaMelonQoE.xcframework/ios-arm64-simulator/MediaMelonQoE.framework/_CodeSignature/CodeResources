@@ -22,15 +22,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ueJ76X7xNaM0Bolxh+ogF8IxoVo=
+		mbcr+ehx+Za0HTkOiIv5C0S8Cxk=
 		</data>
 		<key>Modules/MediaMelonQoE.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		Nmgtr2XTjz0WzMzM8aiG8quAs4o=
+		MlARzXtlCK93WAfxGJFwTgfovhg=
 		</data>
 		<key>Modules/MediaMelonQoE.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		o0g6Xhd/NqkvoZ3YaetE/HwM9Tc=
+		cZr0QsAZZSDgMkABiER7+CJBeyg=
 		</data>
 		<key>Modules/MediaMelonQoE.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -38,11 +38,11 @@
 		</data>
 		<key>Modules/MediaMelonQoE.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		o0g6Xhd/NqkvoZ3YaetE/HwM9Tc=
+		cZr0QsAZZSDgMkABiER7+CJBeyg=
 		</data>
 		<key>Modules/MediaMelonQoE.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		AMePWyq3vHs1hpNC7q7ofdtv198=
+		//zgS865hpbzx5P1UsMCLe5/CzY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -83,14 +83,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ba3hKAZRVBewROpA2WQXGD9cU/53EF2j1tJk7tFjD7E=
+			siNzcTp6I/MwAF6vukk6didOyUPDmnl9rxPxAdqdeus=
 			</data>
 		</dict>
 		<key>Modules/MediaMelonQoE.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			t0sF19HaxZXR3osdELC+5hGun5RROMAUmdK1QNQ6HlA=
+			CAFS41+r2QAIvoy/e8dDZPEFmj4C0LmjjJlj2qfL7gk=
 			</data>
 		</dict>
 		<key>Modules/MediaMelonQoE.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -104,14 +104,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			t0sF19HaxZXR3osdELC+5hGun5RROMAUmdK1QNQ6HlA=
+			CAFS41+r2QAIvoy/e8dDZPEFmj4C0LmjjJlj2qfL7gk=
 			</data>
 		</dict>
 		<key>Modules/MediaMelonQoE.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			H5Ac7gfFGokpe3kCjwZ9hT3ScoWmpUNbUF3j2Drv9FY=
+			Lx/qtL31aG7lWABZqe+rmBJ9815CAS00M6GQHWgr4iY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

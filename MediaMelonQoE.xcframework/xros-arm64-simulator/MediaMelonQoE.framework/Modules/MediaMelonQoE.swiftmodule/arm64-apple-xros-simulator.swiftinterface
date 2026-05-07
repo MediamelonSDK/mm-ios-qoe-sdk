@@ -302,6 +302,14 @@ public enum RequestStatus : Swift.String {
     get
   }
 }
+public enum MMPlayerState {
+  case PLAYING, PAUSED, STOPPED
+  public static func == (a: MediaMelonQoE.MMPlayerState, b: MediaMelonQoE.MMPlayerState) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
 @objc @_inheritsConvenienceInitializers public class MMCustomAdapter : ObjectiveC.NSObject, MediaMelonQoE.MMSmartStreamingObserver {
   @objc override dynamic public init()
   @objc public func sessionInitializationCompleted(with status: MediaMelonQoE.MMObjCSmartStreamingInitializationStatus, andDescription description: Swift.String!)
@@ -328,7 +336,7 @@ public enum RequestStatus : Swift.String {
   public func reportStreamInfo(streamURL: Swift.String, streamFormat: Swift.String, mediaType: Swift.String, sourceType: Swift.String)
   public func reportMediaTrackInfo(isSubtitleActive: Swift.Bool, subtitleTrack: Swift.String, audioTrack: Swift.String, isVDSActive: Swift.Bool)
   public func updateSubscriber(subscriberId: Swift.String, subscriberType: Swift.String, subscriberMetadata: Swift.String)
-  public func reportPlayerState(playerState: MediaMelonQoE.MMObjCPlayerState)
+  public func reportPlayerState(playerState: MediaMelonQoE.MMPlayerState)
   public func reportBufferingStarted()
   public func reportBufferingCompleted()
   public func reportAdBufferingStarted()
@@ -387,3 +395,5 @@ extension MediaMelonQoE.MMAdType : Swift.RawRepresentable {}
 extension MediaMelonQoE.RequestStatus : Swift.Equatable {}
 extension MediaMelonQoE.RequestStatus : Swift.Hashable {}
 extension MediaMelonQoE.RequestStatus : Swift.RawRepresentable {}
+extension MediaMelonQoE.MMPlayerState : Swift.Equatable {}
+extension MediaMelonQoE.MMPlayerState : Swift.Hashable {}
