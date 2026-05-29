@@ -22,7 +22,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		J59NHMeJq0ZobysEW1exHrYzc6I=
+		iFOBoQPgzSBEXHv/E8P8h0EokTI=
 		</data>
 		<key>Modules/MediaMelonQoE.swiftmodule/arm64-apple-tvos-simulator.abi.json</key>
 		<data>
@@ -43,6 +43,26 @@
 		<key>Modules/MediaMelonQoE.swiftmodule/arm64-apple-tvos-simulator.swiftmodule</key>
 		<data>
 		hyBXvGjZ0a06/F4ydo61Uunmiaw=
+		</data>
+		<key>Modules/MediaMelonQoE.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
+		<data>
+		52O1WjuqWeNlUjbVm7h9r432lc4=
+		</data>
+		<key>Modules/MediaMelonQoE.swiftmodule/x86_64-apple-tvos-simulator.private.swiftinterface</key>
+		<data>
+		NM5KbRv8VVM9liane7ybAUnCq4E=
+		</data>
+		<key>Modules/MediaMelonQoE.swiftmodule/x86_64-apple-tvos-simulator.swiftdoc</key>
+		<data>
+		uNdS2uoELOtFBqlShx35PG5tINI=
+		</data>
+		<key>Modules/MediaMelonQoE.swiftmodule/x86_64-apple-tvos-simulator.swiftinterface</key>
+		<data>
+		NM5KbRv8VVM9liane7ybAUnCq4E=
+		</data>
+		<key>Modules/MediaMelonQoE.swiftmodule/x86_64-apple-tvos-simulator.swiftmodule</key>
+		<data>
+		tNYckuVqhxQDs47+kBm73X7Wcpg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -112,6 +132,41 @@
 			<key>hash2</key>
 			<data>
 			efKbQA6BWMjMIxs1NHmSfU2MuRUrclB0I0X+4rc8fQc=
+			</data>
+		</dict>
+		<key>Modules/MediaMelonQoE.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			x1TyQ9l50MFmSJT5GwtTO/8/VdkLQ7f2sUep0ALZzgk=
+			</data>
+		</dict>
+		<key>Modules/MediaMelonQoE.swiftmodule/x86_64-apple-tvos-simulator.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			SLRZSHCx48y/85cNO7q6evfze1gcg19V2pQic3l1b+o=
+			</data>
+		</dict>
+		<key>Modules/MediaMelonQoE.swiftmodule/x86_64-apple-tvos-simulator.swiftdoc</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			a1AGKusS//uKP2uk7tXg/i8P21ahuiFyyAmiMg94kc4=
+			</data>
+		</dict>
+		<key>Modules/MediaMelonQoE.swiftmodule/x86_64-apple-tvos-simulator.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			SLRZSHCx48y/85cNO7q6evfze1gcg19V2pQic3l1b+o=
+			</data>
+		</dict>
+		<key>Modules/MediaMelonQoE.swiftmodule/x86_64-apple-tvos-simulator.swiftmodule</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			nTM4/vvj3hVOYHBhoTJka7XWQi2IpWi8Kn9e2v+j4Nk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
