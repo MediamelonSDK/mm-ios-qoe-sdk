@@ -22,27 +22,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		hf9PicLdQQcJCea30oKx8pjh4Y4=
+		vJQQGT1qdoS/n8wIAgFXaAWKv4A=
 		</data>
 		<key>Modules/MediaMelonQoE.swiftmodule/arm64-apple-tvos.abi.json</key>
 		<data>
-		yTh7vJJPnQYYriJsNHaltIK+/Us=
+		isf/wLM7WHP/76dujBeInlQNpz8=
 		</data>
 		<key>Modules/MediaMelonQoE.swiftmodule/arm64-apple-tvos.private.swiftinterface</key>
 		<data>
-		zi3nRogIaaTKWtvpiavc/aedGD8=
+		uZtyVQpdHz7ueYlxE5oI+W5pT5g=
 		</data>
 		<key>Modules/MediaMelonQoE.swiftmodule/arm64-apple-tvos.swiftdoc</key>
 		<data>
-		1ElzHSHLPEROQpldi55d68wkCkI=
+		zW+kNAEStjHr08J3wFD78LjPy2s=
 		</data>
 		<key>Modules/MediaMelonQoE.swiftmodule/arm64-apple-tvos.swiftinterface</key>
 		<data>
-		zi3nRogIaaTKWtvpiavc/aedGD8=
+		uZtyVQpdHz7ueYlxE5oI+W5pT5g=
 		</data>
 		<key>Modules/MediaMelonQoE.swiftmodule/arm64-apple-tvos.swiftmodule</key>
 		<data>
-		brLG9M0A5BY7L4smxPCj34tcdWI=
+		AEH2Qd6AL6tmefqVgCdQEdzwPpk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -83,35 +83,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3A/euV8XqeOHa0QdDzCWDrQBxBoaL8Yp+R847+J67Og=
+			aaJsUtmr9L/4N0V60wSLRSSfe5v3mxZNpTskAt+Pj1Y=
 			</data>
 		</dict>
 		<key>Modules/MediaMelonQoE.swiftmodule/arm64-apple-tvos.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0AvqLwmxIaLLApnrTZvJkySQEzu7VEaR9Qxkbdq+Xac=
+			+F85h4DR2YfLxswE8kfQZKaEG/f/RHPNC6343uw4jYw=
 			</data>
 		</dict>
 		<key>Modules/MediaMelonQoE.swiftmodule/arm64-apple-tvos.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zpNiKuw/I0YHk6oGjK4VNfWw+bE0oNO6stwvMO44NgY=
+			VykH7kQnkdeXRA0EmPYDB4x4fyIeQLneZc8HDv2bk/s=
 			</data>
 		</dict>
 		<key>Modules/MediaMelonQoE.swiftmodule/arm64-apple-tvos.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0AvqLwmxIaLLApnrTZvJkySQEzu7VEaR9Qxkbdq+Xac=
+			+F85h4DR2YfLxswE8kfQZKaEG/f/RHPNC6343uw4jYw=
 			</data>
 		</dict>
 		<key>Modules/MediaMelonQoE.swiftmodule/arm64-apple-tvos.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yBlEx/aJbelq1KtdEGRk8kQbt5btGZRcc4A+oSL615c=
+			W8XABJomf6p2/SHv1p3JP8G8ktWWmnoi0w5/1xcP2JE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
