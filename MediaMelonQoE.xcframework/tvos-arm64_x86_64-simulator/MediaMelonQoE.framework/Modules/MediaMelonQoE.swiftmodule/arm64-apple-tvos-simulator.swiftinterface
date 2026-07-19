@@ -227,6 +227,14 @@ public class MMDeviceInformation {
     get
     set
   }
+  public var deviceCapabilities: Swift.String {
+    get
+    set
+  }
+  public var deviceId: Swift.String {
+    get
+    set
+  }
   public init()
   public func setBrandName(brandName: Swift.String)
   public func setDeviceModel(deviceModel: Swift.String)
@@ -235,6 +243,8 @@ public class MMDeviceInformation {
   public func setTelecomOperator(telecomOperator: Swift.String)
   public func setScreenResolution(width: Swift.Int, height: Swift.Int)
   public func setDeviceTpe(type: Swift.String)
+  public func setDeviceCapabilities(capabilities: Swift.String)
+  public func setDeviceID(deviceId: Swift.String)
   @objc deinit
 }
 @_inheritsConvenienceInitializers @objc public class GenericMMWrapper : ObjectiveC.NSObject, MediaMelonQoE.MMSmartStreamingObserver {
@@ -310,7 +320,16 @@ public enum MMPlayerState {
     get
   }
 }
+public enum MMAdEvent {
+  case AD_START, AD_FIRST_QUARTILE, AD_MIDPOINT, AD_THIRD_QUARTILE, AD_END, AD_COMPLETE, AD_CLICK, AD_SKIP
+  public static func == (a: MediaMelonQoE.MMAdEvent, b: MediaMelonQoE.MMAdEvent) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
 @objc @_inheritsConvenienceInitializers public class MMCustomAdapter : ObjectiveC.NSObject, MediaMelonQoE.MMSmartStreamingObserver {
+  public func shutdown()
   @objc override dynamic public init()
   @objc public func sessionInitializationCompleted(with status: MediaMelonQoE.MMObjCSmartStreamingInitializationStatus, andDescription description: Swift.String!)
   public func reportRegistrationInformation(registrationInfo: MediaMelonQoE.MMRegistrationInformation)
@@ -344,6 +363,7 @@ public enum MMPlayerState {
   public func reportPlayerSeekStarted()
   public func reportPlayerSeekCompleted(seekEndPositionInMS: Swift.Int)
   public func reportPlaybackPosition(currentPlayerPosInMS: Swift.Int)
+  public func reportAdPlaybackPosition(currentAdPlayerPosInMS: Swift.Int)
   public func reportError(errorCode: Swift.String, errorMessage: Swift.String, errorDetails: Swift.String)
   public func reportWarning(warningCode: Swift.String, warningMessage: Swift.String, warningDetails: Swift.String)
   public func reportFallbackEvent(fallbackManifestURL: Swift.String = "NA", description: Swift.String = "Unknown")
@@ -351,14 +371,16 @@ public enum MMPlayerState {
   public func reportRendition(renditionInfo: MediaMelonQoE.MMRenditionInformation)
   public func reportPresentationInfo(isLive: Swift.Bool, videoDurationInMS: Swift.Int)
   public func reportDownloadRate(downloadRate: Swift.Int)
-  public func reportAdBreakStart()
-  public func reportAdBreakEnd()
+  public func reportCustomEvent(eventName: Swift.String, eventValue: Swift.String)
+  public func reportAdRequest(requestInfo: [Swift.String : Any])
+  public func reportAdResponse(responseInfo: [Swift.String : Any])
+  public func reportAdBreakStart(adBreakInfo: [Swift.String : Any]? = nil)
+  public func reportAdBreakEnd(adBreakInfo: [Swift.String : Any]? = nil)
+  public func reportAdError(errorCode: Swift.String, errorMessage: Swift.String, errorDetails: Swift.String)
+  public func reportAdWarning(warningCode: Swift.String, warningMessage: Swift.String, warningDetails: Swift.String)
+  public func reportAdEvent(adEvent: MediaMelonQoE.MMAdEvent, adInfo: MediaMelonQoE.MMAdInformation? = nil)
   public func reportAdStart(adInfo: MediaMelonQoE.MMAdInformation)
   public func reportAdEnd()
-  public func reportCustomEvent(eventName: Swift.String, eventValue: Swift.String)
-  public func isPlaybackActive() -> Swift.Bool
-  public func isPlaybackStarted() -> Swift.Bool
-  public func isPlaybackEnded() -> Swift.Bool
   @objc deinit
 }
 @objc public class MMAssetInformation : ObjectiveC.NSObject, Swift.Codable {
@@ -397,3 +419,5 @@ extension MediaMelonQoE.RequestStatus : Swift.Hashable {}
 extension MediaMelonQoE.RequestStatus : Swift.RawRepresentable {}
 extension MediaMelonQoE.MMPlayerState : Swift.Equatable {}
 extension MediaMelonQoE.MMPlayerState : Swift.Hashable {}
+extension MediaMelonQoE.MMAdEvent : Swift.Equatable {}
+extension MediaMelonQoE.MMAdEvent : Swift.Hashable {}

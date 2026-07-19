@@ -22,47 +22,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Z5BLm46Hi2qt1p2I/y3tVDbsNfU=
+		/LxlcBRPfe+KAMxq0kfpW/Q3pY4=
 		</data>
 		<key>Modules/MediaMelonQoE.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		MlARzXtlCK93WAfxGJFwTgfovhg=
+		hVNE+AFk/xQW2e+6vmwpwuLcmAM=
 		</data>
 		<key>Modules/MediaMelonQoE.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		cZr0QsAZZSDgMkABiER7+CJBeyg=
+		N/BJrSgWBqJRIF7JI/MhR07wc5A=
 		</data>
 		<key>Modules/MediaMelonQoE.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		T0FtIjYmQd/MgS27DybJbRSEpZE=
+		Z0t0pLqdH80MEmrDZttdQTV4Ve4=
 		</data>
 		<key>Modules/MediaMelonQoE.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		cZr0QsAZZSDgMkABiER7+CJBeyg=
+		N/BJrSgWBqJRIF7JI/MhR07wc5A=
 		</data>
 		<key>Modules/MediaMelonQoE.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		//zgS865hpbzx5P1UsMCLe5/CzY=
+		dg48YeQzsI/wigYCyzf3dP4qz4A=
 		</data>
 		<key>Modules/MediaMelonQoE.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		MlARzXtlCK93WAfxGJFwTgfovhg=
+		hVNE+AFk/xQW2e+6vmwpwuLcmAM=
 		</data>
 		<key>Modules/MediaMelonQoE.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		T9nUchLRgWAcAmCPjXbTCa0/m0M=
+		aTAuhl9JYuQx50dy/apkUitZGnU=
 		</data>
 		<key>Modules/MediaMelonQoE.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		G1Wu7b1KVgCNiYZJ/E1aqVP/sCA=
+		KPi6NRohudRHlcKlTVy1tFK8dJY=
 		</data>
 		<key>Modules/MediaMelonQoE.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		T9nUchLRgWAcAmCPjXbTCa0/m0M=
+		aTAuhl9JYuQx50dy/apkUitZGnU=
 		</data>
 		<key>Modules/MediaMelonQoE.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Tq7wiuyqeYecTed+A4XRRccEOA0=
+		6dUYk0FSuOx60wCqy84PdQWUUvs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -103,70 +103,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			siNzcTp6I/MwAF6vukk6didOyUPDmnl9rxPxAdqdeus=
+			IPeSn+MScXrD2A1sujCzD4U+gFk2gey7uYKtR3Z5pW4=
 			</data>
 		</dict>
 		<key>Modules/MediaMelonQoE.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CAFS41+r2QAIvoy/e8dDZPEFmj4C0LmjjJlj2qfL7gk=
+			IWSSVNX2frv2xhM0Mvuw9aPPL7OcYiQWLWWnC6t4Yyo=
 			</data>
 		</dict>
 		<key>Modules/MediaMelonQoE.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KynvA7GFtEuz7L82zMuS9j5wThR3CmQjB6bGlrnWb+w=
+			obspT63oNptYaWMOLpj0EcIBiiR4j3+ZXekm8pnACUk=
 			</data>
 		</dict>
 		<key>Modules/MediaMelonQoE.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CAFS41+r2QAIvoy/e8dDZPEFmj4C0LmjjJlj2qfL7gk=
+			IWSSVNX2frv2xhM0Mvuw9aPPL7OcYiQWLWWnC6t4Yyo=
 			</data>
 		</dict>
 		<key>Modules/MediaMelonQoE.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Lx/qtL31aG7lWABZqe+rmBJ9815CAS00M6GQHWgr4iY=
+			NYnn7RxWgSSKk2qMHv5QcRA+eChfiW0VT1RD3B5BOks=
 			</data>
 		</dict>
 		<key>Modules/MediaMelonQoE.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			siNzcTp6I/MwAF6vukk6didOyUPDmnl9rxPxAdqdeus=
+			IPeSn+MScXrD2A1sujCzD4U+gFk2gey7uYKtR3Z5pW4=
 			</data>
 		</dict>
 		<key>Modules/MediaMelonQoE.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sVRwJRFKpLh0371TI22yelmgRSyORxku5FELpiOSCkA=
+			v+5loCfdUjiLfyy0lP2VmsCcxpPZQp0wspUYrDrdjmA=
 			</data>
 		</dict>
 		<key>Modules/MediaMelonQoE.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			a5wx9SVitp5S3+UotG/FpiCvW8dZOPKM4/pmQCfapJw=
+			YK834lk0gyMgQIojhH3ihh7npHNaXcbRKSzA1H1Nq1A=
 			</data>
 		</dict>
 		<key>Modules/MediaMelonQoE.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sVRwJRFKpLh0371TI22yelmgRSyORxku5FELpiOSCkA=
+			v+5loCfdUjiLfyy0lP2VmsCcxpPZQp0wspUYrDrdjmA=
 			</data>
 		</dict>
 		<key>Modules/MediaMelonQoE.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4VQaDm8Tv91GCK1j0Gmga5X6+aJTed6/arlKzhQrLqA=
+			rZEdHkTql8eXCq2mn1m7Hxg7f2/WiIvz13DrHBtInQU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
