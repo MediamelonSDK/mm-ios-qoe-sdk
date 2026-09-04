@@ -22,6 +22,7 @@ import _SwiftConcurrencyShims
   public var hashSubscriberID: Swift.Bool!
   public var subscriberType: Swift.String
   public var subscriberTag: Swift.String
+  public var playerId: Swift.String
   public var playerBrand: Swift.String
   public var playerModel: Swift.String
   public var playerVersion: Swift.String
@@ -31,6 +32,7 @@ import _SwiftConcurrencyShims
   @objc public func setDomain(_ dName: Swift.String?)
   @objc public func setSubscriberInformation(subscriberID subsID: Swift.String?, subscriberType subsType: Swift.String?, subscriberTag subsTag: Swift.String?, hashSubscriberID hashSubID: Swift.Bool)
   @objc public func setSubscriberInformation(subscriberID subsID: Swift.String?, subscriberType subsType: Swift.String?, subscriberTag subsTag: Swift.String?)
+  @objc public func setPlayerId(playerId: Swift.String?)
   @objc public func setPlayerInformation(brand: Swift.String?, model: Swift.String?, version: Swift.String?)
   @objc public func setComponentName(_ cName: Swift.String?)
   @objc public func setBasePlayerInformation(basePlayerName: Swift.String?, basePlayerVersion: Swift.String?)
@@ -133,6 +135,14 @@ public class MMDeviceInformation {
     get
     set
   }
+  public var deviceCapabilities: Swift.String {
+    get
+    set
+  }
+  public var deviceId: Swift.String {
+    get
+    set
+  }
   public init()
   public func setBrandName(brandName: Swift.String)
   public func setDeviceModel(deviceModel: Swift.String)
@@ -141,6 +151,8 @@ public class MMDeviceInformation {
   public func setTelecomOperator(telecomOperator: Swift.String)
   public func setScreenResolution(width: Swift.Int, height: Swift.Int)
   public func setDeviceTpe(type: Swift.String)
+  public func setDeviceCapabilities(capabilities: Swift.String)
+  public func setDeviceID(deviceId: Swift.String)
   @objc deinit
 }
 @_inheritsConvenienceInitializers @objc public class GenericMMWrapper : ObjectiveC.NSObject, MediaMelonQoE.MMSmartStreamingObserver {
@@ -151,7 +163,6 @@ public class MMDeviceInformation {
   public func getHarmonicSSAIVersion() -> Swift.String
   public func reportSDKVersion(sdkVersion: Swift.String)
   public static func disableManifestsFetch(disable: Swift.Bool)
-  public func reportDeviceCapabilities()
   public func reportCustomMetadata(key: Swift.String, value: Swift.String)
   public static func updateSubscriber(subscriberId: Swift.String, subscriberType: Swift.String, subscriberMetadata: Swift.String)
   public func reportVideoQuality(videoQuality: Swift.String)
@@ -162,6 +173,7 @@ public class MMDeviceInformation {
   public func reportError(error: Swift.String, playbackPosMilliSec: Swift.Int)
   public static func reportMetricValue(metricToOverride: MediaMelonQoE.MMOverridableMetric, value: Swift.String)
   public func reportStringDimension(dimension: MediaMelonQoE.MMStringDimension, value: Swift.String)
+  public func updateDRM(drmProtection: Swift.String, drmLevel: Swift.String)
   public func reportMediaTrackInfo(isSubtitleActive: Swift.Bool, subtitleTrack: Swift.String, audioTrack: Swift.String, isVDSActive: Swift.Bool)
   public func reportNetworkType(connInfo: MediaMelonQoE.MMConnectionInfo)
   public func reportStreamInfo(streamFormat: Swift.String, mediaType: Swift.String, sourceType: Swift.String)
@@ -190,6 +202,7 @@ public class MMDeviceInformation {
   public static func reportBasePlayerInfo(basePlayerName: Swift.String, basePlayerVersion: Swift.String)
   public func reportUserInitiatedPlayback()
   public func initialiseSession(registrationUri: Swift.String, assetInformation: MediaMelonQoE.MMAssetInformation)
+  public func reportDeviceInformation(deviceInfo: MediaMelonQoE.MMDeviceInformation)
   public func updatePlaybackPosition(currentPosition: Swift.Int)
   public func setToolboxEndpointDetails(url: Swift.String, tbtoken: Swift.String, tbid: Swift.String, cid: Swift.String)
   public func setStarzEndpointDetails(url: Swift.String, szapikey: Swift.String, szsession: Swift.String, cid: Swift.String)
@@ -233,10 +246,11 @@ public struct RenditionInfo {
   public func reportViewSessionID(viewSessionId: Swift.String)
   public func reportAppData(appName: Swift.String, appVersion: Swift.String)
   public func reportCustomMetadata(key: Swift.String, value: Swift.String)
+  @available(*, deprecated, message: "Use updateDRM(drmProtection:drmLevel:) instead.")
   public func updateDrmType(drmType: Swift.String)
+  public func updateDRM(drmProtection: Swift.String, drmLevel: Swift.String)
   public func reportPreload(preload: Swift.Bool)
   public func reportEncodingService(encodingService: Swift.String)
-  public func reportDeviceID()
   public func reportNetworkInfo(cdn: Swift.String, asn: Swift.Int, hostName: Swift.String, networkType: Swift.String, networkOperator: Swift.String)
   public func reportCDN(cdn: Swift.String)
   public func reportStreamInfo(streamURL: Swift.String, streamFormat: Swift.String, mediaType: Swift.String, sourceType: Swift.String)
@@ -276,6 +290,7 @@ public struct RenditionInfo {
   public var customKVPs: [Swift.String : Swift.String]!
   public var contentType: Swift.String?
   public var drmProtection: Swift.String?
+  public var drmLevel: Swift.String?
   public var episodeNumber: Swift.String?
   public var genre: Swift.String?
   public var season: Swift.String?
@@ -285,6 +300,7 @@ public struct RenditionInfo {
   @objc public func setQBRMode(_ mode: MediaMelonQoE.MMQBRMode, withMetaURL metaURL: Foundation.URL?)
   @objc public func setContentType(_ cType: Swift.String?)
   @objc public func setDrmProtection(_ drmP: Swift.String?)
+  @objc public func setDrmLevel(_ drmL: Swift.String?)
   @objc public func setEpisodeNumber(_ eNumber: Swift.String?)
   @objc public func setGenre(_ genre: Swift.String?)
   @objc public func setSeason(_ season: Swift.String?)

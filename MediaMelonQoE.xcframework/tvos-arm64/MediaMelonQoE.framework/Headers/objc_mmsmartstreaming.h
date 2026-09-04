@@ -286,9 +286,7 @@ typedef NS_ENUM(NSInteger, MMOverridableMetric){
      */
     DurationWatched,
     
-    StreamURL,
-    
-    DrmProtection
+    StreamURL
 } ;
 
 typedef NS_ENUM(NSInteger, MMStringDimension) {
@@ -397,6 +395,7 @@ typedef NS_ENUM(NSInteger, MMPlayerState){
  * @param assetName Unique name of the asset, aka Episode Title
  * @param videoId Unique video ID
  * @param contentType Type of content (Movie / Special / Clip / Scene Epis Lifts)
+ * @param drmLevel For example - Level 1, Level 3 etc. Unknown means content is protected, For clear contents, do not set this field
  * @param drmProtection Widevine, Fairplay, Playready etc. Unknown means content is protected, For clear contents, do not set this field
  * @param episodeNumber Sequence Number of the Episode.
  * @param genre Genre of the content
@@ -425,6 +424,10 @@ typedef NS_ENUM(NSInteger, MMPlayerState){
  * drmProtection
  */
 @property (nonatomic, strong) NSString* drmProtection;
+/**
+ * drmLevel
+ */
+@property (nonatomic, strong) NSString* drmLevel;
 /**
  * episodeNumber
  */
@@ -577,6 +580,12 @@ typedef NS_ENUM(NSInteger, MMSmartStreamingInitializationStatus){
 +(void) reportPlayerInfoWithBrandName:(NSString*) brand model:(NSString*) model andVersion:(NSString*) version;
 
 /**
+ * Reports a unique player instance identifier.
+ * @param playerId Unique identifier for the player instance.
+ */
++(void) reportPlayerIdWithPlayerId:(NSString*) playerId;
+
+/**
  * Sets Toolbox Endpoint Data
  * <p>Use a NULL pointer if the value is unknown or inapplicable.
  *
@@ -677,6 +686,13 @@ typedef NS_ENUM(NSInteger, MMSmartStreamingInitializationStatus){
 -(void) reportMetricValueForMetric:(MMOverridableMetric) metric value:(NSString*)value;
 
 -(void) reportStringDimensionForDimension:(MMStringDimension) dimension value:(NSString*)value;
+
+/**
+ * Reports DRM protection type and level atomically in a single call.
+ * @param protection : DRM type (e.g. Widevine, Fairplay, Playready).
+ * @param level : DRM level (e.g. SW, HW).
+ */
+-(void) updateDRMWithProtection:(NSString*) protection level:(NSString*) level;
 
 /**
  * Reports the current player state to analytics.
